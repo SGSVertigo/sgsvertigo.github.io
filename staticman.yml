@@ -7,7 +7,7 @@ files:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "title", "description"]
+  allowedFields: ["name", "email", "title", "description", "file", "video_url"]
 
   # (*) REQUIRED
   #
