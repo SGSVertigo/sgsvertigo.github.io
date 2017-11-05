@@ -1,4 +1,4 @@
-webpackJsonp([11],{
+webpackJsonp([12],{
 
 /***/ "../../../../../src async recursive":
 /***/ (function(module, exports, __webpack_require__) {
@@ -6,37 +6,42 @@ webpackJsonp([11],{
 var map = {
 	"./bluetooth/bluetooth.module": [
 		"../../../../../src/app/bluetooth/bluetooth.module.ts",
-		9,
+		10,
 		0
 	],
 	"./chartjs/chartjs.module": [
 		"../../../../../src/app/chartjs/chartjs.module.ts",
-		8
+		9
 	],
 	"./components/components.module": [
 		"../../../../../src/app/components/components.module.ts",
-		3
+		2
 	],
 	"./dashboard/dashboard.module": [
 		"../../../../../src/app/dashboard/dashboard.module.ts",
-		1,
+		8,
 		0
 	],
 	"./icons/icons.module": [
 		"../../../../../src/app/icons/icons.module.ts",
+		5
+	],
+	"./loader/loader.module": [
+		"../../../../../src/app/loader/loader.module.ts",
+		0,
 		6
 	],
 	"./map/map.module": [
 		"../../../../../src/app/map/map.module.ts",
-		2
+		1
 	],
 	"./pages/pages.module": [
 		"../../../../../src/app/pages/pages.module.ts",
-		4
+		3
 	],
 	"./threed/threed.module": [
 		"../../../../../src/app/threed/threed.module.ts",
-		5
+		4
 	],
 	"./widgets/widgets.module": [
 		"../../../../../src/app/widgets/widgets.module.ts",
@@ -195,7 +200,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var routes = [
     {
         path: '',
-        redirectTo: 'dashboard',
+        redirectTo: 'loader',
         pathMatch: 'full',
     },
     {
@@ -208,6 +213,10 @@ var routes = [
             {
                 path: 'dashboard',
                 loadChildren: './dashboard/dashboard.module#DashboardModule'
+            },
+            {
+                path: 'loader',
+                loadChildren: './loader/loader.module#LoaderModule'
             },
             {
                 path: 'map',
@@ -272,7 +281,7 @@ var AppRoutingModule = (function () {
 /***/ "../../../../../src/app/layouts/full-layout.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"app-header navbar\">\n  <button class=\"navbar-toggler d-lg-none\" type=\"button\" appMobileSidebarToggler>&#9776;</button>\n  <a class=\"navbar-brand\" href=\"#\"></a>\n  <ul class=\"nav navbar-nav d-md-down-none\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link navbar-toggler\" href=\"#\" appSidebarToggler>&#9776;</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Dashboard</a>\n    </li>\n  </ul>\n</header>\n\n<div class=\"app-body\">\n  <div class=\"sidebar\">\n    <nav class=\"sidebar-nav\">\n      <ul class=\"nav\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/dashboard']\"><i class=\"icon-graph\"></i> Dashboard </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/map']\"><i class=\"icon-map\"></i> Map</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/3d']\"><i class=\"icon-globe\"></i> 3D</a>\n        </li>\n       <!-- <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/bluetooth']\"><i class=\"fa fa-bluetooth\" aria-hidden=\"true\"> </i> Bluetooth</a>\n        </li>-->\n      </ul>\n    </nav>\n  </div>\n\n  <!-- Main content -->\n  <main class=\"main\">\n\n    <!-- Breadcrumb -->\n    <ol class=\"breadcrumb\">\n      <app-breadcrumbs></app-breadcrumbs>\n      \n      <!-- Breadcrumb Menu-->\n      <li class=\"breadcrumb-menu d-md-down-none\">\n      </li>\n      <li><app-controls></app-controls></li>\n\n    </ol>\n\n\n    <div class=\"container-fluid\">\n      <router-outlet></router-outlet>\n    </div><!-- /.conainer-fluid -->\n  </main>\n\n \n</div>\n\n<footer class=\"app-footer\">\n  <span class=\"float-right\">Powered by <a href=\"http://coreui.io\">CoreUI</a></span>\n</footer>\n"
+module.exports = "<header class=\"app-header navbar\">\n  <button class=\"navbar-toggler d-lg-none\" type=\"button\" appMobileSidebarToggler>&#9776;</button>\n  <a class=\"navbar-brand\" href=\"#\"></a>\n  <ul class=\"nav navbar-nav d-md-down-none\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link navbar-toggler\" href=\"#\" appSidebarToggler>&#9776;</a>\n    </li>\n    <li class=\"nav-item px-3\">\n      <a class=\"nav-link\" href=\"#\">Dashboard</a>\n    </li>\n  </ul>\n</header>\n\n<div class=\"app-body\">\n  <div class=\"sidebar\">\n    <nav class=\"sidebar-nav\">\n      <ul class=\"nav\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/loader']\"><i class=\"icon-cloud-upload\"></i> Load File </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/dashboard']\"><i class=\"icon-graph\"></i> Graphs </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/map']\"><i class=\"icon-map\"></i> Map</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/3d']\"><i class=\"icon-globe\"></i> 3D</a>\n        </li>\n       <!-- <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLinkActive=\"active\" [routerLink]=\"['/bluetooth']\"><i class=\"fa fa-bluetooth\" aria-hidden=\"true\"> </i> Bluetooth</a>\n        </li>-->\n      </ul>\n    </nav>\n  </div>\n\n  <!-- Main content -->\n  <main class=\"main\">\n\n    <!-- Breadcrumb -->\n    <ol class=\"breadcrumb\">\n      <app-breadcrumbs></app-breadcrumbs>\n      \n      <!-- Breadcrumb Menu-->\n      <li class=\"breadcrumb-menu d-md-down-none\">\n      </li>\n      <li><app-controls></app-controls></li>\n\n    </ol>\n\n\n    <div class=\"container-fluid\">\n      <router-outlet></router-outlet>\n    </div><!-- /.conainer-fluid -->\n  </main>\n\n \n</div>\n\n<footer class=\"app-footer\">\n  <span class=\"float-right\">Powered by <a href=\"http://coreui.io\">CoreUI</a></span>\n</footer>\n"
 
 /***/ }),
 

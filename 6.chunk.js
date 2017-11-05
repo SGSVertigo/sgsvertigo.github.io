@@ -1,155 +1,64 @@
 webpackJsonp([6],{
 
-/***/ "../../../../../src/app/icons/font-awesome.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"card\" id=\"new\">\n    <div class=\"card-header\">20 New Icons in 4.5</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth fa-lg mt-4\"></i>\n          <br>bluetooth\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth-b fa-lg mt-4\"></i>\n          <br>bluetooth-b\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-codiepie fa-lg mt-4\"></i>\n          <br>codiepie\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-credit-card-alt fa-lg mt-4\"></i>\n          <br>credit-card-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-edge fa-lg mt-4\"></i>\n          <br>edge\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fort-awesome fa-lg mt-4\"></i>\n          <br>fort-awesome\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hashtag fa-lg mt-4\"></i>\n          <br>hashtag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mixcloud fa-lg mt-4\"></i>\n          <br>mixcloud\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-modx fa-lg mt-4\"></i>\n          <br>modx\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pause-circle fa-lg mt-4\"></i>\n          <br>pause-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pause-circle-o fa-lg mt-4\"></i>\n          <br>pause-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-percent fa-lg mt-4\"></i>\n          <br>percent\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-product-hunt fa-lg mt-4\"></i>\n          <br>product-hunt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reddit-alien fa-lg mt-4\"></i>\n          <br>reddit-alien\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-scribd fa-lg mt-4\"></i>\n          <br>scribd\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shopping-bag fa-lg mt-4\"></i>\n          <br>shopping-bag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shopping-basket fa-lg mt-4\"></i>\n          <br>shopping-basket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stop-circle fa-lg mt-4\"></i>\n          <br>stop-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stop-circle-o fa-lg mt-4\"></i>\n          <br>stop-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-usb fa-lg mt-4\"></i>\n          <br>usb\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"web-application\">\n    <div class=\"card-header\">Web Application Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-adjust fa-lg mt-4\"></i>\n          <br>adjust\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-anchor fa-lg mt-4\"></i>\n          <br>anchor\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-archive fa-lg mt-4\"></i>\n          <br>archive\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-area-chart fa-lg mt-4\"></i>\n          <br>area-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows fa-lg mt-4\"></i>\n          <br>arrows\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-h fa-lg mt-4\"></i>\n          <br>arrows-h\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-v fa-lg mt-4\"></i>\n          <br>arrows-v\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-asterisk fa-lg mt-4\"></i>\n          <br>asterisk\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-at fa-lg mt-4\"></i>\n          <br>at\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-automobile fa-lg mt-4\"></i>\n          <br>automobile\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-balance-scale fa-lg mt-4\"></i>\n          <br>balance-scale\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ban fa-lg mt-4\"></i>\n          <br>ban\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bank fa-lg mt-4\"></i>\n          <br>bank\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bar-chart fa-lg mt-4\"></i>\n          <br>bar-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bar-chart-o fa-lg mt-4\"></i>\n          <br>bar-chart-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-barcode fa-lg mt-4\"></i>\n          <br>barcode\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bars fa-lg mt-4\"></i>\n          <br>bars\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-0 fa-lg mt-4\"></i>\n          <br>battery-0\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-1 fa-lg mt-4\"></i>\n          <br>battery-1\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-2 fa-lg mt-4\"></i>\n          <br>battery-2\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-3 fa-lg mt-4\"></i>\n          <br>battery-3\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-4 fa-lg mt-4\"></i>\n          <br>battery-4\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-empty fa-lg mt-4\"></i>\n          <br>battery-empty\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-full fa-lg mt-4\"></i>\n          <br>battery-full\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-half fa-lg mt-4\"></i>\n          <br>battery-half\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-quarter fa-lg mt-4\"></i>\n          <br>battery-quarter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-battery-three-quarters fa-lg mt-4\"></i>\n          <br>battery-three-quarters\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bed fa-lg mt-4\"></i>\n          <br>bed\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-beer fa-lg mt-4\"></i>\n          <br>beer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bell fa-lg mt-4\"></i>\n          <br>bell\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bell-o fa-lg mt-4\"></i>\n          <br>bell-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bell-slash fa-lg mt-4\"></i>\n          <br>bell-slash\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bell-slash-o fa-lg mt-4\"></i>\n          <br>bell-slash-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bicycle fa-lg mt-4\"></i>\n          <br>bicycle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-binoculars fa-lg mt-4\"></i>\n          <br>binoculars\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-birthday-cake fa-lg mt-4\"></i>\n          <br>birthday-cake\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth fa-lg mt-4\"></i>\n          <br>bluetooth\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth-b fa-lg mt-4\"></i>\n          <br>bluetooth-b\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bolt fa-lg mt-4\"></i>\n          <br>bolt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bomb fa-lg mt-4\"></i>\n          <br>bomb\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-book fa-lg mt-4\"></i>\n          <br>book\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bookmark fa-lg mt-4\"></i>\n          <br>bookmark\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bookmark-o fa-lg mt-4\"></i>\n          <br>bookmark-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-briefcase fa-lg mt-4\"></i>\n          <br>briefcase\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bug fa-lg mt-4\"></i>\n          <br>bug\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-building fa-lg mt-4\"></i>\n          <br>building\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-building-o fa-lg mt-4\"></i>\n          <br>building-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bullhorn fa-lg mt-4\"></i>\n          <br>bullhorn\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bullseye fa-lg mt-4\"></i>\n          <br>bullseye\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bus fa-lg mt-4\"></i>\n          <br>bus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cab fa-lg mt-4\"></i>\n          <br>cab\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calculator fa-lg mt-4\"></i>\n          <br>calculator\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar fa-lg mt-4\"></i>\n          <br>calendar\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar-check-o fa-lg mt-4\"></i>\n          <br>calendar-check-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar-minus-o fa-lg mt-4\"></i>\n          <br>calendar-minus-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar-o fa-lg mt-4\"></i>\n          <br>calendar-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar-plus-o fa-lg mt-4\"></i>\n          <br>calendar-plus-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-calendar-times-o fa-lg mt-4\"></i>\n          <br>calendar-times-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-camera fa-lg mt-4\"></i>\n          <br>camera\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-camera-retro fa-lg mt-4\"></i>\n          <br>camera-retro\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-car fa-lg mt-4\"></i>\n          <br>car\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-down fa-lg mt-4\"></i>\n          <br>caret-square-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-left fa-lg mt-4\"></i>\n          <br>caret-square-o-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-right fa-lg mt-4\"></i>\n          <br>caret-square-o-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-up fa-lg mt-4\"></i>\n          <br>caret-square-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cart-arrow-down fa-lg mt-4\"></i>\n          <br>cart-arrow-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cart-plus fa-lg mt-4\"></i>\n          <br>cart-plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc fa-lg mt-4\"></i>\n          <br>cc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-certificate fa-lg mt-4\"></i>\n          <br>certificate\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check fa-lg mt-4\"></i>\n          <br>check\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-circle fa-lg mt-4\"></i>\n          <br>check-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-circle-o fa-lg mt-4\"></i>\n          <br>check-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-square fa-lg mt-4\"></i>\n          <br>check-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-square-o fa-lg mt-4\"></i>\n          <br>check-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-child fa-lg mt-4\"></i>\n          <br>child\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle fa-lg mt-4\"></i>\n          <br>circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle-o fa-lg mt-4\"></i>\n          <br>circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle-o-notch fa-lg mt-4\"></i>\n          <br>circle-o-notch\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle-thin fa-lg mt-4\"></i>\n          <br>circle-thin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-clock-o fa-lg mt-4\"></i>\n          <br>clock-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-clone fa-lg mt-4\"></i>\n          <br>clone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-close fa-lg mt-4\"></i>\n          <br>close\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cloud fa-lg mt-4\"></i>\n          <br>cloud\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cloud-download fa-lg mt-4\"></i>\n          <br>cloud-download\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cloud-upload fa-lg mt-4\"></i>\n          <br>cloud-upload\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-code fa-lg mt-4\"></i>\n          <br>code\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-code-fork fa-lg mt-4\"></i>\n          <br>code-fork\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-coffee fa-lg mt-4\"></i>\n          <br>coffee\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cog fa-lg mt-4\"></i>\n          <br>cog\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cogs fa-lg mt-4\"></i>\n          <br>cogs\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-comment fa-lg mt-4\"></i>\n          <br>comment\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-comment-o fa-lg mt-4\"></i>\n          <br>comment-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-commenting fa-lg mt-4\"></i>\n          <br>commenting\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-commenting-o fa-lg mt-4\"></i>\n          <br>commenting-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-comments fa-lg mt-4\"></i>\n          <br>comments\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-comments-o fa-lg mt-4\"></i>\n          <br>comments-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-compass fa-lg mt-4\"></i>\n          <br>compass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-copyright fa-lg mt-4\"></i>\n          <br>copyright\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-creative-commons fa-lg mt-4\"></i>\n          <br>creative-commons\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-credit-card fa-lg mt-4\"></i>\n          <br>credit-card\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-credit-card-alt fa-lg mt-4\"></i>\n          <br>credit-card-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-crop fa-lg mt-4\"></i>\n          <br>crop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-crosshairs fa-lg mt-4\"></i>\n          <br>crosshairs\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cube fa-lg mt-4\"></i>\n          <br>cube\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cubes fa-lg mt-4\"></i>\n          <br>cubes\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cutlery fa-lg mt-4\"></i>\n          <br>cutlery\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dashboard fa-lg mt-4\"></i>\n          <br>dashboard\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-database fa-lg mt-4\"></i>\n          <br>database\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-desktop fa-lg mt-4\"></i>\n          <br>desktop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-diamond fa-lg mt-4\"></i>\n          <br>diamond\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dot-circle-o fa-lg mt-4\"></i>\n          <br>dot-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-download fa-lg mt-4\"></i>\n          <br>download\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-edit fa-lg mt-4\"></i>\n          <br>edit\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ellipsis-h fa-lg mt-4\"></i>\n          <br>ellipsis-h\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ellipsis-v fa-lg mt-4\"></i>\n          <br>ellipsis-v\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-envelope fa-lg mt-4\"></i>\n          <br>envelope\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-envelope-o fa-lg mt-4\"></i>\n          <br>envelope-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-envelope-square fa-lg mt-4\"></i>\n          <br>envelope-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eraser fa-lg mt-4\"></i>\n          <br>eraser\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-exchange fa-lg mt-4\"></i>\n          <br>exchange\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-exclamation fa-lg mt-4\"></i>\n          <br>exclamation\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-exclamation-circle fa-lg mt-4\"></i>\n          <br>exclamation-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-exclamation-triangle fa-lg mt-4\"></i>\n          <br>exclamation-triangle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-external-link fa-lg mt-4\"></i>\n          <br>external-link\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-external-link-square fa-lg mt-4\"></i>\n          <br>external-link-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eye fa-lg mt-4\"></i>\n          <br>eye\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eye-slash fa-lg mt-4\"></i>\n          <br>eye-slash\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eyedropper fa-lg mt-4\"></i>\n          <br>eyedropper\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fax fa-lg mt-4\"></i>\n          <br>fax\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-feed fa-lg mt-4\"></i>\n          <br>feed\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-female fa-lg mt-4\"></i>\n          <br>female\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fighter-jet fa-lg mt-4\"></i>\n          <br>fighter-jet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-archive-o fa-lg mt-4\"></i>\n          <br>file-archive-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-audio-o fa-lg mt-4\"></i>\n          <br>file-audio-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-code-o fa-lg mt-4\"></i>\n          <br>file-code-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-excel-o fa-lg mt-4\"></i>\n          <br>file-excel-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-image-o fa-lg mt-4\"></i>\n          <br>file-image-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-movie-o fa-lg mt-4\"></i>\n          <br>file-movie-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-pdf-o fa-lg mt-4\"></i>\n          <br>file-pdf-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-photo-o fa-lg mt-4\"></i>\n          <br>file-photo-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-picture-o fa-lg mt-4\"></i>\n          <br>file-picture-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-powerpoint-o fa-lg mt-4\"></i>\n          <br>file-powerpoint-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-sound-o fa-lg mt-4\"></i>\n          <br>file-sound-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-video-o fa-lg mt-4\"></i>\n          <br>file-video-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-word-o fa-lg mt-4\"></i>\n          <br>file-word-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-zip-o fa-lg mt-4\"></i>\n          <br>file-zip-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-film fa-lg mt-4\"></i>\n          <br>film\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-filter fa-lg mt-4\"></i>\n          <br>filter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fire fa-lg mt-4\"></i>\n          <br>fire\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fire-extinguisher fa-lg mt-4\"></i>\n          <br>fire-extinguisher\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flag fa-lg mt-4\"></i>\n          <br>flag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flag-checkered fa-lg mt-4\"></i>\n          <br>flag-checkered\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flag-o fa-lg mt-4\"></i>\n          <br>flag-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flash fa-lg mt-4\"></i>\n          <br>flash\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flask fa-lg mt-4\"></i>\n          <br>flask\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-folder fa-lg mt-4\"></i>\n          <br>folder\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-folder-o fa-lg mt-4\"></i>\n          <br>folder-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-folder-open fa-lg mt-4\"></i>\n          <br>folder-open\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-folder-open-o fa-lg mt-4\"></i>\n          <br>folder-open-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-frown-o fa-lg mt-4\"></i>\n          <br>frown-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-futbol-o fa-lg mt-4\"></i>\n          <br>futbol-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gamepad fa-lg mt-4\"></i>\n          <br>gamepad\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gavel fa-lg mt-4\"></i>\n          <br>gavel\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gear fa-lg mt-4\"></i>\n          <br>gear\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gears fa-lg mt-4\"></i>\n          <br>gears\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gift fa-lg mt-4\"></i>\n          <br>gift\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-glass fa-lg mt-4\"></i>\n          <br>glass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-globe fa-lg mt-4\"></i>\n          <br>globe\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-graduation-cap fa-lg mt-4\"></i>\n          <br>graduation-cap\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-group fa-lg mt-4\"></i>\n          <br>group\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-grab-o fa-lg mt-4\"></i>\n          <br>hand-grab-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-lizard-o fa-lg mt-4\"></i>\n          <br>hand-lizard-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-paper-o fa-lg mt-4\"></i>\n          <br>hand-paper-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-peace-o fa-lg mt-4\"></i>\n          <br>hand-peace-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-pointer-o fa-lg mt-4\"></i>\n          <br>hand-pointer-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-rock-o fa-lg mt-4\"></i>\n          <br>hand-rock-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-scissors-o fa-lg mt-4\"></i>\n          <br>hand-scissors-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-spock-o fa-lg mt-4\"></i>\n          <br>hand-spock-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-stop-o fa-lg mt-4\"></i>\n          <br>hand-stop-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hashtag fa-lg mt-4\"></i>\n          <br>hashtag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hdd-o fa-lg mt-4\"></i>\n          <br>hdd-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-headphones fa-lg mt-4\"></i>\n          <br>headphones\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heart fa-lg mt-4\"></i>\n          <br>heart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heart-o fa-lg mt-4\"></i>\n          <br>heart-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heartbeat fa-lg mt-4\"></i>\n          <br>heartbeat\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-history fa-lg mt-4\"></i>\n          <br>history\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-home fa-lg mt-4\"></i>\n          <br>home\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hotel fa-lg mt-4\"></i>\n          <br>hotel\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass fa-lg mt-4\"></i>\n          <br>hourglass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-1 fa-lg mt-4\"></i>\n          <br>hourglass-1\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-2 fa-lg mt-4\"></i>\n          <br>hourglass-2\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-3 fa-lg mt-4\"></i>\n          <br>hourglass-3\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-end fa-lg mt-4\"></i>\n          <br>hourglass-end\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-half fa-lg mt-4\"></i>\n          <br>hourglass-half\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-o fa-lg mt-4\"></i>\n          <br>hourglass-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hourglass-start fa-lg mt-4\"></i>\n          <br>hourglass-start\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-i-cursor fa-lg mt-4\"></i>\n          <br>i-cursor\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-image fa-lg mt-4\"></i>\n          <br>image\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-inbox fa-lg mt-4\"></i>\n          <br>inbox\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-industry fa-lg mt-4\"></i>\n          <br>industry\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-info fa-lg mt-4\"></i>\n          <br>info\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-info-circle fa-lg mt-4\"></i>\n          <br>info-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-institution fa-lg mt-4\"></i>\n          <br>institution\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-key fa-lg mt-4\"></i>\n          <br>key\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-keyboard-o fa-lg mt-4\"></i>\n          <br>keyboard-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-language fa-lg mt-4\"></i>\n          <br>language\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-laptop fa-lg mt-4\"></i>\n          <br>laptop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-leaf fa-lg mt-4\"></i>\n          <br>leaf\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-legal fa-lg mt-4\"></i>\n          <br>legal\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-lemon-o fa-lg mt-4\"></i>\n          <br>lemon-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-level-down fa-lg mt-4\"></i>\n          <br>level-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-level-up fa-lg mt-4\"></i>\n          <br>level-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-life-bouy fa-lg mt-4\"></i>\n          <br>life-bouy\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-life-buoy fa-lg mt-4\"></i>\n          <br>life-buoy\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-life-ring fa-lg mt-4\"></i>\n          <br>life-ring\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-life-saver fa-lg mt-4\"></i>\n          <br>life-saver\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-lightbulb-o fa-lg mt-4\"></i>\n          <br>lightbulb-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-line-chart fa-lg mt-4\"></i>\n          <br>line-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-location-arrow fa-lg mt-4\"></i>\n          <br>location-arrow\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-lock fa-lg mt-4\"></i>\n          <br>lock\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-magic fa-lg mt-4\"></i>\n          <br>magic\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-magnet fa-lg mt-4\"></i>\n          <br>magnet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mail-forward fa-lg mt-4\"></i>\n          <br>mail-forward\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mail-reply fa-lg mt-4\"></i>\n          <br>mail-reply\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mail-reply-all fa-lg mt-4\"></i>\n          <br>mail-reply-all\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-male fa-lg mt-4\"></i>\n          <br>male\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-map fa-lg mt-4\"></i>\n          <br>map\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-map-marker fa-lg mt-4\"></i>\n          <br>map-marker\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-map-o fa-lg mt-4\"></i>\n          <br>map-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-map-pin fa-lg mt-4\"></i>\n          <br>map-pin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-map-signs fa-lg mt-4\"></i>\n          <br>map-signs\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-meh-o fa-lg mt-4\"></i>\n          <br>meh-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-microphone fa-lg mt-4\"></i>\n          <br>microphone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-microphone-slash fa-lg mt-4\"></i>\n          <br>microphone-slash\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus fa-lg mt-4\"></i>\n          <br>minus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus-circle fa-lg mt-4\"></i>\n          <br>minus-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus-square fa-lg mt-4\"></i>\n          <br>minus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus-square-o fa-lg mt-4\"></i>\n          <br>minus-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mobile fa-lg mt-4\"></i>\n          <br>mobile\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mobile-phone fa-lg mt-4\"></i>\n          <br>mobile-phone\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-money fa-lg mt-4\"></i>\n          <br>money\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-moon-o fa-lg mt-4\"></i>\n          <br>moon-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mortar-board fa-lg mt-4\"></i>\n          <br>mortar-board\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-motorcycle fa-lg mt-4\"></i>\n          <br>motorcycle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mouse-pointer fa-lg mt-4\"></i>\n          <br>mouse-pointer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-music fa-lg mt-4\"></i>\n          <br>music\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-navicon fa-lg mt-4\"></i>\n          <br>navicon\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-newspaper-o fa-lg mt-4\"></i>\n          <br>newspaper-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-object-group fa-lg mt-4\"></i>\n          <br>object-group\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-object-ungroup fa-lg mt-4\"></i>\n          <br>object-ungroup\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paint-brush fa-lg mt-4\"></i>\n          <br>paint-brush\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paper-plane fa-lg mt-4\"></i>\n          <br>paper-plane\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paper-plane-o fa-lg mt-4\"></i>\n          <br>paper-plane-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paw fa-lg mt-4\"></i>\n          <br>paw\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pencil fa-lg mt-4\"></i>\n          <br>pencil\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pencil-square fa-lg mt-4\"></i>\n          <br>pencil-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pencil-square-o fa-lg mt-4\"></i>\n          <br>pencil-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-percent fa-lg mt-4\"></i>\n          <br>percent\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-phone fa-lg mt-4\"></i>\n          <br>phone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-phone-square fa-lg mt-4\"></i>\n          <br>phone-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-photo fa-lg mt-4\"></i>\n          <br>photo\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-picture-o fa-lg mt-4\"></i>\n          <br>picture-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pie-chart fa-lg mt-4\"></i>\n          <br>pie-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plane fa-lg mt-4\"></i>\n          <br>plane\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plug fa-lg mt-4\"></i>\n          <br>plug\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus fa-lg mt-4\"></i>\n          <br>plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-circle fa-lg mt-4\"></i>\n          <br>plus-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-square fa-lg mt-4\"></i>\n          <br>plus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-square-o fa-lg mt-4\"></i>\n          <br>plus-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-power-off fa-lg mt-4\"></i>\n          <br>power-off\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-print fa-lg mt-4\"></i>\n          <br>print\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-puzzle-piece fa-lg mt-4\"></i>\n          <br>puzzle-piece\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-qrcode fa-lg mt-4\"></i>\n          <br>qrcode\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-question fa-lg mt-4\"></i>\n          <br>question\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-question-circle fa-lg mt-4\"></i>\n          <br>question-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-quote-left fa-lg mt-4\"></i>\n          <br>quote-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-quote-right fa-lg mt-4\"></i>\n          <br>quote-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-random fa-lg mt-4\"></i>\n          <br>random\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-recycle fa-lg mt-4\"></i>\n          <br>recycle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-refresh fa-lg mt-4\"></i>\n          <br>refresh\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-registered fa-lg mt-4\"></i>\n          <br>registered\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-remove fa-lg mt-4\"></i>\n          <br>remove\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reorder fa-lg mt-4\"></i>\n          <br>reorder\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reply fa-lg mt-4\"></i>\n          <br>reply\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reply-all fa-lg mt-4\"></i>\n          <br>reply-all\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-retweet fa-lg mt-4\"></i>\n          <br>retweet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-road fa-lg mt-4\"></i>\n          <br>road\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rocket fa-lg mt-4\"></i>\n          <br>rocket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rss fa-lg mt-4\"></i>\n          <br>rss\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rss-square fa-lg mt-4\"></i>\n          <br>rss-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-search fa-lg mt-4\"></i>\n          <br>search\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-search-minus fa-lg mt-4\"></i>\n          <br>search-minus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-search-plus fa-lg mt-4\"></i>\n          <br>search-plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-send fa-lg mt-4\"></i>\n          <br>send\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-send-o fa-lg mt-4\"></i>\n          <br>send-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-server fa-lg mt-4\"></i>\n          <br>server\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share fa-lg mt-4\"></i>\n          <br>share\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-alt fa-lg mt-4\"></i>\n          <br>share-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-alt-square fa-lg mt-4\"></i>\n          <br>share-alt-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-square fa-lg mt-4\"></i>\n          <br>share-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-square-o fa-lg mt-4\"></i>\n          <br>share-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shield fa-lg mt-4\"></i>\n          <br>shield\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ship fa-lg mt-4\"></i>\n          <br>ship\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shopping-bag fa-lg mt-4\"></i>\n          <br>shopping-bag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shopping-basket fa-lg mt-4\"></i>\n          <br>shopping-basket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shopping-cart fa-lg mt-4\"></i>\n          <br>shopping-cart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sign-in fa-lg mt-4\"></i>\n          <br>sign-in\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sign-out fa-lg mt-4\"></i>\n          <br>sign-out\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-signal fa-lg mt-4\"></i>\n          <br>signal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sitemap fa-lg mt-4\"></i>\n          <br>sitemap\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sliders fa-lg mt-4\"></i>\n          <br>sliders\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-smile-o fa-lg mt-4\"></i>\n          <br>smile-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-soccer-ball-o fa-lg mt-4\"></i>\n          <br>soccer-ball-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort fa-lg mt-4\"></i>\n          <br>sort\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-alpha-asc fa-lg mt-4\"></i>\n          <br>sort-alpha-asc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-alpha-desc fa-lg mt-4\"></i>\n          <br>sort-alpha-desc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-amount-asc fa-lg mt-4\"></i>\n          <br>sort-amount-asc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-amount-desc fa-lg mt-4\"></i>\n          <br>sort-amount-desc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-asc fa-lg mt-4\"></i>\n          <br>sort-asc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-desc fa-lg mt-4\"></i>\n          <br>sort-desc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-down fa-lg mt-4\"></i>\n          <br>sort-down\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-numeric-asc fa-lg mt-4\"></i>\n          <br>sort-numeric-asc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-numeric-desc fa-lg mt-4\"></i>\n          <br>sort-numeric-desc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sort-up fa-lg mt-4\"></i>\n          <br>sort-up\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-space-shuttle fa-lg mt-4\"></i>\n          <br>space-shuttle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-spinner fa-lg mt-4\"></i>\n          <br>spinner\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-spoon fa-lg mt-4\"></i>\n          <br>spoon\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-square fa-lg mt-4\"></i>\n          <br>square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-square-o fa-lg mt-4\"></i>\n          <br>square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star fa-lg mt-4\"></i>\n          <br>star\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star-half fa-lg mt-4\"></i>\n          <br>star-half\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star-half-empty fa-lg mt-4\"></i>\n          <br>star-half-empty\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star-half-full fa-lg mt-4\"></i>\n          <br>star-half-full\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star-half-o fa-lg mt-4\"></i>\n          <br>star-half-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-star-o fa-lg mt-4\"></i>\n          <br>star-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sticky-note fa-lg mt-4\"></i>\n          <br>sticky-note\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sticky-note-o fa-lg mt-4\"></i>\n          <br>sticky-note-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-street-view fa-lg mt-4\"></i>\n          <br>street-view\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-suitcase fa-lg mt-4\"></i>\n          <br>suitcase\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sun-o fa-lg mt-4\"></i>\n          <br>sun-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-support fa-lg mt-4\"></i>\n          <br>support\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tablet fa-lg mt-4\"></i>\n          <br>tablet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tachometer fa-lg mt-4\"></i>\n          <br>tachometer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tag fa-lg mt-4\"></i>\n          <br>tag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tags fa-lg mt-4\"></i>\n          <br>tags\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tasks fa-lg mt-4\"></i>\n          <br>tasks\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-taxi fa-lg mt-4\"></i>\n          <br>taxi\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-television fa-lg mt-4\"></i>\n          <br>television\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-terminal fa-lg mt-4\"></i>\n          <br>terminal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumb-tack fa-lg mt-4\"></i>\n          <br>thumb-tack\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-down fa-lg mt-4\"></i>\n          <br>thumbs-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-o-down fa-lg mt-4\"></i>\n          <br>thumbs-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-o-up fa-lg mt-4\"></i>\n          <br>thumbs-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-up fa-lg mt-4\"></i>\n          <br>thumbs-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ticket fa-lg mt-4\"></i>\n          <br>ticket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-times fa-lg mt-4\"></i>\n          <br>times\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-times-circle fa-lg mt-4\"></i>\n          <br>times-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-times-circle-o fa-lg mt-4\"></i>\n          <br>times-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tint fa-lg mt-4\"></i>\n          <br>tint\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-down fa-lg mt-4\"></i>\n          <br>toggle-down\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-left fa-lg mt-4\"></i>\n          <br>toggle-left\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-off fa-lg mt-4\"></i>\n          <br>toggle-off\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-on fa-lg mt-4\"></i>\n          <br>toggle-on\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-right fa-lg mt-4\"></i>\n          <br>toggle-right\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-up fa-lg mt-4\"></i>\n          <br>toggle-up\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-trademark fa-lg mt-4\"></i>\n          <br>trademark\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-trash fa-lg mt-4\"></i>\n          <br>trash\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-trash-o fa-lg mt-4\"></i>\n          <br>trash-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tree fa-lg mt-4\"></i>\n          <br>tree\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-trophy fa-lg mt-4\"></i>\n          <br>trophy\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-truck fa-lg mt-4\"></i>\n          <br>truck\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tty fa-lg mt-4\"></i>\n          <br>tty\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tv fa-lg mt-4\"></i>\n          <br>tv\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-umbrella fa-lg mt-4\"></i>\n          <br>umbrella\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-university fa-lg mt-4\"></i>\n          <br>university\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-unlock fa-lg mt-4\"></i>\n          <br>unlock\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-unlock-alt fa-lg mt-4\"></i>\n          <br>unlock-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-unsorted fa-lg mt-4\"></i>\n          <br>unsorted\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-upload fa-lg mt-4\"></i>\n          <br>upload\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-user fa-lg mt-4\"></i>\n          <br>user\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-user-plus fa-lg mt-4\"></i>\n          <br>user-plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-user-secret fa-lg mt-4\"></i>\n          <br>user-secret\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-user-times fa-lg mt-4\"></i>\n          <br>user-times\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-users fa-lg mt-4\"></i>\n          <br>users\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-video-camera fa-lg mt-4\"></i>\n          <br>video-camera\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-volume-down fa-lg mt-4\"></i>\n          <br>volume-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-volume-off fa-lg mt-4\"></i>\n          <br>volume-off\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-volume-up fa-lg mt-4\"></i>\n          <br>volume-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-warning fa-lg mt-4\"></i>\n          <br>warning\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wheelchair fa-lg mt-4\"></i>\n          <br>wheelchair\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wifi fa-lg mt-4\"></i>\n          <br>wifi\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wrench fa-lg mt-4\"></i>\n          <br>wrench\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"hand\">\n    <div class=\"card-header\">Hand Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-grab-o fa-lg mt-4\"></i>\n          <br>hand-grab-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-lizard-o fa-lg mt-4\"></i>\n          <br>hand-lizard-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-down fa-lg mt-4\"></i>\n          <br>hand-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-left fa-lg mt-4\"></i>\n          <br>hand-o-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-right fa-lg mt-4\"></i>\n          <br>hand-o-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-up fa-lg mt-4\"></i>\n          <br>hand-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-paper-o fa-lg mt-4\"></i>\n          <br>hand-paper-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-peace-o fa-lg mt-4\"></i>\n          <br>hand-peace-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-pointer-o fa-lg mt-4\"></i>\n          <br>hand-pointer-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-rock-o fa-lg mt-4\"></i>\n          <br>hand-rock-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-scissors-o fa-lg mt-4\"></i>\n          <br>hand-scissors-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-spock-o fa-lg mt-4\"></i>\n          <br>hand-spock-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-stop-o fa-lg mt-4\"></i>\n          <br>hand-stop-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-down fa-lg mt-4\"></i>\n          <br>thumbs-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-o-down fa-lg mt-4\"></i>\n          <br>thumbs-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-o-up fa-lg mt-4\"></i>\n          <br>thumbs-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-thumbs-up fa-lg mt-4\"></i>\n          <br>thumbs-up\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"transportation\">\n    <div class=\"card-header\">Transportation Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ambulance fa-lg mt-4\"></i>\n          <br>ambulance\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-automobile fa-lg mt-4\"></i>\n          <br>automobile\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bicycle fa-lg mt-4\"></i>\n          <br>bicycle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bus fa-lg mt-4\"></i>\n          <br>bus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cab fa-lg mt-4\"></i>\n          <br>cab\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-car fa-lg mt-4\"></i>\n          <br>car\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fighter-jet fa-lg mt-4\"></i>\n          <br>fighter-jet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-motorcycle fa-lg mt-4\"></i>\n          <br>motorcycle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plane fa-lg mt-4\"></i>\n          <br>plane\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rocket fa-lg mt-4\"></i>\n          <br>rocket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ship fa-lg mt-4\"></i>\n          <br>ship\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-space-shuttle fa-lg mt-4\"></i>\n          <br>space-shuttle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-subway fa-lg mt-4\"></i>\n          <br>subway\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-taxi fa-lg mt-4\"></i>\n          <br>taxi\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-train fa-lg mt-4\"></i>\n          <br>train\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-truck fa-lg mt-4\"></i>\n          <br>truck\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wheelchair fa-lg mt-4\"></i>\n          <br>wheelchair\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"gender\">\n    <div class=\"card-header\">Gender Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-genderless fa-lg mt-4\"></i>\n          <br>genderless\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-intersex fa-lg mt-4\"></i>\n          <br>intersex\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mars fa-lg mt-4\"></i>\n          <br>mars\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mars-double fa-lg mt-4\"></i>\n          <br>mars-double\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mars-stroke fa-lg mt-4\"></i>\n          <br>mars-stroke\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mars-stroke-h fa-lg mt-4\"></i>\n          <br>mars-stroke-h\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mars-stroke-v fa-lg mt-4\"></i>\n          <br>mars-stroke-v\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mercury fa-lg mt-4\"></i>\n          <br>mercury\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-neuter fa-lg mt-4\"></i>\n          <br>neuter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-transgender fa-lg mt-4\"></i>\n          <br>transgender\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-transgender-alt fa-lg mt-4\"></i>\n          <br>transgender-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-venus fa-lg mt-4\"></i>\n          <br>venus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-venus-double fa-lg mt-4\"></i>\n          <br>venus-double\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-venus-mars fa-lg mt-4\"></i>\n          <br>venus-mars\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"file-type\">\n    <div class=\"card-header\">File Type Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file fa-lg mt-4\"></i>\n          <br>file\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-archive-o fa-lg mt-4\"></i>\n          <br>file-archive-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-audio-o fa-lg mt-4\"></i>\n          <br>file-audio-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-code-o fa-lg mt-4\"></i>\n          <br>file-code-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-excel-o fa-lg mt-4\"></i>\n          <br>file-excel-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-image-o fa-lg mt-4\"></i>\n          <br>file-image-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-movie-o fa-lg mt-4\"></i>\n          <br>file-movie-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-o fa-lg mt-4\"></i>\n          <br>file-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-pdf-o fa-lg mt-4\"></i>\n          <br>file-pdf-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-photo-o fa-lg mt-4\"></i>\n          <br>file-photo-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-picture-o fa-lg mt-4\"></i>\n          <br>file-picture-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-powerpoint-o fa-lg mt-4\"></i>\n          <br>file-powerpoint-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-sound-o fa-lg mt-4\"></i>\n          <br>file-sound-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-text fa-lg mt-4\"></i>\n          <br>file-text\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-text-o fa-lg mt-4\"></i>\n          <br>file-text-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-video-o fa-lg mt-4\"></i>\n          <br>file-video-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-word-o fa-lg mt-4\"></i>\n          <br>file-word-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-zip-o fa-lg mt-4\"></i>\n          <br>file-zip-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"spinner\">\n    <div class=\"card-header\">Spinner Icons</div>\n    <div class=\"card-block\">\n      <div class=\"alert alert-success\">\n        <ul class=\"fa-ul\">\n          <li>\n            <i class=\"fa fa-info-circle fa-li\"></i> These icons work great with the\n            <code>fa-spin</code> class.\n          </li>\n        </ul>\n      </div>\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle-o-notch fa-lg mt-4\"></i>\n          <br>circle-o-notch\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cog fa-lg mt-4\"></i>\n          <br>cog\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gear fa-lg mt-4\"></i>\n          <br>gear\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-refresh fa-lg mt-4\"></i>\n          <br>refresh\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-spinner fa-lg mt-4\"></i>\n          <br>spinner\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"form-control\">\n    <div class=\"card-header\">Form Control Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-square fa-lg mt-4\"></i>\n          <br>check-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-check-square-o fa-lg mt-4\"></i>\n          <br>check-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle fa-lg mt-4\"></i>\n          <br>circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-circle-o fa-lg mt-4\"></i>\n          <br>circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dot-circle-o fa-lg mt-4\"></i>\n          <br>dot-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus-square fa-lg mt-4\"></i>\n          <br>minus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-minus-square-o fa-lg mt-4\"></i>\n          <br>minus-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-square fa-lg mt-4\"></i>\n          <br>plus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-square-o fa-lg mt-4\"></i>\n          <br>plus-square-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-square fa-lg mt-4\"></i>\n          <br>square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-square-o fa-lg mt-4\"></i>\n          <br>square-o\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"payment\">\n    <div class=\"card-header\">Payment Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-amex fa-lg mt-4\"></i>\n          <br>cc-amex\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-diners-club fa-lg mt-4\"></i>\n          <br>cc-diners-club\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-discover fa-lg mt-4\"></i>\n          <br>cc-discover\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-jcb fa-lg mt-4\"></i>\n          <br>cc-jcb\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-mastercard fa-lg mt-4\"></i>\n          <br>cc-mastercard\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-paypal fa-lg mt-4\"></i>\n          <br>cc-paypal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-stripe fa-lg mt-4\"></i>\n          <br>cc-stripe\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-visa fa-lg mt-4\"></i>\n          <br>cc-visa\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-credit-card fa-lg mt-4\"></i>\n          <br>credit-card\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-credit-card-alt fa-lg mt-4\"></i>\n          <br>credit-card-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-google-wallet fa-lg mt-4\"></i>\n          <br>google-wallet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paypal fa-lg mt-4\"></i>\n          <br>paypal\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"chart\">\n    <div class=\"card-header\">Chart Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-area-chart fa-lg mt-4\"></i>\n          <br>area-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bar-chart fa-lg mt-4\"></i>\n          <br>bar-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bar-chart-o fa-lg mt-4\"></i>\n          <br>bar-chart-o\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-line-chart fa-lg mt-4\"></i>\n          <br>line-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pie-chart fa-lg mt-4\"></i>\n          <br>pie-chart\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"currency\">\n    <div class=\"card-header\">Currency Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bitcoin fa-lg mt-4\"></i>\n          <br>bitcoin\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-btc fa-lg mt-4\"></i>\n          <br>btc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cny fa-lg mt-4\"></i>\n          <br>cny\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dollar fa-lg mt-4\"></i>\n          <br>dollar\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eur fa-lg mt-4\"></i>\n          <br>eur\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-euro fa-lg mt-4\"></i>\n          <br>euro\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gbp fa-lg mt-4\"></i>\n          <br>gbp\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gg fa-lg mt-4\"></i>\n          <br>gg\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gg-circle fa-lg mt-4\"></i>\n          <br>gg-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ils fa-lg mt-4\"></i>\n          <br>ils\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-inr fa-lg mt-4\"></i>\n          <br>inr\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-jpy fa-lg mt-4\"></i>\n          <br>jpy\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-krw fa-lg mt-4\"></i>\n          <br>krw\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-money fa-lg mt-4\"></i>\n          <br>money\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rmb fa-lg mt-4\"></i>\n          <br>rmb\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rouble fa-lg mt-4\"></i>\n          <br>rouble\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rub fa-lg mt-4\"></i>\n          <br>rub\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ruble fa-lg mt-4\"></i>\n          <br>ruble\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rupee fa-lg mt-4\"></i>\n          <br>rupee\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shekel fa-lg mt-4\"></i>\n          <br>shekel\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sheqel fa-lg mt-4\"></i>\n          <br>sheqel\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-try fa-lg mt-4\"></i>\n          <br>try\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-turkish-lira fa-lg mt-4\"></i>\n          <br>turkish-lira\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-usd fa-lg mt-4\"></i>\n          <br>usd\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-won fa-lg mt-4\"></i>\n          <br>won\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-yen fa-lg mt-4\"></i>\n          <br>yen\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"text-editor\">\n    <div class=\"card-header\">Text Editor Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-align-center fa-lg mt-4\"></i>\n          <br>align-center\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-align-justify fa-lg mt-4\"></i>\n          <br>align-justify\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-align-left fa-lg mt-4\"></i>\n          <br>align-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-align-right fa-lg mt-4\"></i>\n          <br>align-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bold fa-lg mt-4\"></i>\n          <br>bold\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chain fa-lg mt-4\"></i>\n          <br>chain\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chain-broken fa-lg mt-4\"></i>\n          <br>chain-broken\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-clipboard fa-lg mt-4\"></i>\n          <br>clipboard\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-columns fa-lg mt-4\"></i>\n          <br>columns\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-copy fa-lg mt-4\"></i>\n          <br>copy\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cut fa-lg mt-4\"></i>\n          <br>cut\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dedent fa-lg mt-4\"></i>\n          <br>dedent\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eraser fa-lg mt-4\"></i>\n          <br>eraser\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file fa-lg mt-4\"></i>\n          <br>file\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-o fa-lg mt-4\"></i>\n          <br>file-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-text fa-lg mt-4\"></i>\n          <br>file-text\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-file-text-o fa-lg mt-4\"></i>\n          <br>file-text-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-files-o fa-lg mt-4\"></i>\n          <br>files-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-floppy-o fa-lg mt-4\"></i>\n          <br>floppy-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-font fa-lg mt-4\"></i>\n          <br>font\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-header fa-lg mt-4\"></i>\n          <br>header\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-indent fa-lg mt-4\"></i>\n          <br>indent\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-italic fa-lg mt-4\"></i>\n          <br>italic\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-link fa-lg mt-4\"></i>\n          <br>link\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-list fa-lg mt-4\"></i>\n          <br>list\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-list-alt fa-lg mt-4\"></i>\n          <br>list-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-list-ol fa-lg mt-4\"></i>\n          <br>list-ol\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-list-ul fa-lg mt-4\"></i>\n          <br>list-ul\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-outdent fa-lg mt-4\"></i>\n          <br>outdent\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paperclip fa-lg mt-4\"></i>\n          <br>paperclip\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paragraph fa-lg mt-4\"></i>\n          <br>paragraph\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paste fa-lg mt-4\"></i>\n          <br>paste\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-repeat fa-lg mt-4\"></i>\n          <br>repeat\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rotate-left fa-lg mt-4\"></i>\n          <br>rotate-left\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rotate-right fa-lg mt-4\"></i>\n          <br>rotate-right\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-save fa-lg mt-4\"></i>\n          <br>save\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-scissors fa-lg mt-4\"></i>\n          <br>scissors\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-strikethrough fa-lg mt-4\"></i>\n          <br>strikethrough\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-subscript fa-lg mt-4\"></i>\n          <br>subscript\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-superscript fa-lg mt-4\"></i>\n          <br>superscript\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-table fa-lg mt-4\"></i>\n          <br>table\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-text-height fa-lg mt-4\"></i>\n          <br>text-height\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-text-width fa-lg mt-4\"></i>\n          <br>text-width\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-th fa-lg mt-4\"></i>\n          <br>th\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-th-large fa-lg mt-4\"></i>\n          <br>th-large\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-th-list fa-lg mt-4\"></i>\n          <br>th-list\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-underline fa-lg mt-4\"></i>\n          <br>underline\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-undo fa-lg mt-4\"></i>\n          <br>undo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-unlink fa-lg mt-4\"></i>\n          <br>unlink\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"directional\">\n    <div class=\"card-header\">Directional Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-double-down fa-lg mt-4\"></i>\n          <br>angle-double-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-double-left fa-lg mt-4\"></i>\n          <br>angle-double-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-double-right fa-lg mt-4\"></i>\n          <br>angle-double-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-double-up fa-lg mt-4\"></i>\n          <br>angle-double-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-down fa-lg mt-4\"></i>\n          <br>angle-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-left fa-lg mt-4\"></i>\n          <br>angle-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-right fa-lg mt-4\"></i>\n          <br>angle-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angle-up fa-lg mt-4\"></i>\n          <br>angle-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-down fa-lg mt-4\"></i>\n          <br>arrow-circle-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-left fa-lg mt-4\"></i>\n          <br>arrow-circle-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-o-down fa-lg mt-4\"></i>\n          <br>arrow-circle-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-o-left fa-lg mt-4\"></i>\n          <br>arrow-circle-o-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-o-right fa-lg mt-4\"></i>\n          <br>arrow-circle-o-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-o-up fa-lg mt-4\"></i>\n          <br>arrow-circle-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-right fa-lg mt-4\"></i>\n          <br>arrow-circle-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-circle-up fa-lg mt-4\"></i>\n          <br>arrow-circle-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-down fa-lg mt-4\"></i>\n          <br>arrow-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-left fa-lg mt-4\"></i>\n          <br>arrow-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-right fa-lg mt-4\"></i>\n          <br>arrow-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrow-up fa-lg mt-4\"></i>\n          <br>arrow-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows fa-lg mt-4\"></i>\n          <br>arrows\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-alt fa-lg mt-4\"></i>\n          <br>arrows-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-h fa-lg mt-4\"></i>\n          <br>arrows-h\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-v fa-lg mt-4\"></i>\n          <br>arrows-v\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-down fa-lg mt-4\"></i>\n          <br>caret-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-left fa-lg mt-4\"></i>\n          <br>caret-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-right fa-lg mt-4\"></i>\n          <br>caret-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-down fa-lg mt-4\"></i>\n          <br>caret-square-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-left fa-lg mt-4\"></i>\n          <br>caret-square-o-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-right fa-lg mt-4\"></i>\n          <br>caret-square-o-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-square-o-up fa-lg mt-4\"></i>\n          <br>caret-square-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-caret-up fa-lg mt-4\"></i>\n          <br>caret-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-circle-down fa-lg mt-4\"></i>\n          <br>chevron-circle-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-circle-left fa-lg mt-4\"></i>\n          <br>chevron-circle-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-circle-right fa-lg mt-4\"></i>\n          <br>chevron-circle-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-circle-up fa-lg mt-4\"></i>\n          <br>chevron-circle-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-down fa-lg mt-4\"></i>\n          <br>chevron-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-left fa-lg mt-4\"></i>\n          <br>chevron-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-right fa-lg mt-4\"></i>\n          <br>chevron-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chevron-up fa-lg mt-4\"></i>\n          <br>chevron-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-exchange fa-lg mt-4\"></i>\n          <br>exchange\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-down fa-lg mt-4\"></i>\n          <br>hand-o-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-left fa-lg mt-4\"></i>\n          <br>hand-o-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-right fa-lg mt-4\"></i>\n          <br>hand-o-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hand-o-up fa-lg mt-4\"></i>\n          <br>hand-o-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-long-arrow-down fa-lg mt-4\"></i>\n          <br>long-arrow-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-long-arrow-left fa-lg mt-4\"></i>\n          <br>long-arrow-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-long-arrow-right fa-lg mt-4\"></i>\n          <br>long-arrow-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-long-arrow-up fa-lg mt-4\"></i>\n          <br>long-arrow-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-down fa-lg mt-4\"></i>\n          <br>toggle-down\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-left fa-lg mt-4\"></i>\n          <br>toggle-left\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-right fa-lg mt-4\"></i>\n          <br>toggle-right\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-toggle-up fa-lg mt-4\"></i>\n          <br>toggle-up\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"video-player\">\n    <div class=\"card-header\">Video Player Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-arrows-alt fa-lg mt-4\"></i>\n          <br>arrows-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-backward fa-lg mt-4\"></i>\n          <br>backward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-compress fa-lg mt-4\"></i>\n          <br>compress\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-eject fa-lg mt-4\"></i>\n          <br>eject\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-expand fa-lg mt-4\"></i>\n          <br>expand\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fast-backward fa-lg mt-4\"></i>\n          <br>fast-backward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fast-forward fa-lg mt-4\"></i>\n          <br>fast-forward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-forward fa-lg mt-4\"></i>\n          <br>forward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pause fa-lg mt-4\"></i>\n          <br>pause\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pause-circle fa-lg mt-4\"></i>\n          <br>pause-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pause-circle-o fa-lg mt-4\"></i>\n          <br>pause-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-play fa-lg mt-4\"></i>\n          <br>play\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-play-circle fa-lg mt-4\"></i>\n          <br>play-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-play-circle-o fa-lg mt-4\"></i>\n          <br>play-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-random fa-lg mt-4\"></i>\n          <br>random\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-step-backward fa-lg mt-4\"></i>\n          <br>step-backward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-step-forward fa-lg mt-4\"></i>\n          <br>step-forward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stop fa-lg mt-4\"></i>\n          <br>stop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stop-circle fa-lg mt-4\"></i>\n          <br>stop-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stop-circle-o fa-lg mt-4\"></i>\n          <br>stop-circle-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-youtube-play fa-lg mt-4\"></i>\n          <br>youtube-play\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"brand\">\n    <div class=\"card-header\">Brand Icons</div>\n    <div class=\"card-block\">\n      <div class=\"alert alert-warning\">\n        <h4><i class=\"fa fa-warning\"></i> Warning!</h4>\n        Apparently, Adblock Plus can remove Font Awesome brand icons with their \"Remove Social Media Buttons\" setting. We will not use hacks to force them to display. Please\n        <a href=\"https://adblockplus.org/en/bugs\" class=\"alert-link\">report an issue with Adblock Plus</a> if you believe this to be an error. To work around this, you'll need to modify the social icon class names.\n      </div>\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-500px fa-lg mt-4\"></i>\n          <br>500px\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-adn fa-lg mt-4\"></i>\n          <br>adn\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-amazon fa-lg mt-4\"></i>\n          <br>amazon\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-android fa-lg mt-4\"></i>\n          <br>android\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-angellist fa-lg mt-4\"></i>\n          <br>angellist\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-apple fa-lg mt-4\"></i>\n          <br>apple\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-behance fa-lg mt-4\"></i>\n          <br>behance\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-behance-square fa-lg mt-4\"></i>\n          <br>behance-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bitbucket fa-lg mt-4\"></i>\n          <br>bitbucket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bitbucket-square fa-lg mt-4\"></i>\n          <br>bitbucket-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bitcoin fa-lg mt-4\"></i>\n          <br>bitcoin\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-black-tie fa-lg mt-4\"></i>\n          <br>black-tie\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth fa-lg mt-4\"></i>\n          <br>bluetooth\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-bluetooth-b fa-lg mt-4\"></i>\n          <br>bluetooth-b\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-btc fa-lg mt-4\"></i>\n          <br>btc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-buysellads fa-lg mt-4\"></i>\n          <br>buysellads\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-amex fa-lg mt-4\"></i>\n          <br>cc-amex\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-diners-club fa-lg mt-4\"></i>\n          <br>cc-diners-club\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-discover fa-lg mt-4\"></i>\n          <br>cc-discover\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-jcb fa-lg mt-4\"></i>\n          <br>cc-jcb\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-mastercard fa-lg mt-4\"></i>\n          <br>cc-mastercard\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-paypal fa-lg mt-4\"></i>\n          <br>cc-paypal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-stripe fa-lg mt-4\"></i>\n          <br>cc-stripe\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-cc-visa fa-lg mt-4\"></i>\n          <br>cc-visa\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-chrome fa-lg mt-4\"></i>\n          <br>chrome\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-codepen fa-lg mt-4\"></i>\n          <br>codepen\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-codiepie fa-lg mt-4\"></i>\n          <br>codiepie\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-connectdevelop fa-lg mt-4\"></i>\n          <br>connectdevelop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-contao fa-lg mt-4\"></i>\n          <br>contao\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-css3 fa-lg mt-4\"></i>\n          <br>css3\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dashcube fa-lg mt-4\"></i>\n          <br>dashcube\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-delicious fa-lg mt-4\"></i>\n          <br>delicious\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-deviantart fa-lg mt-4\"></i>\n          <br>deviantart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-digg fa-lg mt-4\"></i>\n          <br>digg\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dribbble fa-lg mt-4\"></i>\n          <br>dribbble\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-dropbox fa-lg mt-4\"></i>\n          <br>dropbox\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-drupal fa-lg mt-4\"></i>\n          <br>drupal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-edge fa-lg mt-4\"></i>\n          <br>edge\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-empire fa-lg mt-4\"></i>\n          <br>empire\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-expeditedssl fa-lg mt-4\"></i>\n          <br>expeditedssl\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-facebook fa-lg mt-4\"></i>\n          <br>facebook\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-facebook-f fa-lg mt-4\"></i>\n          <br>facebook-f\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-facebook-official fa-lg mt-4\"></i>\n          <br>facebook-official\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-facebook-square fa-lg mt-4\"></i>\n          <br>facebook-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-firefox fa-lg mt-4\"></i>\n          <br>firefox\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-flickr fa-lg mt-4\"></i>\n          <br>flickr\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fonticons fa-lg mt-4\"></i>\n          <br>fonticons\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-fort-awesome fa-lg mt-4\"></i>\n          <br>fort-awesome\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-forumbee fa-lg mt-4\"></i>\n          <br>forumbee\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-foursquare fa-lg mt-4\"></i>\n          <br>foursquare\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ge fa-lg mt-4\"></i>\n          <br>ge\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-get-pocket fa-lg mt-4\"></i>\n          <br>get-pocket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gg fa-lg mt-4\"></i>\n          <br>gg\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gg-circle fa-lg mt-4\"></i>\n          <br>gg-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-git fa-lg mt-4\"></i>\n          <br>git\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-git-square fa-lg mt-4\"></i>\n          <br>git-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-github fa-lg mt-4\"></i>\n          <br>github\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-github-alt fa-lg mt-4\"></i>\n          <br>github-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-github-square fa-lg mt-4\"></i>\n          <br>github-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gittip fa-lg mt-4\"></i>\n          <br>gittip\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-google fa-lg mt-4\"></i>\n          <br>google\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-google-plus fa-lg mt-4\"></i>\n          <br>google-plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-google-plus-square fa-lg mt-4\"></i>\n          <br>google-plus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-google-wallet fa-lg mt-4\"></i>\n          <br>google-wallet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-gratipay fa-lg mt-4\"></i>\n          <br>gratipay\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hacker-news fa-lg mt-4\"></i>\n          <br>hacker-news\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-houzz fa-lg mt-4\"></i>\n          <br>houzz\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-html5 fa-lg mt-4\"></i>\n          <br>html5\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-instagram fa-lg mt-4\"></i>\n          <br>instagram\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-internet-explorer fa-lg mt-4\"></i>\n          <br>internet-explorer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ioxhost fa-lg mt-4\"></i>\n          <br>ioxhost\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-joomla fa-lg mt-4\"></i>\n          <br>joomla\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-jsfiddle fa-lg mt-4\"></i>\n          <br>jsfiddle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-lastfm fa-lg mt-4\"></i>\n          <br>lastfm\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-lastfm-square fa-lg mt-4\"></i>\n          <br>lastfm-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-leanpub fa-lg mt-4\"></i>\n          <br>leanpub\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-linkedin fa-lg mt-4\"></i>\n          <br>linkedin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-linkedin-square fa-lg mt-4\"></i>\n          <br>linkedin-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-linux fa-lg mt-4\"></i>\n          <br>linux\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-maxcdn fa-lg mt-4\"></i>\n          <br>maxcdn\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-meanpath fa-lg mt-4\"></i>\n          <br>meanpath\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-medium fa-lg mt-4\"></i>\n          <br>medium\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-mixcloud fa-lg mt-4\"></i>\n          <br>mixcloud\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-modx fa-lg mt-4\"></i>\n          <br>modx\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-odnoklassniki fa-lg mt-4\"></i>\n          <br>odnoklassniki\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-odnoklassniki-square fa-lg mt-4\"></i>\n          <br>odnoklassniki-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-opencart fa-lg mt-4\"></i>\n          <br>opencart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-openid fa-lg mt-4\"></i>\n          <br>openid\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-opera fa-lg mt-4\"></i>\n          <br>opera\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-optin-monster fa-lg mt-4\"></i>\n          <br>optin-monster\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pagelines fa-lg mt-4\"></i>\n          <br>pagelines\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-paypal fa-lg mt-4\"></i>\n          <br>paypal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pied-piper fa-lg mt-4\"></i>\n          <br>pied-piper\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pied-piper-alt fa-lg mt-4\"></i>\n          <br>pied-piper-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pinterest fa-lg mt-4\"></i>\n          <br>pinterest\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pinterest-p fa-lg mt-4\"></i>\n          <br>pinterest-p\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-pinterest-square fa-lg mt-4\"></i>\n          <br>pinterest-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-product-hunt fa-lg mt-4\"></i>\n          <br>product-hunt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-qq fa-lg mt-4\"></i>\n          <br>qq\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ra fa-lg mt-4\"></i>\n          <br>ra\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-rebel fa-lg mt-4\"></i>\n          <br>rebel\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reddit fa-lg mt-4\"></i>\n          <br>reddit\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reddit-alien fa-lg mt-4\"></i>\n          <br>reddit-alien\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-reddit-square fa-lg mt-4\"></i>\n          <br>reddit-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-renren fa-lg mt-4\"></i>\n          <br>renren\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-safari fa-lg mt-4\"></i>\n          <br>safari\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-scribd fa-lg mt-4\"></i>\n          <br>scribd\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-sellsy fa-lg mt-4\"></i>\n          <br>sellsy\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-alt fa-lg mt-4\"></i>\n          <br>share-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-share-alt-square fa-lg mt-4\"></i>\n          <br>share-alt-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-shirtsinbulk fa-lg mt-4\"></i>\n          <br>shirtsinbulk\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-simplybuilt fa-lg mt-4\"></i>\n          <br>simplybuilt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-skyatlas fa-lg mt-4\"></i>\n          <br>skyatlas\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-skype fa-lg mt-4\"></i>\n          <br>skype\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-slack fa-lg mt-4\"></i>\n          <br>slack\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-slideshare fa-lg mt-4\"></i>\n          <br>slideshare\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-soundcloud fa-lg mt-4\"></i>\n          <br>soundcloud\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-spotify fa-lg mt-4\"></i>\n          <br>spotify\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stack-exchange fa-lg mt-4\"></i>\n          <br>stack-exchange\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stack-overflow fa-lg mt-4\"></i>\n          <br>stack-overflow\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-steam fa-lg mt-4\"></i>\n          <br>steam\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-steam-square fa-lg mt-4\"></i>\n          <br>steam-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stumbleupon fa-lg mt-4\"></i>\n          <br>stumbleupon\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stumbleupon-circle fa-lg mt-4\"></i>\n          <br>stumbleupon-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tencent-weibo fa-lg mt-4\"></i>\n          <br>tencent-weibo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-trello fa-lg mt-4\"></i>\n          <br>trello\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tripadvisor fa-lg mt-4\"></i>\n          <br>tripadvisor\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tumblr fa-lg mt-4\"></i>\n          <br>tumblr\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-tumblr-square fa-lg mt-4\"></i>\n          <br>tumblr-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-twitch fa-lg mt-4\"></i>\n          <br>twitch\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-twitter fa-lg mt-4\"></i>\n          <br>twitter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-twitter-square fa-lg mt-4\"></i>\n          <br>twitter-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-usb fa-lg mt-4\"></i>\n          <br>usb\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-viacoin fa-lg mt-4\"></i>\n          <br>viacoin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-vimeo fa-lg mt-4\"></i>\n          <br>vimeo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-vimeo-square fa-lg mt-4\"></i>\n          <br>vimeo-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-vine fa-lg mt-4\"></i>\n          <br>vine\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-vk fa-lg mt-4\"></i>\n          <br>vk\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wechat fa-lg mt-4\"></i>\n          <br>wechat\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-weibo fa-lg mt-4\"></i>\n          <br>weibo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-weixin fa-lg mt-4\"></i>\n          <br>weixin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-whatsapp fa-lg mt-4\"></i>\n          <br>whatsapp\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wikipedia-w fa-lg mt-4\"></i>\n          <br>wikipedia-w\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-windows fa-lg mt-4\"></i>\n          <br>windows\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wordpress fa-lg mt-4\"></i>\n          <br>wordpress\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-xing fa-lg mt-4\"></i>\n          <br>xing\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-xing-square fa-lg mt-4\"></i>\n          <br>xing-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-y-combinator fa-lg mt-4\"></i>\n          <br>y-combinator\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-y-combinator-square fa-lg mt-4\"></i>\n          <br>y-combinator-square\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-yahoo fa-lg mt-4\"></i>\n          <br>yahoo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-yc fa-lg mt-4\"></i>\n          <br>yc\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-yc-square fa-lg mt-4\"></i>\n          <br>yc-square\n          <span class=\"text-muted\">(alias)</span>\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-yelp fa-lg mt-4\"></i>\n          <br>yelp\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-youtube fa-lg mt-4\"></i>\n          <br>youtube\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-youtube-play fa-lg mt-4\"></i>\n          <br>youtube-play\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-youtube-square fa-lg mt-4\"></i>\n          <br>youtube-square\n        </div>\n      </div>\n      <div class=\"alert alert-success mt-4\">\n        <ul class=\"margin-bottom-none padding-left-lg\">\n          <li>All brand icons are trademarks of their respective owners.</li>\n          <li>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.</li>\n          <li>Brand icons should only be used to represent the company or product to which they refer.</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\" id=\"medical\">\n    <div class=\"card-header\">Medical Icons</div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-ambulance fa-lg mt-4\"></i>\n          <br>ambulance\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-h-square fa-lg mt-4\"></i>\n          <br>h-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heart fa-lg mt-4\"></i>\n          <br>heart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heart-o fa-lg mt-4\"></i>\n          <br>heart-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-heartbeat fa-lg mt-4\"></i>\n          <br>heartbeat\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-hospital-o fa-lg mt-4\"></i>\n          <br>hospital-o\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-medkit fa-lg mt-4\"></i>\n          <br>medkit\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-plus-square fa-lg mt-4\"></i>\n          <br>plus-square\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-stethoscope fa-lg mt-4\"></i>\n          <br>stethoscope\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-user-md fa-lg mt-4\"></i>\n          <br>user-md\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3 col-lg-2\">\n          <i class=\"fa fa-wheelchair fa-lg mt-4\"></i>\n          <br>wheelchair\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "../../../../../src/app/icons/font-awesome.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FontAwesomeComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var FontAwesomeComponent = (function () {
-    function FontAwesomeComponent() {
-    }
-    FontAwesomeComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            template: __webpack_require__("../../../../../src/app/icons/font-awesome.component.html")
-        }),
-        __metadata("design:paramtypes", [])
-    ], FontAwesomeComponent);
-    return FontAwesomeComponent;
-}());
-
-//# sourceMappingURL=font-awesome.component.js.map
-
-/***/ }),
-
-/***/ "../../../../../src/app/icons/icons-routing.module.ts":
+/***/ "../../../../../src/app/loader/loader-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__font_awesome_component__ = __webpack_require__("../../../../../src/app/icons/font-awesome.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__simple_line_icons_component__ = __webpack_require__("../../../../../src/app/icons/simple-line-icons.component.ts");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IconsRoutingModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loader_component__ = __webpack_require__("../../../../../src/app/loader/loader.component.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoaderRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
 var routes = [
     {
         path: '',
+        component: __WEBPACK_IMPORTED_MODULE_2__loader_component__["a" /* LoaderComponent */],
         data: {
-            title: 'Icons'
-        },
-        children: [
-            {
-                path: 'font-awesome',
-                component: __WEBPACK_IMPORTED_MODULE_2__font_awesome_component__["a" /* FontAwesomeComponent */],
-                data: {
-                    title: 'Font Awesome'
-                }
-            },
-            {
-                path: 'simple-line-icons',
-                component: __WEBPACK_IMPORTED_MODULE_3__simple_line_icons_component__["a" /* SimpleLineIconsComponent */],
-                data: {
-                    title: 'Simple Line Icons'
-                }
-            }
-        ]
+            title: 'Loader'
+        }
     }
 ];
-var IconsRoutingModule = (function () {
-    function IconsRoutingModule() {
+var LoaderRoutingModule = (function () {
+    function LoaderRoutingModule() {
     }
-    IconsRoutingModule = __decorate([
+    LoaderRoutingModule = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forChild(routes)],
             exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
         })
-    ], IconsRoutingModule);
-    return IconsRoutingModule;
+    ], LoaderRoutingModule);
+    return LoaderRoutingModule;
 }());
 
-//# sourceMappingURL=icons-routing.module.js.map
+//# sourceMappingURL=loader-routing.module.js.map
 
 /***/ }),
 
-/***/ "../../../../../src/app/icons/icons.module.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__font_awesome_component__ = __webpack_require__("../../../../../src/app/icons/font-awesome.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__simple_line_icons_component__ = __webpack_require__("../../../../../src/app/icons/simple-line-icons.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__icons_routing_module__ = __webpack_require__("../../../../../src/app/icons/icons-routing.module.ts");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return IconsModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-var IconsModule = (function () {
-    function IconsModule() {
-    }
-    IconsModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            imports: [__WEBPACK_IMPORTED_MODULE_3__icons_routing_module__["a" /* IconsRoutingModule */]],
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_1__font_awesome_component__["a" /* FontAwesomeComponent */],
-                __WEBPACK_IMPORTED_MODULE_2__simple_line_icons_component__["a" /* SimpleLineIconsComponent */]
-            ]
-        })
-    ], IconsModule);
-    return IconsModule;
-}());
-
-//# sourceMappingURL=icons.module.js.map
-
-/***/ }),
-
-/***/ "../../../../../src/app/icons/simple-line-icons.component.html":
+/***/ "../../../../../src/app/loader/loader.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"card card-default\">\n    <div class=\"card-header\">\n      <i class=\"fa fa-picture-o\"></i> Simple Line Icons\n    </div>\n    <div class=\"card-block\">\n      <div class=\"row text-center\">\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-user icons font-2xl d-block mt-4\"></i>icon-user\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-people icons font-2xl d-block mt-4\"></i>icon-people\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-user-female icons font-2xl d-block mt-4\"></i>icon-user-female\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-user-follow icons font-2xl d-block mt-4\"></i>icon-user-follow\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-user-following icons font-2xl d-block mt-4\"></i>icon-user-following\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-user-unfollow icons font-2xl d-block mt-4\"></i>icon-user-unfollow\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-login icons font-2xl d-block mt-4\"></i>icon-login\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-logout icons font-2xl d-block mt-4\"></i>icon-logout\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-emotsmile icons font-2xl d-block mt-4\"></i>icon-emotsmile\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-phone icons font-2xl d-block mt-4\"></i>icon-phone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-call-end icons font-2xl d-block mt-4\"></i>icon-call-end\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-call-in icons font-2xl d-block mt-4\"></i>icon-call-in\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-call-out icons font-2xl d-block mt-4\"></i>icon-call-out\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-map icons font-2xl d-block mt-4\"></i>icon-map\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-location-pin icons font-2xl d-block mt-4\"></i>icon-location-pin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-direction icons font-2xl d-block mt-4\"></i>icon-direction\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-directions icons font-2xl d-block mt-4\"></i>icon-directions\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-compass icons font-2xl d-block mt-4\"></i>icon-compass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-layers icons font-2xl d-block mt-4\"></i>icon-layers\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-menu icons font-2xl d-block mt-4\"></i>icon-menu\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-list icons font-2xl d-block mt-4\"></i>icon-list\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-options-vertical icons font-2xl d-block mt-4\"></i>icon-options-vertical\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-options icons font-2xl d-block mt-4\"></i>icon-options\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-down icons font-2xl d-block mt-4\"></i>icon-arrow-down\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-left icons font-2xl d-block mt-4\"></i>icon-arrow-left\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-right icons font-2xl d-block mt-4\"></i>icon-arrow-right\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-up icons font-2xl d-block mt-4\"></i>icon-arrow-up\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-up-circle icons font-2xl d-block mt-4\"></i>icon-arrow-up-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-left-circle icons font-2xl d-block mt-4\"></i>icon-arrow-left-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-right-circle icons font-2xl d-block mt-4\"></i>icon-arrow-right-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-arrow-down-circle icons font-2xl d-block mt-4\"></i>icon-arrow-down-circle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-check icons font-2xl d-block mt-4\"></i>icon-check\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-clock icons font-2xl d-block mt-4\"></i>icon-clock\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-plus icons font-2xl d-block mt-4\"></i>icon-plus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-close icons font-2xl d-block mt-4\"></i>icon-close\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-trophy icons font-2xl d-block mt-4\"></i>icon-trophy\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-screen-smartphone icons font-2xl d-block mt-4\"></i>icon-screen-smartphone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-screen-desktop icons font-2xl d-block mt-4\"></i>icon-screen-desktop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-plane icons font-2xl d-block mt-4\"></i>icon-plane\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-notebook icons font-2xl d-block mt-4\"></i>icon-notebook\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-mustache icons font-2xl d-block mt-4\"></i>icon-mustache\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-mouse icons font-2xl d-block mt-4\"></i>icon-mouse\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-magnet icons font-2xl d-block mt-4\"></i>icon-magnet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-energy icons font-2xl d-block mt-4\"></i>icon-energy\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-disc icons font-2xl d-block mt-4\"></i>icon-disc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-cursor icons font-2xl d-block mt-4\"></i>icon-cursor\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-cursor-move icons font-2xl d-block mt-4\"></i>icon-cursor-move\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-crop icons font-2xl d-block mt-4\"></i>icon-crop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-chemistry icons font-2xl d-block mt-4\"></i>icon-chemistry\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-speedometer icons font-2xl d-block mt-4\"></i>icon-speedometer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-shield icons font-2xl d-block mt-4\"></i>icon-shield\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-screen-tablet icons font-2xl d-block mt-4\"></i>icon-screen-tablet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-magic-wand icons font-2xl d-block mt-4\"></i>icon-magic-wand\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-hourglass icons font-2xl d-block mt-4\"></i>icon-hourglass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-graduation icons font-2xl d-block mt-4\"></i>icon-graduation\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-ghost icons font-2xl d-block mt-4\"></i>icon-ghost\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-game-controller icons font-2xl d-block mt-4\"></i>icon-game-controller\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-fire icons font-2xl d-block mt-4\"></i>icon-fire\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-eyeglass icons font-2xl d-block mt-4\"></i>icon-eyeglass\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-envelope-open icons font-2xl d-block mt-4\"></i>icon-envelope-open\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-envelope-letter icons font-2xl d-block mt-4\"></i>icon-envelope-letter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-bell icons font-2xl d-block mt-4\"></i>icon-bell\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-badge icons font-2xl d-block mt-4\"></i>icon-badge\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-anchor icons font-2xl d-block mt-4\"></i>icon-anchor\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-wallet icons font-2xl d-block mt-4\"></i>icon-wallet\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-vector icons font-2xl d-block mt-4\"></i>icon-vector\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-speech icons font-2xl d-block mt-4\"></i>icon-speech\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-puzzle icons font-2xl d-block mt-4\"></i>icon-puzzle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-printer icons font-2xl d-block mt-4\"></i>icon-printer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-present icons font-2xl d-block mt-4\"></i>icon-present\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-playlist icons font-2xl d-block mt-4\"></i>icon-playlist\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-pin icons font-2xl d-block mt-4\"></i>icon-pin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-picture icons font-2xl d-block mt-4\"></i>icon-picture\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-handbag icons font-2xl d-block mt-4\"></i>icon-handbag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-globe-alt icons font-2xl d-block mt-4\"></i>icon-globe-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-globe icons font-2xl d-block mt-4\"></i>icon-globe\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-folder-alt icons font-2xl d-block mt-4\"></i>icon-folder-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-folder icons font-2xl d-block mt-4\"></i>icon-folder\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-film icons font-2xl d-block mt-4\"></i>icon-film\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-feed icons font-2xl d-block mt-4\"></i>icon-feed\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-drop icons font-2xl d-block mt-4\"></i>icon-drop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-drawer icons font-2xl d-block mt-4\"></i>icon-drawer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-docs icons font-2xl d-block mt-4\"></i>icon-docs\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-doc icons font-2xl d-block mt-4\"></i>icon-doc\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-diamond icons font-2xl d-block mt-4\"></i>icon-diamond\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-cup icons font-2xl d-block mt-4\"></i>icon-cup\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-calculator icons font-2xl d-block mt-4\"></i>icon-calculator\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-bubbles icons font-2xl d-block mt-4\"></i>icon-bubbles\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-briefcase icons font-2xl d-block mt-4\"></i>icon-briefcase\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-book-open icons font-2xl d-block mt-4\"></i>icon-book-open\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-basket-loaded icons font-2xl d-block mt-4\"></i>icon-basket-loaded\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-basket icons font-2xl d-block mt-4\"></i>icon-basket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-bag icons font-2xl d-block mt-4\"></i>icon-bag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-action-undo icons font-2xl d-block mt-4\"></i>icon-action-undo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-action-redo icons font-2xl d-block mt-4\"></i>icon-action-redo\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-wrench icons font-2xl d-block mt-4\"></i>icon-wrench\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-umbrella icons font-2xl d-block mt-4\"></i>icon-umbrella\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-trash icons font-2xl d-block mt-4\"></i>icon-trash\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-tag icons font-2xl d-block mt-4\"></i>icon-tag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-support icons font-2xl d-block mt-4\"></i>icon-support\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-frame icons font-2xl d-block mt-4\"></i>icon-frame\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-size-fullscreen icons font-2xl d-block mt-4\"></i>icon-size-fullscreen\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-size-actual icons font-2xl d-block mt-4\"></i>icon-size-actual\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-shuffle icons font-2xl d-block mt-4\"></i>icon-shuffle\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-share-alt icons font-2xl d-block mt-4\"></i>icon-share-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-share icons font-2xl d-block mt-4\"></i>icon-share\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-rocket icons font-2xl d-block mt-4\"></i>icon-rocket\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-question icons font-2xl d-block mt-4\"></i>icon-question\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-pie-chart icons font-2xl d-block mt-4\"></i>icon-pie-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-pencil icons font-2xl d-block mt-4\"></i>icon-pencil\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-note icons font-2xl d-block mt-4\"></i>icon-note\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-loop icons font-2xl d-block mt-4\"></i>icon-loop\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-home icons font-2xl d-block mt-4\"></i>icon-home\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-grid icons font-2xl d-block mt-4\"></i>icon-grid\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-graph icons font-2xl d-block mt-4\"></i>icon-graph\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-microphone icons font-2xl d-block mt-4\"></i>icon-microphone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-music-tone-alt icons font-2xl d-block mt-4\"></i>icon-music-tone-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-music-tone icons font-2xl d-block mt-4\"></i>icon-music-tone\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-earphones-alt icons font-2xl d-block mt-4\"></i>icon-earphones-alt\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-earphones icons font-2xl d-block mt-4\"></i>icon-earphones\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-equalizer icons font-2xl d-block mt-4\"></i>icon-equalizer\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-like icons font-2xl d-block mt-4\"></i>icon-like\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-dislike icons font-2xl d-block mt-4\"></i>icon-dislike\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-start icons font-2xl d-block mt-4\"></i>icon-control-start\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-rewind icons font-2xl d-block mt-4\"></i>icon-control-rewind\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-play icons font-2xl d-block mt-4\"></i>icon-control-play\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-pause icons font-2xl d-block mt-4\"></i>icon-control-pause\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-forward icons font-2xl d-block mt-4\"></i>icon-control-forward\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-control-end icons font-2xl d-block mt-4\"></i>icon-control-end\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-volume-1 icons font-2xl d-block mt-4\"></i>icon-volume-1\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-volume-2 icons font-2xl d-block mt-4\"></i>icon-volume-2\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-volume-off icons font-2xl d-block mt-4\"></i>icon-volume-off\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-calendar icons font-2xl d-block mt-4\"></i>icon-calendar\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-bulb icons font-2xl d-block mt-4\"></i>icon-bulb\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-chart icons font-2xl d-block mt-4\"></i>icon-chart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-ban icons font-2xl d-block mt-4\"></i>icon-ban\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-bubble icons font-2xl d-block mt-4\"></i>icon-bubble\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-camrecorder icons font-2xl d-block mt-4\"></i>icon-camrecorder\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-camera icons font-2xl d-block mt-4\"></i>icon-camera\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-cloud-download icons font-2xl d-block mt-4\"></i>icon-cloud-download\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-cloud-upload icons font-2xl d-block mt-4\"></i>icon-cloud-upload\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-envelope icons font-2xl d-block mt-4\"></i>icon-envelope\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-eye icons font-2xl d-block mt-4\"></i>icon-eye\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-flag icons font-2xl d-block mt-4\"></i>icon-flag\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-heart icons font-2xl d-block mt-4\"></i>icon-heart\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-info icons font-2xl d-block mt-4\"></i>icon-info\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-key icons font-2xl d-block mt-4\"></i>icon-key\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-link icons font-2xl d-block mt-4\"></i>icon-link\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-lock icons font-2xl d-block mt-4\"></i>icon-lock\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-lock-open icons font-2xl d-block mt-4\"></i>icon-lock-open\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-magnifier icons font-2xl d-block mt-4\"></i>icon-magnifier\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-magnifier-add icons font-2xl d-block mt-4\"></i>icon-magnifier-add\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-magnifier-remove icons font-2xl d-block mt-4\"></i>icon-magnifier-remove\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-paper-clip icons font-2xl d-block mt-4\"></i>icon-paper-clip\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-paper-plane icons font-2xl d-block mt-4\"></i>icon-paper-plane\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-power icons font-2xl d-block mt-4\"></i>icon-power\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-refresh icons font-2xl d-block mt-4\"></i>icon-refresh\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-reload icons font-2xl d-block mt-4\"></i>icon-reload\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-settings icons font-2xl d-block mt-4\"></i>icon-settings\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-star icons font-2xl d-block mt-4\"></i>icon-star\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-symbol-female icons font-2xl d-block mt-4\"></i>icon-symbol-female\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-symbol-male icons font-2xl d-block mt-4\"></i>icon-symbol-male\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-target icons font-2xl d-block mt-4\"></i>icon-target\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-credit-card icons font-2xl d-block mt-4\"></i>icon-credit-card\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-paypal icons font-2xl d-block mt-4\"></i>icon-paypal\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-tumblr icons font-2xl d-block mt-4\"></i>icon-social-tumblr\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-twitter icons font-2xl d-block mt-4\"></i>icon-social-twitter\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-facebook icons font-2xl d-block mt-4\"></i>icon-social-facebook\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-instagram icons font-2xl d-block mt-4\"></i>icon-social-instagram\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-linkedin icons font-2xl d-block mt-4\"></i>icon-social-linkedin\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-pinterest icons font-2xl d-block mt-4\"></i>icon-social-pinterest\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-github icons font-2xl d-block mt-4\"></i>icon-social-github\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-gplus icons font-2xl d-block mt-4\"></i>icon-social-gplus\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-reddit icons font-2xl d-block mt-4\"></i>icon-social-reddit\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-skype icons font-2xl d-block mt-4\"></i>icon-social-skype\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-dribbble icons font-2xl d-block mt-4\"></i>icon-social-dribbble\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-behance icons font-2xl d-block mt-4\"></i>icon-social-behance\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-foursqare icons font-2xl d-block mt-4\"></i>icon-social-foursqare\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-soundcloud icons font-2xl d-block mt-4\"></i>icon-social-soundcloud\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-spotify icons font-2xl d-block mt-4\"></i>icon-social-spotify\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-stumbleupon icons font-2xl d-block mt-4\"></i>icon-social-stumbleupon\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-youtube icons font-2xl d-block mt-4\"></i>icon-social-youtube\n        </div>\n        <div class=\"col-6 col-sm-4 col-md-3\">\n          <i class=\"icon-social-dropbox icons font-2xl d-block mt-4\"></i>icon-social-dropbox\n        </div>\n      </div>\n      <!--/.row-->\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <div class=\"card card-inverse card-primary\">\n        <input #fileInput type=\"file\" />\n        <button type=\"button\" class=\"btn btn-info\" (click)=\"triggerFile(fileInput)\">Upload</button>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\">\n      <div class=\"card-header\" role=\"tab\">\n        <h5 class=\"mb-0\">\n          <a>\n            <h4 class=\"card-title mb-0\">Bicycle Wheel</h4>\n            <div class=\"small text-muted\">Bicycle wheel, spun by hand</div>\n          </a>\n        </h5>\n      </div>\n      <div class=\"card-block\">\n          <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log7_wheel.csv')\">Load</button>\n      </div>\n    </div>\n    <div class=\"card\">\n        <div class=\"card-header\" role=\"tab\">\n          <h5 class=\"mb-0\">\n            <a>\n              <h4 class=\"card-title mb-0\">No Movement</h4>\n              <div class=\"small text-muted\">Recording whilst still</div>\n            </a>\n          </h5>\n        </div>\n        <div class=\"card-block\">\n            <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log6_stationary.csv')\">Load</button>\n        </div>\n      </div>\n      <div class=\"card\">\n          <div class=\"card-header\" role=\"tab\">\n            <h5 class=\"mb-0\">\n              <a>\n                <h4 class=\"card-title mb-0\">Rocket</h4>\n                <div class=\"small text-muted\">Small amateur rocket</div>\n              </a>\n            </h5>\n          </div>\n          <div class=\"card-block\">\n              <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log8_rocket.csv')\">Load</button>\n          </div>\n        </div>\n</div>"
 
 /***/ }),
 
-/***/ "../../../../../src/app/icons/simple-line-icons.component.ts":
+/***/ "../../../../../src/app/loader/loader.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SimpleLineIconsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_fileparser__ = __webpack_require__("../../../../../src/app/shared/fileparser.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_data__ = __webpack_require__("../../../../../src/app/shared/data.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__ = __webpack_require__("../../../../../src/app/shared/controls.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoaderComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -160,19 +69,2373 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var SimpleLineIconsComponent = (function () {
-    function SimpleLineIconsComponent() {
+
+
+
+
+
+var LoaderComponent = (function () {
+    function LoaderComponent(http) {
+        this.http = http;
+        this.brandPrimary = '#20a8d8';
+        this.brandSuccess = '#4dbd74';
+        this.brandInfo = '#63c2de';
+        this.brandWarning = '#f8cb00';
+        this.brandDanger = '#f86c6b';
     }
-    SimpleLineIconsComponent = __decorate([
+    // convert Hex to RGBA
+    LoaderComponent.prototype.convertHex = function (hex, opacity) {
+        hex = hex.replace('#', '');
+        var r = parseInt(hex.substring(0, 2), 16);
+        var g = parseInt(hex.substring(2, 4), 16);
+        var b = parseInt(hex.substring(4, 6), 16);
+        var rgba = 'rgba(' + r + ', ' + g + ', ' + b + ', ' + opacity / 100 + ')';
+        return rgba;
+    };
+    LoaderComponent.prototype.asynchronousReadFile = function (fileName) {
+        var _this = this;
+        if (!fileName) {
+            alert("No file selected");
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.setData(new __WEBPACK_IMPORTED_MODULE_2__shared_data__["a" /* CalculatedData */]());
+        this.data = __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.getData();
+        var reader = new FileReader();
+        reader.onload = function (file) {
+            var contents = file.target;
+            var fileText = contents.result;
+            console.log("Loaded file");
+            var fp = new __WEBPACK_IMPORTED_MODULE_1__shared_fileparser__["a" /* FileParser */]();
+            var callback = function (l) {
+                _this.data.loadData(l);
+                __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.dataChanged();
+            };
+            var stringLoader = __WEBPACK_IMPORTED_MODULE_1__shared_fileparser__["a" /* FileParser */].parseLines(callback);
+            fileText.split('\n').forEach(function (line) {
+                stringLoader(line + '\n');
+            });
+            console.log('Finished loading file');
+        };
+        reader.readAsText(fileName);
+    };
+    LoaderComponent.prototype.triggerFile = function (fileInput) {
+        this.asynchronousReadFile(fileInput.files[0]);
+    };
+    LoaderComponent.prototype.loadFileURL = function (fileInput) {
+        var _this = this;
+        if (!fileInput) {
+            alert("No file selected");
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.setData(new __WEBPACK_IMPORTED_MODULE_2__shared_data__["a" /* CalculatedData */]());
+        this.data = __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.getData();
+        var reader = new FileReader();
+        this.http.get(fileInput)
+            .subscribe(function (file) {
+            var fileText = file.text();
+            console.log("Loaded file");
+            var fp = new __WEBPACK_IMPORTED_MODULE_1__shared_fileparser__["a" /* FileParser */]();
+            var callback = function (l) {
+                _this.data.loadData(l);
+                __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.dataChanged();
+            };
+            var stringLoader = __WEBPACK_IMPORTED_MODULE_1__shared_fileparser__["a" /* FileParser */].parseLines(callback);
+            fileText.split('\n').forEach(function (line) {
+                stringLoader(line + '\n');
+            });
+            console.log('Finished loading file');
+        });
+    };
+    LoaderComponent.prototype.ngOnInit = function () {
+        this.data = __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.getData();
+    };
+    LoaderComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            template: __webpack_require__("../../../../../src/app/icons/simple-line-icons.component.html")
+            template: __webpack_require__("../../../../../src/app/loader/loader.component.html")
         }),
-        __metadata("design:paramtypes", [])
-    ], SimpleLineIconsComponent);
-    return SimpleLineIconsComponent;
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_http__["b" /* Http */]) === "function" && _a || Object])
+    ], LoaderComponent);
+    return LoaderComponent;
+    var _a;
 }());
 
-//# sourceMappingURL=simple-line-icons.component.js.map
+//# sourceMappingURL=loader.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/loader/loader.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_charts_ng2_charts__ = __webpack_require__("../../../../ng2-charts/ng2-charts.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_charts_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_ng2_charts_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_bootstrap_dropdown__ = __webpack_require__("../../../../ngx-bootstrap/dropdown/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loader_component__ = __webpack_require__("../../../../../src/app/loader/loader.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loader_routing_module__ = __webpack_require__("../../../../../src/app/loader/loader-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoaderModule", function() { return LoaderModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var LoaderModule = (function () {
+    function LoaderModule() {
+    }
+    LoaderModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__loader_routing_module__["a" /* LoaderRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ng2_charts_ng2_charts__["ChartsModule"],
+                __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ngx_bootstrap_dropdown__["a" /* BsDropdownModule */]
+            ],
+            declarations: [__WEBPACK_IMPORTED_MODULE_3__loader_component__["a" /* LoaderComponent */]]
+        })
+    ], LoaderModule);
+    return LoaderModule;
+}());
+
+//# sourceMappingURL=loader.module.js.map
+
+/***/ }),
+
+/***/ "../../../http/@angular/http.es5.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__("../../../../tslib/tslib.es6.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__("../../../../rxjs/Observable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* unused harmony export BrowserXhr */
+/* unused harmony export JSONPBackend */
+/* unused harmony export JSONPConnection */
+/* unused harmony export CookieXSRFStrategy */
+/* unused harmony export XHRBackend */
+/* unused harmony export XHRConnection */
+/* unused harmony export BaseRequestOptions */
+/* unused harmony export RequestOptions */
+/* unused harmony export BaseResponseOptions */
+/* unused harmony export ResponseOptions */
+/* unused harmony export ReadyState */
+/* unused harmony export RequestMethod */
+/* unused harmony export ResponseContentType */
+/* unused harmony export ResponseType */
+/* unused harmony export Headers */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Http; });
+/* unused harmony export Jsonp */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpModule; });
+/* unused harmony export JsonpModule */
+/* unused harmony export Connection */
+/* unused harmony export ConnectionBackend */
+/* unused harmony export XSRFStrategy */
+/* unused harmony export Request */
+/* unused harmony export Response */
+/* unused harmony export QueryEncoder */
+/* unused harmony export URLSearchParams */
+/* unused harmony export VERSION */
+/* unused harmony export ɵg */
+/* unused harmony export ɵa */
+/* unused harmony export ɵf */
+/* unused harmony export ɵb */
+/* unused harmony export ɵc */
+/* unused harmony export ɵd */
+
+/**
+ * @license Angular v4.2.5
+ * (c) 2010-2017 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * A backend for http that uses the `XMLHttpRequest` browser API.
+ *
+ * Take care not to evaluate this in non-browser contexts.
+ *
+ * \@experimental
+ */
+var BrowserXhr = (function () {
+    function BrowserXhr() {
+    }
+    /**
+     * @return {?}
+     */
+    BrowserXhr.prototype.build = function () { return ((new XMLHttpRequest())); };
+    return BrowserXhr;
+}());
+BrowserXhr.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+BrowserXhr.ctorParameters = function () { return []; };
+var RequestMethod = {};
+RequestMethod.Get = 0;
+RequestMethod.Post = 1;
+RequestMethod.Put = 2;
+RequestMethod.Delete = 3;
+RequestMethod.Options = 4;
+RequestMethod.Head = 5;
+RequestMethod.Patch = 6;
+RequestMethod[RequestMethod.Get] = "Get";
+RequestMethod[RequestMethod.Post] = "Post";
+RequestMethod[RequestMethod.Put] = "Put";
+RequestMethod[RequestMethod.Delete] = "Delete";
+RequestMethod[RequestMethod.Options] = "Options";
+RequestMethod[RequestMethod.Head] = "Head";
+RequestMethod[RequestMethod.Patch] = "Patch";
+var ReadyState = {};
+ReadyState.Unsent = 0;
+ReadyState.Open = 1;
+ReadyState.HeadersReceived = 2;
+ReadyState.Loading = 3;
+ReadyState.Done = 4;
+ReadyState.Cancelled = 5;
+ReadyState[ReadyState.Unsent] = "Unsent";
+ReadyState[ReadyState.Open] = "Open";
+ReadyState[ReadyState.HeadersReceived] = "HeadersReceived";
+ReadyState[ReadyState.Loading] = "Loading";
+ReadyState[ReadyState.Done] = "Done";
+ReadyState[ReadyState.Cancelled] = "Cancelled";
+var ResponseType = {};
+ResponseType.Basic = 0;
+ResponseType.Cors = 1;
+ResponseType.Default = 2;
+ResponseType.Error = 3;
+ResponseType.Opaque = 4;
+ResponseType[ResponseType.Basic] = "Basic";
+ResponseType[ResponseType.Cors] = "Cors";
+ResponseType[ResponseType.Default] = "Default";
+ResponseType[ResponseType.Error] = "Error";
+ResponseType[ResponseType.Opaque] = "Opaque";
+var ContentType = {};
+ContentType.NONE = 0;
+ContentType.JSON = 1;
+ContentType.FORM = 2;
+ContentType.FORM_DATA = 3;
+ContentType.TEXT = 4;
+ContentType.BLOB = 5;
+ContentType.ARRAY_BUFFER = 6;
+ContentType[ContentType.NONE] = "NONE";
+ContentType[ContentType.JSON] = "JSON";
+ContentType[ContentType.FORM] = "FORM";
+ContentType[ContentType.FORM_DATA] = "FORM_DATA";
+ContentType[ContentType.TEXT] = "TEXT";
+ContentType[ContentType.BLOB] = "BLOB";
+ContentType[ContentType.ARRAY_BUFFER] = "ARRAY_BUFFER";
+var ResponseContentType = {};
+ResponseContentType.Text = 0;
+ResponseContentType.Json = 1;
+ResponseContentType.ArrayBuffer = 2;
+ResponseContentType.Blob = 3;
+ResponseContentType[ResponseContentType.Text] = "Text";
+ResponseContentType[ResponseContentType.Json] = "Json";
+ResponseContentType[ResponseContentType.ArrayBuffer] = "ArrayBuffer";
+ResponseContentType[ResponseContentType.Blob] = "Blob";
+/**
+ * Polyfill for [Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers), as
+ * specified in the [Fetch Spec](https://fetch.spec.whatwg.org/#headers-class).
+ *
+ * The only known difference between this `Headers` implementation and the spec is the
+ * lack of an `entries` method.
+ *
+ * ### Example
+ *
+ * ```
+ * import {Headers} from '\@angular/http';
+ *
+ * var firstHeaders = new Headers();
+ * firstHeaders.append('Content-Type', 'image/jpeg');
+ * console.log(firstHeaders.get('Content-Type')) //'image/jpeg'
+ *
+ * // Create headers from Plain Old JavaScript Object
+ * var secondHeaders = new Headers({
+ *   'X-My-Custom-Header': 'Angular'
+ * });
+ * console.log(secondHeaders.get('X-My-Custom-Header')); //'Angular'
+ *
+ * var thirdHeaders = new Headers(secondHeaders);
+ * console.log(thirdHeaders.get('X-My-Custom-Header')); //'Angular'
+ * ```
+ *
+ * \@experimental
+ */
+var Headers = (function () {
+    /**
+     * @param {?=} headers
+     */
+    function Headers(headers) {
+        var _this = this;
+        /**
+         * \@internal header names are lower case
+         */
+        this._headers = new Map();
+        /**
+         * \@internal map lower case names to actual names
+         */
+        this._normalizedNames = new Map();
+        if (!headers) {
+            return;
+        }
+        if (headers instanceof Headers) {
+            headers.forEach(function (values, name) {
+                values.forEach(function (value) { return _this.append(name, value); });
+            });
+            return;
+        }
+        Object.keys(headers).forEach(function (name) {
+            var values = Array.isArray(headers[name]) ? headers[name] : [headers[name]];
+            _this.delete(name);
+            values.forEach(function (value) { return _this.append(name, value); });
+        });
+    }
+    /**
+     * Returns a new Headers instance from the given DOMString of Response Headers
+     * @param {?} headersString
+     * @return {?}
+     */
+    Headers.fromResponseHeaderString = function (headersString) {
+        var /** @type {?} */ headers = new Headers();
+        headersString.split('\n').forEach(function (line) {
+            var /** @type {?} */ index = line.indexOf(':');
+            if (index > 0) {
+                var /** @type {?} */ name = line.slice(0, index);
+                var /** @type {?} */ value = line.slice(index + 1).trim();
+                headers.set(name, value);
+            }
+        });
+        return headers;
+    };
+    /**
+     * Appends a header to existing list of header values for a given header name.
+     * @param {?} name
+     * @param {?} value
+     * @return {?}
+     */
+    Headers.prototype.append = function (name, value) {
+        var /** @type {?} */ values = this.getAll(name);
+        if (values === null) {
+            this.set(name, value);
+        }
+        else {
+            values.push(value);
+        }
+    };
+    /**
+     * Deletes all header values for the given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.delete = function (name) {
+        var /** @type {?} */ lcName = name.toLowerCase();
+        this._normalizedNames.delete(lcName);
+        this._headers.delete(lcName);
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    Headers.prototype.forEach = function (fn) {
+        var _this = this;
+        this._headers.forEach(function (values, lcName) { return fn(values, _this._normalizedNames.get(lcName), _this._headers); });
+    };
+    /**
+     * Returns first header that matches given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.get = function (name) {
+        var /** @type {?} */ values = this.getAll(name);
+        if (values === null) {
+            return null;
+        }
+        return values.length > 0 ? values[0] : null;
+    };
+    /**
+     * Checks for existence of header by given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.has = function (name) { return this._headers.has(name.toLowerCase()); };
+    /**
+     * Returns the names of the headers
+     * @return {?}
+     */
+    Headers.prototype.keys = function () { return Array.from(this._normalizedNames.values()); };
+    /**
+     * Sets or overrides header value for given name.
+     * @param {?} name
+     * @param {?} value
+     * @return {?}
+     */
+    Headers.prototype.set = function (name, value) {
+        if (Array.isArray(value)) {
+            if (value.length) {
+                this._headers.set(name.toLowerCase(), [value.join(',')]);
+            }
+        }
+        else {
+            this._headers.set(name.toLowerCase(), [value]);
+        }
+        this.mayBeSetNormalizedName(name);
+    };
+    /**
+     * Returns values of all headers.
+     * @return {?}
+     */
+    Headers.prototype.values = function () { return Array.from(this._headers.values()); };
+    /**
+     * @return {?}
+     */
+    Headers.prototype.toJSON = function () {
+        var _this = this;
+        var /** @type {?} */ serialized = {};
+        this._headers.forEach(function (values, name) {
+            var /** @type {?} */ split = [];
+            values.forEach(function (v) { return split.push.apply(split, v.split(',')); });
+            serialized[((_this._normalizedNames.get(name)))] = split;
+        });
+        return serialized;
+    };
+    /**
+     * Returns list of header values for a given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.getAll = function (name) {
+        return this.has(name) ? this._headers.get(name.toLowerCase()) || null : null;
+    };
+    /**
+     * This method is not implemented.
+     * @return {?}
+     */
+    Headers.prototype.entries = function () { throw new Error('"entries" method is not implemented on Headers class'); };
+    /**
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.mayBeSetNormalizedName = function (name) {
+        var /** @type {?} */ lcName = name.toLowerCase();
+        if (!this._normalizedNames.has(lcName)) {
+            this._normalizedNames.set(lcName, name);
+        }
+    };
+    return Headers;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates a response options object to be optionally provided when instantiating a
+ * {\@link Response}.
+ *
+ * This class is based on the `ResponseInit` description in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#responseinit).
+ *
+ * All values are null by default. Typical defaults can be found in the
+ * {\@link BaseResponseOptions} class, which sub-classes `ResponseOptions`.
+ *
+ * This class may be used in tests to build {\@link Response Responses} for
+ * mock responses (see {\@link MockBackend}).
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/P9Jkk8e8cz6NVzbcxEsD?p=preview))
+ *
+ * ```typescript
+ * import {ResponseOptions, Response} from '\@angular/http';
+ *
+ * var options = new ResponseOptions({
+ *   body: '{"name":"Jeff"}'
+ * });
+ * var res = new Response(options);
+ *
+ * console.log('res.json():', res.json()); // Object {name: "Jeff"}
+ * ```
+ *
+ * \@experimental
+ */
+var ResponseOptions = (function () {
+    /**
+     * @param {?=} opts
+     */
+    function ResponseOptions(opts) {
+        if (opts === void 0) { opts = {}; }
+        var body = opts.body, status = opts.status, headers = opts.headers, statusText = opts.statusText, type = opts.type, url = opts.url;
+        this.body = body != null ? body : null;
+        this.status = status != null ? status : null;
+        this.headers = headers != null ? headers : null;
+        this.statusText = statusText != null ? statusText : null;
+        this.type = type != null ? type : null;
+        this.url = url != null ? url : null;
+    }
+    /**
+     * Creates a copy of the `ResponseOptions` instance, using the optional input as values to
+     * override
+     * existing values. This method will not change the values of the instance on which it is being
+     * called.
+     *
+     * This may be useful when sharing a base `ResponseOptions` object inside tests,
+     * where certain properties may change from test to test.
+     *
+     * ### Example ([live demo](http://plnkr.co/edit/1lXquqFfgduTFBWjNoRE?p=preview))
+     *
+     * ```typescript
+     * import {ResponseOptions, Response} from '\@angular/http';
+     *
+     * var options = new ResponseOptions({
+     *   body: {name: 'Jeff'}
+     * });
+     * var res = new Response(options.merge({
+     *   url: 'https://google.com'
+     * }));
+     * console.log('options.url:', options.url); // null
+     * console.log('res.json():', res.json()); // Object {name: "Jeff"}
+     * console.log('res.url:', res.url); // https://google.com
+     * ```
+     * @param {?=} options
+     * @return {?}
+     */
+    ResponseOptions.prototype.merge = function (options) {
+        return new ResponseOptions({
+            body: options && options.body != null ? options.body : this.body,
+            status: options && options.status != null ? options.status : this.status,
+            headers: options && options.headers != null ? options.headers : this.headers,
+            statusText: options && options.statusText != null ? options.statusText : this.statusText,
+            type: options && options.type != null ? options.type : this.type,
+            url: options && options.url != null ? options.url : this.url,
+        });
+    };
+    return ResponseOptions;
+}());
+/**
+ * Subclass of {\@link ResponseOptions}, with default values.
+ *
+ * Default values:
+ *  * status: 200
+ *  * headers: empty {\@link Headers} object
+ *
+ * This class could be extended and bound to the {\@link ResponseOptions} class
+ * when configuring an {\@link Injector}, in order to override the default options
+ * used by {\@link Http} to create {\@link Response Responses}.
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/qv8DLT?p=preview))
+ *
+ * ```typescript
+ * import {provide} from '\@angular/core';
+ * import {bootstrap} from '\@angular/platform-browser/browser';
+ * import {HTTP_PROVIDERS, Headers, Http, BaseResponseOptions, ResponseOptions} from
+ * '\@angular/http';
+ * import {App} from './myapp';
+ *
+ * class MyOptions extends BaseResponseOptions {
+ *   headers:Headers = new Headers({network: 'github'});
+ * }
+ *
+ * bootstrap(App, [HTTP_PROVIDERS, {provide: ResponseOptions, useClass: MyOptions}]);
+ * ```
+ *
+ * The options could also be extended when manually creating a {\@link Response}
+ * object.
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/VngosOWiaExEtbstDoix?p=preview))
+ *
+ * ```
+ * import {BaseResponseOptions, Response} from '\@angular/http';
+ *
+ * var options = new BaseResponseOptions();
+ * var res = new Response(options.merge({
+ *   body: 'Angular',
+ *   headers: new Headers({framework: 'angular'})
+ * }));
+ * console.log('res.headers.get("framework"):', res.headers.get('framework')); // angular
+ * console.log('res.text():', res.text()); // Angular;
+ * ```
+ *
+ * \@experimental
+ */
+var BaseResponseOptions = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](BaseResponseOptions, _super);
+    function BaseResponseOptions() {
+        return _super.call(this, { status: 200, statusText: 'Ok', type: ResponseType.Default, headers: new Headers() }) || this;
+    }
+    return BaseResponseOptions;
+}(ResponseOptions));
+BaseResponseOptions.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+BaseResponseOptions.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Abstract class from which real backends are derived.
+ *
+ * The primary purpose of a `ConnectionBackend` is to create new connections to fulfill a given
+ * {\@link Request}.
+ *
+ * \@experimental
+ * @abstract
+ */
+var ConnectionBackend = (function () {
+    function ConnectionBackend() {
+    }
+    /**
+     * @abstract
+     * @param {?} request
+     * @return {?}
+     */
+    ConnectionBackend.prototype.createConnection = function (request) { };
+    return ConnectionBackend;
+}());
+/**
+ * Abstract class from which real connections are derived.
+ *
+ * \@experimental
+ * @abstract
+ */
+var Connection = (function () {
+    function Connection() {
+    }
+    return Connection;
+}());
+/**
+ * An XSRFStrategy configures XSRF protection (e.g. via headers) on an HTTP request.
+ *
+ * \@experimental
+ * @abstract
+ */
+var XSRFStrategy = (function () {
+    function XSRFStrategy() {
+    }
+    /**
+     * @abstract
+     * @param {?} req
+     * @return {?}
+     */
+    XSRFStrategy.prototype.configureRequest = function (req) { };
+    return XSRFStrategy;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} method
+ * @return {?}
+ */
+function normalizeMethodName(method) {
+    if (typeof method !== 'string')
+        return method;
+    switch (method.toUpperCase()) {
+        case 'GET':
+            return RequestMethod.Get;
+        case 'POST':
+            return RequestMethod.Post;
+        case 'PUT':
+            return RequestMethod.Put;
+        case 'DELETE':
+            return RequestMethod.Delete;
+        case 'OPTIONS':
+            return RequestMethod.Options;
+        case 'HEAD':
+            return RequestMethod.Head;
+        case 'PATCH':
+            return RequestMethod.Patch;
+    }
+    throw new Error("Invalid request method. The method \"" + method + "\" is not supported.");
+}
+var isSuccess = function (status) { return (status >= 200 && status < 300); };
+/**
+ * @param {?} xhr
+ * @return {?}
+ */
+function getResponseURL(xhr) {
+    if ('responseURL' in xhr) {
+        return xhr.responseURL;
+    }
+    if (/^X-Request-URL:/m.test(xhr.getAllResponseHeaders())) {
+        return xhr.getResponseHeader('X-Request-URL');
+    }
+    return null;
+}
+/**
+ * @param {?} input
+ * @return {?}
+ */
+/**
+ * @param {?} input
+ * @return {?}
+ */
+function stringToArrayBuffer(input) {
+    var /** @type {?} */ view = new Uint16Array(input.length);
+    for (var /** @type {?} */ i = 0, /** @type {?} */ strLen = input.length; i < strLen; i++) {
+        view[i] = input.charCodeAt(i);
+    }
+    return view.buffer;
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ * @param {?=} rawParams
+ * @return {?}
+ */
+function paramParser(rawParams) {
+    if (rawParams === void 0) { rawParams = ''; }
+    var /** @type {?} */ map = new Map();
+    if (rawParams.length > 0) {
+        var /** @type {?} */ params = rawParams.split('&');
+        params.forEach(function (param) {
+            var /** @type {?} */ eqIdx = param.indexOf('=');
+            var _a = eqIdx == -1 ? [param, ''] : [param.slice(0, eqIdx), param.slice(eqIdx + 1)], key = _a[0], val = _a[1];
+            var /** @type {?} */ list = map.get(key) || [];
+            list.push(val);
+            map.set(key, list);
+        });
+    }
+    return map;
+}
+/**
+ * \@experimental
+ *
+ */
+var QueryEncoder = (function () {
+    function QueryEncoder() {
+    }
+    /**
+     * @param {?} k
+     * @return {?}
+     */
+    QueryEncoder.prototype.encodeKey = function (k) { return standardEncoding(k); };
+    /**
+     * @param {?} v
+     * @return {?}
+     */
+    QueryEncoder.prototype.encodeValue = function (v) { return standardEncoding(v); };
+    return QueryEncoder;
+}());
+/**
+ * @param {?} v
+ * @return {?}
+ */
+function standardEncoding(v) {
+    return encodeURIComponent(v)
+        .replace(/%40/gi, '@')
+        .replace(/%3A/gi, ':')
+        .replace(/%24/gi, '$')
+        .replace(/%2C/gi, ',')
+        .replace(/%3B/gi, ';')
+        .replace(/%2B/gi, '+')
+        .replace(/%3D/gi, '=')
+        .replace(/%3F/gi, '?')
+        .replace(/%2F/gi, '/');
+}
+/**
+ * Map-like representation of url search parameters, based on
+ * [URLSearchParams](https://url.spec.whatwg.org/#urlsearchparams) in the url living standard,
+ * with several extensions for merging URLSearchParams objects:
+ *   - setAll()
+ *   - appendAll()
+ *   - replaceAll()
+ *
+ * This class accepts an optional second parameter of ${\@link QueryEncoder},
+ * which is used to serialize parameters before making a request. By default,
+ * `QueryEncoder` encodes keys and values of parameters using `encodeURIComponent`,
+ * and then un-encodes certain characters that are allowed to be part of the query
+ * according to IETF RFC 3986: https://tools.ietf.org/html/rfc3986.
+ *
+ * These are the characters that are not encoded: `! $ \' ( ) * + , ; A 9 - . _ ~ ? /`
+ *
+ * If the set of allowed query characters is not acceptable for a particular backend,
+ * `QueryEncoder` can be subclassed and provided as the 2nd argument to URLSearchParams.
+ *
+ * ```
+ * import {URLSearchParams, QueryEncoder} from '\@angular/http';
+ * class MyQueryEncoder extends QueryEncoder {
+ *   encodeKey(k: string): string {
+ *     return myEncodingFunction(k);
+ *   }
+ *
+ *   encodeValue(v: string): string {
+ *     return myEncodingFunction(v);
+ *   }
+ * }
+ *
+ * let params = new URLSearchParams('', new MyQueryEncoder());
+ * ```
+ * \@experimental
+ */
+var URLSearchParams = (function () {
+    /**
+     * @param {?=} rawParams
+     * @param {?=} queryEncoder
+     */
+    function URLSearchParams(rawParams, queryEncoder) {
+        if (rawParams === void 0) { rawParams = ''; }
+        if (queryEncoder === void 0) { queryEncoder = new QueryEncoder(); }
+        this.rawParams = rawParams;
+        this.queryEncoder = queryEncoder;
+        this.paramsMap = paramParser(rawParams);
+    }
+    /**
+     * @return {?}
+     */
+    URLSearchParams.prototype.clone = function () {
+        var /** @type {?} */ clone = new URLSearchParams('', this.queryEncoder);
+        clone.appendAll(this);
+        return clone;
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.has = function (param) { return this.paramsMap.has(param); };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.get = function (param) {
+        var /** @type {?} */ storedParam = this.paramsMap.get(param);
+        return Array.isArray(storedParam) ? storedParam[0] : null;
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.getAll = function (param) { return this.paramsMap.get(param) || []; };
+    /**
+     * @param {?} param
+     * @param {?} val
+     * @return {?}
+     */
+    URLSearchParams.prototype.set = function (param, val) {
+        if (val === void 0 || val === null) {
+            this.delete(param);
+            return;
+        }
+        var /** @type {?} */ list = this.paramsMap.get(param) || [];
+        list.length = 0;
+        list.push(val);
+        this.paramsMap.set(param, list);
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.setAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            list.length = 0;
+            list.push(value[0]);
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @param {?} param
+     * @param {?} val
+     * @return {?}
+     */
+    URLSearchParams.prototype.append = function (param, val) {
+        if (val === void 0 || val === null)
+            return;
+        var /** @type {?} */ list = this.paramsMap.get(param) || [];
+        list.push(val);
+        this.paramsMap.set(param, list);
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.appendAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            for (var /** @type {?} */ i = 0; i < value.length; ++i) {
+                list.push(value[i]);
+            }
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.replaceAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            list.length = 0;
+            for (var /** @type {?} */ i = 0; i < value.length; ++i) {
+                list.push(value[i]);
+            }
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @return {?}
+     */
+    URLSearchParams.prototype.toString = function () {
+        var _this = this;
+        var /** @type {?} */ paramsList = [];
+        this.paramsMap.forEach(function (values, k) {
+            values.forEach(function (v) { return paramsList.push(_this.queryEncoder.encodeKey(k) + '=' + _this.queryEncoder.encodeValue(v)); });
+        });
+        return paramsList.join('&');
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.delete = function (param) { this.paramsMap.delete(param); };
+    return URLSearchParams;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * HTTP request body used by both {\@link Request} and {\@link Response}
+ * https://fetch.spec.whatwg.org/#body
+ * @abstract
+ */
+var Body = (function () {
+    function Body() {
+    }
+    /**
+     * Attempts to return body as parsed `JSON` object, or raises an exception.
+     * @return {?}
+     */
+    Body.prototype.json = function () {
+        if (typeof this._body === 'string') {
+            return JSON.parse(/** @type {?} */ (this._body));
+        }
+        if (this._body instanceof ArrayBuffer) {
+            return JSON.parse(this.text());
+        }
+        return this._body;
+    };
+    /**
+     * Returns the body as a string, presuming `toString()` can be called on the response body.
+     *
+     * When decoding an `ArrayBuffer`, the optional `encodingHint` parameter determines how the
+     * bytes in the buffer will be interpreted. Valid values are:
+     *
+     * - `legacy` - incorrectly interpret the bytes as UTF-16 (technically, UCS-2). Only characters
+     *   in the Basic Multilingual Plane are supported, surrogate pairs are not handled correctly.
+     *   In addition, the endianness of the 16-bit octet pairs in the `ArrayBuffer` is not taken
+     *   into consideration. This is the default behavior to avoid breaking apps, but should be
+     *   considered deprecated.
+     *
+     * - `iso-8859` - interpret the bytes as ISO-8859 (which can be used for ASCII encoded text).
+     * @param {?=} encodingHint
+     * @return {?}
+     */
+    Body.prototype.text = function (encodingHint) {
+        if (encodingHint === void 0) { encodingHint = 'legacy'; }
+        if (this._body instanceof URLSearchParams) {
+            return this._body.toString();
+        }
+        if (this._body instanceof ArrayBuffer) {
+            switch (encodingHint) {
+                case 'legacy':
+                    return String.fromCharCode.apply(null, new Uint16Array(/** @type {?} */ (this._body)));
+                case 'iso-8859':
+                    return String.fromCharCode.apply(null, new Uint8Array(/** @type {?} */ (this._body)));
+                default:
+                    throw new Error("Invalid value for encodingHint: " + encodingHint);
+            }
+        }
+        if (this._body == null) {
+            return '';
+        }
+        if (typeof this._body === 'object') {
+            return JSON.stringify(this._body, null, 2);
+        }
+        return this._body.toString();
+    };
+    /**
+     * Return the body as an ArrayBuffer
+     * @return {?}
+     */
+    Body.prototype.arrayBuffer = function () {
+        if (this._body instanceof ArrayBuffer) {
+            return (this._body);
+        }
+        return stringToArrayBuffer(this.text());
+    };
+    /**
+     * Returns the request's body as a Blob, assuming that body exists.
+     * @return {?}
+     */
+    Body.prototype.blob = function () {
+        if (this._body instanceof Blob) {
+            return (this._body);
+        }
+        if (this._body instanceof ArrayBuffer) {
+            return new Blob([this._body]);
+        }
+        throw new Error('The request body isn\'t either a blob or an array buffer');
+    };
+    return Body;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates `Response` instances from provided values.
+ *
+ * Though this object isn't
+ * usually instantiated by end-users, it is the primary object interacted with when it comes time to
+ * add data to a view.
+ *
+ * ### Example
+ *
+ * ```
+ * http.request('my-friends.txt').subscribe(response => this.friends = response.text());
+ * ```
+ *
+ * The Response's interface is inspired by the Response constructor defined in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#response-class), but is considered a static value whose body
+ * can be accessed many times. There are other differences in the implementation, but this is the
+ * most significant.
+ *
+ * \@experimental
+ */
+var Response = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Response, _super);
+    /**
+     * @param {?} responseOptions
+     */
+    function Response(responseOptions) {
+        var _this = _super.call(this) || this;
+        _this._body = responseOptions.body;
+        _this.status = responseOptions.status;
+        _this.ok = (_this.status >= 200 && _this.status <= 299);
+        _this.statusText = responseOptions.statusText;
+        _this.headers = responseOptions.headers;
+        _this.type = responseOptions.type;
+        _this.url = responseOptions.url;
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    Response.prototype.toString = function () {
+        return "Response with status: " + this.status + " " + this.statusText + " for URL: " + this.url;
+    };
+    return Response;
+}(Body));
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var _nextRequestId = 0;
+var JSONP_HOME = '__ng_jsonp__';
+var _jsonpConnections = null;
+/**
+ * @return {?}
+ */
+function _getJsonpConnections() {
+    var /** @type {?} */ w = typeof window == 'object' ? window : {};
+    if (_jsonpConnections === null) {
+        _jsonpConnections = w[JSONP_HOME] = {};
+    }
+    return _jsonpConnections;
+}
+var BrowserJsonp = (function () {
+    function BrowserJsonp() {
+    }
+    /**
+     * @param {?} url
+     * @return {?}
+     */
+    BrowserJsonp.prototype.build = function (url) {
+        var /** @type {?} */ node = document.createElement('script');
+        node.src = url;
+        return node;
+    };
+    /**
+     * @return {?}
+     */
+    BrowserJsonp.prototype.nextRequestID = function () { return "__req" + _nextRequestId++; };
+    /**
+     * @param {?} id
+     * @return {?}
+     */
+    BrowserJsonp.prototype.requestCallback = function (id) { return JSONP_HOME + "." + id + ".finished"; };
+    /**
+     * @param {?} id
+     * @param {?} connection
+     * @return {?}
+     */
+    BrowserJsonp.prototype.exposeConnection = function (id, connection) {
+        var /** @type {?} */ connections = _getJsonpConnections();
+        connections[id] = connection;
+    };
+    /**
+     * @param {?} id
+     * @return {?}
+     */
+    BrowserJsonp.prototype.removeConnection = function (id) {
+        var /** @type {?} */ connections = _getJsonpConnections();
+        connections[id] = null;
+    };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    BrowserJsonp.prototype.send = function (node) { document.body.appendChild(/** @type {?} */ ((node))); };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    BrowserJsonp.prototype.cleanup = function (node) {
+        if (node.parentNode) {
+            node.parentNode.removeChild(/** @type {?} */ ((node)));
+        }
+    };
+    return BrowserJsonp;
+}());
+BrowserJsonp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+BrowserJsonp.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.';
+var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use GET request method.';
+/**
+ * Abstract base class for an in-flight JSONP request.
+ *
+ * \@experimental
+ * @abstract
+ */
+var JSONPConnection = (function () {
+    function JSONPConnection() {
+    }
+    /**
+     * Callback called when the JSONP request completes, to notify the application
+     * of the new data.
+     * @abstract
+     * @param {?=} data
+     * @return {?}
+     */
+    JSONPConnection.prototype.finished = function (data) { };
+    return JSONPConnection;
+}());
+var JSONPConnection_ = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPConnection_, _super);
+    /**
+     * @param {?} req
+     * @param {?} _dom
+     * @param {?=} baseResponseOptions
+     */
+    function JSONPConnection_(req, _dom, baseResponseOptions) {
+        var _this = _super.call(this) || this;
+        _this._dom = _dom;
+        _this.baseResponseOptions = baseResponseOptions;
+        _this._finished = false;
+        if (req.method !== RequestMethod.Get) {
+            throw new TypeError(JSONP_ERR_WRONG_METHOD);
+        }
+        _this.request = req;
+        _this.response = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (responseObserver) {
+            _this.readyState = ReadyState.Loading;
+            var id = _this._id = _dom.nextRequestID();
+            _dom.exposeConnection(id, _this);
+            // Workaround Dart
+            // url = url.replace(/=JSONP_CALLBACK(&|$)/, `generated method`);
+            var callback = _dom.requestCallback(_this._id);
+            var url = req.url;
+            if (url.indexOf('=JSONP_CALLBACK&') > -1) {
+                url = url.replace('=JSONP_CALLBACK&', "=" + callback + "&");
+            }
+            else if (url.lastIndexOf('=JSONP_CALLBACK') === url.length - '=JSONP_CALLBACK'.length) {
+                url = url.substring(0, url.length - '=JSONP_CALLBACK'.length) + ("=" + callback);
+            }
+            var script = _this._script = _dom.build(url);
+            var onLoad = function (event) {
+                if (_this.readyState === ReadyState.Cancelled)
+                    return;
+                _this.readyState = ReadyState.Done;
+                _dom.cleanup(script);
+                if (!_this._finished) {
+                    var responseOptions_1 = new ResponseOptions({ body: JSONP_ERR_NO_CALLBACK, type: ResponseType.Error, url: url });
+                    if (baseResponseOptions) {
+                        responseOptions_1 = baseResponseOptions.merge(responseOptions_1);
+                    }
+                    responseObserver.error(new Response(responseOptions_1));
+                    return;
+                }
+                var responseOptions = new ResponseOptions({ body: _this._responseData, url: url });
+                if (_this.baseResponseOptions) {
+                    responseOptions = _this.baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.next(new Response(responseOptions));
+                responseObserver.complete();
+            };
+            var onError = function (error) {
+                if (_this.readyState === ReadyState.Cancelled)
+                    return;
+                _this.readyState = ReadyState.Done;
+                _dom.cleanup(script);
+                var responseOptions = new ResponseOptions({ body: error.message, type: ResponseType.Error });
+                if (baseResponseOptions) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.error(new Response(responseOptions));
+            };
+            script.addEventListener('load', onLoad);
+            script.addEventListener('error', onError);
+            _dom.send(script);
+            return function () {
+                _this.readyState = ReadyState.Cancelled;
+                script.removeEventListener('load', onLoad);
+                script.removeEventListener('error', onError);
+                _this._dom.cleanup(script);
+            };
+        });
+        return _this;
+    }
+    /**
+     * @param {?=} data
+     * @return {?}
+     */
+    JSONPConnection_.prototype.finished = function (data) {
+        // Don't leak connections
+        this._finished = true;
+        this._dom.removeConnection(this._id);
+        if (this.readyState === ReadyState.Cancelled)
+            return;
+        this._responseData = data;
+    };
+    return JSONPConnection_;
+}(JSONPConnection));
+/**
+ * A {\@link ConnectionBackend} that uses the JSONP strategy of making requests.
+ *
+ * \@experimental
+ * @abstract
+ */
+var JSONPBackend = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPBackend, _super);
+    function JSONPBackend() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return JSONPBackend;
+}(ConnectionBackend));
+var JSONPBackend_ = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPBackend_, _super);
+    /**
+     * @param {?} _browserJSONP
+     * @param {?} _baseResponseOptions
+     */
+    function JSONPBackend_(_browserJSONP, _baseResponseOptions) {
+        var _this = _super.call(this) || this;
+        _this._browserJSONP = _browserJSONP;
+        _this._baseResponseOptions = _baseResponseOptions;
+        return _this;
+    }
+    /**
+     * @param {?} request
+     * @return {?}
+     */
+    JSONPBackend_.prototype.createConnection = function (request) {
+        return new JSONPConnection_(request, this._browserJSONP, this._baseResponseOptions);
+    };
+    return JSONPBackend_;
+}(JSONPBackend));
+JSONPBackend_.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+JSONPBackend_.ctorParameters = function () { return [
+    { type: BrowserJsonp, },
+    { type: ResponseOptions, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var XSSI_PREFIX = /^\)\]\}',?\n/;
+/**
+ * Creates connections using `XMLHttpRequest`. Given a fully-qualified
+ * request, an `XHRConnection` will immediately create an `XMLHttpRequest` object and send the
+ * request.
+ *
+ * This class would typically not be created or interacted with directly inside applications, though
+ * the {\@link MockConnection} may be interacted with in tests.
+ *
+ * \@experimental
+ */
+var XHRConnection = (function () {
+    /**
+     * @param {?} req
+     * @param {?} browserXHR
+     * @param {?=} baseResponseOptions
+     */
+    function XHRConnection(req, browserXHR, baseResponseOptions) {
+        var _this = this;
+        this.request = req;
+        this.response = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (responseObserver) {
+            var _xhr = browserXHR.build();
+            _xhr.open(RequestMethod[req.method].toUpperCase(), req.url);
+            if (req.withCredentials != null) {
+                _xhr.withCredentials = req.withCredentials;
+            }
+            // load event handler
+            var onLoad = function () {
+                // normalize IE9 bug (http://bugs.jquery.com/ticket/1450)
+                var status = _xhr.status === 1223 ? 204 : _xhr.status;
+                var body = null;
+                // HTTP 204 means no content
+                if (status !== 204) {
+                    // responseText is the old-school way of retrieving response (supported by IE8 & 9)
+                    // response/responseType properties were introduced in ResourceLoader Level2 spec
+                    // (supported by IE10)
+                    body = (typeof _xhr.response === 'undefined') ? _xhr.responseText : _xhr.response;
+                    // Implicitly strip a potential XSSI prefix.
+                    if (typeof body === 'string') {
+                        body = body.replace(XSSI_PREFIX, '');
+                    }
+                }
+                // fix status code when it is 0 (0 status is undocumented).
+                // Occurs when accessing file resources or on Android 4.1 stock browser
+                // while retrieving files from application cache.
+                if (status === 0) {
+                    status = body ? 200 : 0;
+                }
+                var headers = Headers.fromResponseHeaderString(_xhr.getAllResponseHeaders());
+                // IE 9 does not provide the way to get URL of response
+                var url = getResponseURL(_xhr) || req.url;
+                var statusText = _xhr.statusText || 'OK';
+                var responseOptions = new ResponseOptions({ body: body, status: status, headers: headers, statusText: statusText, url: url });
+                if (baseResponseOptions != null) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                var response = new Response(responseOptions);
+                response.ok = isSuccess(status);
+                if (response.ok) {
+                    responseObserver.next(response);
+                    // TODO(gdi2290): defer complete if array buffer until done
+                    responseObserver.complete();
+                    return;
+                }
+                responseObserver.error(response);
+            };
+            // error event handler
+            var onError = function (err) {
+                var responseOptions = new ResponseOptions({
+                    body: err,
+                    type: ResponseType.Error,
+                    status: _xhr.status,
+                    statusText: _xhr.statusText,
+                });
+                if (baseResponseOptions != null) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.error(new Response(responseOptions));
+            };
+            _this.setDetectedContentType(req, _xhr);
+            if (req.headers == null) {
+                req.headers = new Headers();
+            }
+            if (!req.headers.has('Accept')) {
+                req.headers.append('Accept', 'application/json, text/plain, */*');
+            }
+            req.headers.forEach(function (values, name) { return _xhr.setRequestHeader(name, values.join(',')); });
+            // Select the correct buffer type to store the response
+            if (req.responseType != null && _xhr.responseType != null) {
+                switch (req.responseType) {
+                    case ResponseContentType.ArrayBuffer:
+                        _xhr.responseType = 'arraybuffer';
+                        break;
+                    case ResponseContentType.Json:
+                        _xhr.responseType = 'json';
+                        break;
+                    case ResponseContentType.Text:
+                        _xhr.responseType = 'text';
+                        break;
+                    case ResponseContentType.Blob:
+                        _xhr.responseType = 'blob';
+                        break;
+                    default:
+                        throw new Error('The selected responseType is not supported');
+                }
+            }
+            _xhr.addEventListener('load', onLoad);
+            _xhr.addEventListener('error', onError);
+            _xhr.send(_this.request.getBody());
+            return function () {
+                _xhr.removeEventListener('load', onLoad);
+                _xhr.removeEventListener('error', onError);
+                _xhr.abort();
+            };
+        });
+    }
+    /**
+     * @param {?} req
+     * @param {?} _xhr
+     * @return {?}
+     */
+    XHRConnection.prototype.setDetectedContentType = function (req /** TODO Request */, _xhr /** XMLHttpRequest */) {
+        // Skip if a custom Content-Type header is provided
+        if (req.headers != null && req.headers.get('Content-Type') != null) {
+            return;
+        }
+        // Set the detected content type
+        switch (req.contentType) {
+            case ContentType.NONE:
+                break;
+            case ContentType.JSON:
+                _xhr.setRequestHeader('content-type', 'application/json');
+                break;
+            case ContentType.FORM:
+                _xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
+                break;
+            case ContentType.TEXT:
+                _xhr.setRequestHeader('content-type', 'text/plain');
+                break;
+            case ContentType.BLOB:
+                var /** @type {?} */ blob = req.blob();
+                if (blob.type) {
+                    _xhr.setRequestHeader('content-type', blob.type);
+                }
+                break;
+        }
+    };
+    return XHRConnection;
+}());
+/**
+ * `XSRFConfiguration` sets up Cross Site Request Forgery (XSRF) protection for the application
+ * using a cookie. See https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+ * for more information on XSRF.
+ *
+ * Applications can configure custom cookie and header names by binding an instance of this class
+ * with different `cookieName` and `headerName` values. See the main HTTP documentation for more
+ * details.
+ *
+ * \@experimental
+ */
+var CookieXSRFStrategy = (function () {
+    /**
+     * @param {?=} _cookieName
+     * @param {?=} _headerName
+     */
+    function CookieXSRFStrategy(_cookieName, _headerName) {
+        if (_cookieName === void 0) { _cookieName = 'XSRF-TOKEN'; }
+        if (_headerName === void 0) { _headerName = 'X-XSRF-TOKEN'; }
+        this._cookieName = _cookieName;
+        this._headerName = _headerName;
+    }
+    /**
+     * @param {?} req
+     * @return {?}
+     */
+    CookieXSRFStrategy.prototype.configureRequest = function (req) {
+        var /** @type {?} */ xsrfToken = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["b" /* ɵgetDOM */])().getCookie(this._cookieName);
+        if (xsrfToken) {
+            req.headers.set(this._headerName, xsrfToken);
+        }
+    };
+    return CookieXSRFStrategy;
+}());
+/**
+ * Creates {\@link XHRConnection} instances.
+ *
+ * This class would typically not be used by end users, but could be
+ * overridden if a different backend implementation should be used,
+ * such as in a node backend.
+ *
+ * ### Example
+ *
+ * ```
+ * import {Http, MyNodeBackend, HTTP_PROVIDERS, BaseRequestOptions} from '\@angular/http';
+ * \@Component({
+ *   viewProviders: [
+ *     HTTP_PROVIDERS,
+ *     {provide: Http, useFactory: (backend, options) => {
+ *       return new Http(backend, options);
+ *     }, deps: [MyNodeBackend, BaseRequestOptions]}]
+ * })
+ * class MyComponent {
+ *   constructor(http:Http) {
+ *     http.request('people.json').subscribe(res => this.people = res.json());
+ *   }
+ * }
+ * ```
+ * \@experimental
+ */
+var XHRBackend = (function () {
+    /**
+     * @param {?} _browserXHR
+     * @param {?} _baseResponseOptions
+     * @param {?} _xsrfStrategy
+     */
+    function XHRBackend(_browserXHR, _baseResponseOptions, _xsrfStrategy) {
+        this._browserXHR = _browserXHR;
+        this._baseResponseOptions = _baseResponseOptions;
+        this._xsrfStrategy = _xsrfStrategy;
+    }
+    /**
+     * @param {?} request
+     * @return {?}
+     */
+    XHRBackend.prototype.createConnection = function (request) {
+        this._xsrfStrategy.configureRequest(request);
+        return new XHRConnection(request, this._browserXHR, this._baseResponseOptions);
+    };
+    return XHRBackend;
+}());
+XHRBackend.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+XHRBackend.ctorParameters = function () { return [
+    { type: BrowserXhr, },
+    { type: ResponseOptions, },
+    { type: XSRFStrategy, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates a request options object to be optionally provided when instantiating a
+ * {\@link Request}.
+ *
+ * This class is based on the `RequestInit` description in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#requestinit).
+ *
+ * All values are null by default. Typical defaults can be found in the {\@link BaseRequestOptions}
+ * class, which sub-classes `RequestOptions`.
+ *
+ * ```typescript
+ * import {RequestOptions, Request, RequestMethod} from '\@angular/http';
+ *
+ * const options = new RequestOptions({
+ *   method: RequestMethod.Post,
+ *   url: 'https://google.com'
+ * });
+ * const req = new Request(options);
+ * console.log('req.method:', RequestMethod[req.method]); // Post
+ * console.log('options.url:', options.url); // https://google.com
+ * ```
+ *
+ * \@experimental
+ */
+var RequestOptions = (function () {
+    /**
+     * @param {?=} opts
+     */
+    function RequestOptions(opts) {
+        if (opts === void 0) { opts = {}; }
+        var method = opts.method, headers = opts.headers, body = opts.body, url = opts.url, search = opts.search, params = opts.params, withCredentials = opts.withCredentials, responseType = opts.responseType;
+        this.method = method != null ? normalizeMethodName(method) : null;
+        this.headers = headers != null ? headers : null;
+        this.body = body != null ? body : null;
+        this.url = url != null ? url : null;
+        this.params = this._mergeSearchParams(params || search);
+        this.withCredentials = withCredentials != null ? withCredentials : null;
+        this.responseType = responseType != null ? responseType : null;
+    }
+    Object.defineProperty(RequestOptions.prototype, "search", {
+        /**
+         * @deprecated from 4.0.0. Use params instead.
+         * @return {?}
+         */
+        get: function () { return this.params; },
+        /**
+         * @deprecated from 4.0.0. Use params instead.
+         * @param {?} params
+         * @return {?}
+         */
+        set: function (params) { this.params = params; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Creates a copy of the `RequestOptions` instance, using the optional input as values to override
+     * existing values. This method will not change the values of the instance on which it is being
+     * called.
+     *
+     * Note that `headers` and `search` will override existing values completely if present in
+     * the `options` object. If these values should be merged, it should be done prior to calling
+     * `merge` on the `RequestOptions` instance.
+     *
+     * ```typescript
+     * import {RequestOptions, Request, RequestMethod} from '\@angular/http';
+     *
+     * const options = new RequestOptions({
+     *   method: RequestMethod.Post
+     * });
+     * const req = new Request(options.merge({
+     *   url: 'https://google.com'
+     * }));
+     * console.log('req.method:', RequestMethod[req.method]); // Post
+     * console.log('options.url:', options.url); // null
+     * console.log('req.url:', req.url); // https://google.com
+     * ```
+     * @param {?=} options
+     * @return {?}
+     */
+    RequestOptions.prototype.merge = function (options) {
+        return new RequestOptions({
+            method: options && options.method != null ? options.method : this.method,
+            headers: options && options.headers != null ? options.headers : new Headers(this.headers),
+            body: options && options.body != null ? options.body : this.body,
+            url: options && options.url != null ? options.url : this.url,
+            params: options && this._mergeSearchParams(options.params || options.search),
+            withCredentials: options && options.withCredentials != null ? options.withCredentials :
+                this.withCredentials,
+            responseType: options && options.responseType != null ? options.responseType :
+                this.responseType
+        });
+    };
+    /**
+     * @param {?=} params
+     * @return {?}
+     */
+    RequestOptions.prototype._mergeSearchParams = function (params) {
+        if (!params)
+            return this.params;
+        if (params instanceof URLSearchParams) {
+            return params.clone();
+        }
+        if (typeof params === 'string') {
+            return new URLSearchParams(params);
+        }
+        return this._parseParams(params);
+    };
+    /**
+     * @param {?=} objParams
+     * @return {?}
+     */
+    RequestOptions.prototype._parseParams = function (objParams) {
+        var _this = this;
+        if (objParams === void 0) { objParams = {}; }
+        var /** @type {?} */ params = new URLSearchParams();
+        Object.keys(objParams).forEach(function (key) {
+            var /** @type {?} */ value = objParams[key];
+            if (Array.isArray(value)) {
+                value.forEach(function (item) { return _this._appendParam(key, item, params); });
+            }
+            else {
+                _this._appendParam(key, value, params);
+            }
+        });
+        return params;
+    };
+    /**
+     * @param {?} key
+     * @param {?} value
+     * @param {?} params
+     * @return {?}
+     */
+    RequestOptions.prototype._appendParam = function (key, value, params) {
+        if (typeof value !== 'string') {
+            value = JSON.stringify(value);
+        }
+        params.append(key, value);
+    };
+    return RequestOptions;
+}());
+/**
+ * Subclass of {\@link RequestOptions}, with default values.
+ *
+ * Default values:
+ *  * method: {\@link RequestMethod RequestMethod.Get}
+ *  * headers: empty {\@link Headers} object
+ *
+ * This class could be extended and bound to the {\@link RequestOptions} class
+ * when configuring an {\@link Injector}, in order to override the default options
+ * used by {\@link Http} to create and send {\@link Request Requests}.
+ *
+ * ```typescript
+ * import {BaseRequestOptions, RequestOptions} from '\@angular/http';
+ *
+ * class MyOptions extends BaseRequestOptions {
+ *   search: string = 'coreTeam=true';
+ * }
+ *
+ * {provide: RequestOptions, useClass: MyOptions};
+ * ```
+ *
+ * The options could also be extended when manually creating a {\@link Request}
+ * object.
+ *
+ * ```
+ * import {BaseRequestOptions, Request, RequestMethod} from '\@angular/http';
+ *
+ * const options = new BaseRequestOptions();
+ * const req = new Request(options.merge({
+ *   method: RequestMethod.Post,
+ *   url: 'https://google.com'
+ * }));
+ * console.log('req.method:', RequestMethod[req.method]); // Post
+ * console.log('options.url:', options.url); // null
+ * console.log('req.url:', req.url); // https://google.com
+ * ```
+ *
+ * \@experimental
+ */
+var BaseRequestOptions = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](BaseRequestOptions, _super);
+    function BaseRequestOptions() {
+        return _super.call(this, { method: RequestMethod.Get, headers: new Headers() }) || this;
+    }
+    return BaseRequestOptions;
+}(RequestOptions));
+BaseRequestOptions.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+BaseRequestOptions.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates `Request` instances from provided values.
+ *
+ * The Request's interface is inspired by the Request constructor defined in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#request-class),
+ * but is considered a static value whose body can be accessed many times. There are other
+ * differences in the implementation, but this is the most significant.
+ *
+ * `Request` instances are typically created by higher-level classes, like {\@link Http} and
+ * {\@link Jsonp}, but it may occasionally be useful to explicitly create `Request` instances.
+ * One such example is when creating services that wrap higher-level services, like {\@link Http},
+ * where it may be useful to generate a `Request` with arbitrary headers and search params.
+ *
+ * ```typescript
+ * import {Injectable, Injector} from '\@angular/core';
+ * import {HTTP_PROVIDERS, Http, Request, RequestMethod} from '\@angular/http';
+ *
+ * \@Injectable()
+ * class AutoAuthenticator {
+ *   constructor(public http:Http) {}
+ *   request(url:string) {
+ *     return this.http.request(new Request({
+ *       method: RequestMethod.Get,
+ *       url: url,
+ *       search: 'password=123'
+ *     }));
+ *   }
+ * }
+ *
+ * var injector = Injector.resolveAndCreate([HTTP_PROVIDERS, AutoAuthenticator]);
+ * var authenticator = injector.get(AutoAuthenticator);
+ * authenticator.request('people.json').subscribe(res => {
+ *   //URL should have included '?password=123'
+ *   console.log('people', res.json());
+ * });
+ * ```
+ *
+ * \@experimental
+ */
+var Request = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Request, _super);
+    /**
+     * @param {?} requestOptions
+     */
+    function Request(requestOptions) {
+        var _this = _super.call(this) || this;
+        // TODO: assert that url is present
+        var url = requestOptions.url;
+        _this.url = requestOptions.url;
+        var paramsArg = requestOptions.params || requestOptions.search;
+        if (paramsArg) {
+            var params = void 0;
+            if (typeof paramsArg === 'object' && !(paramsArg instanceof URLSearchParams)) {
+                params = urlEncodeParams(paramsArg).toString();
+            }
+            else {
+                params = paramsArg.toString();
+            }
+            if (params.length > 0) {
+                var prefix = '?';
+                if (_this.url.indexOf('?') != -1) {
+                    prefix = (_this.url[_this.url.length - 1] == '&') ? '' : '&';
+                }
+                // TODO: just delete search-query-looking string in url?
+                _this.url = url + prefix + params;
+            }
+        }
+        _this._body = requestOptions.body;
+        _this.method = normalizeMethodName(requestOptions.method);
+        // TODO(jeffbcross): implement behavior
+        // Defaults to 'omit', consistent with browser
+        _this.headers = new Headers(requestOptions.headers);
+        _this.contentType = _this.detectContentType();
+        _this.withCredentials = requestOptions.withCredentials;
+        _this.responseType = requestOptions.responseType;
+        return _this;
+    }
+    /**
+     * Returns the content type enum based on header options.
+     * @return {?}
+     */
+    Request.prototype.detectContentType = function () {
+        switch (this.headers.get('content-type')) {
+            case 'application/json':
+                return ContentType.JSON;
+            case 'application/x-www-form-urlencoded':
+                return ContentType.FORM;
+            case 'multipart/form-data':
+                return ContentType.FORM_DATA;
+            case 'text/plain':
+            case 'text/html':
+                return ContentType.TEXT;
+            case 'application/octet-stream':
+                return this._body instanceof ArrayBuffer$1 ? ContentType.ARRAY_BUFFER : ContentType.BLOB;
+            default:
+                return this.detectContentTypeFromBody();
+        }
+    };
+    /**
+     * Returns the content type of request's body based on its type.
+     * @return {?}
+     */
+    Request.prototype.detectContentTypeFromBody = function () {
+        if (this._body == null) {
+            return ContentType.NONE;
+        }
+        else if (this._body instanceof URLSearchParams) {
+            return ContentType.FORM;
+        }
+        else if (this._body instanceof FormData) {
+            return ContentType.FORM_DATA;
+        }
+        else if (this._body instanceof Blob$1) {
+            return ContentType.BLOB;
+        }
+        else if (this._body instanceof ArrayBuffer$1) {
+            return ContentType.ARRAY_BUFFER;
+        }
+        else if (this._body && typeof this._body === 'object') {
+            return ContentType.JSON;
+        }
+        else {
+            return ContentType.TEXT;
+        }
+    };
+    /**
+     * Returns the request's body according to its type. If body is undefined, return
+     * null.
+     * @return {?}
+     */
+    Request.prototype.getBody = function () {
+        switch (this.contentType) {
+            case ContentType.JSON:
+                return this.text();
+            case ContentType.FORM:
+                return this.text();
+            case ContentType.FORM_DATA:
+                return this._body;
+            case ContentType.TEXT:
+                return this.text();
+            case ContentType.BLOB:
+                return this.blob();
+            case ContentType.ARRAY_BUFFER:
+                return this.arrayBuffer();
+            default:
+                return null;
+        }
+    };
+    return Request;
+}(Body));
+/**
+ * @param {?} params
+ * @return {?}
+ */
+function urlEncodeParams(params) {
+    var /** @type {?} */ searchParams = new URLSearchParams();
+    Object.keys(params).forEach(function (key) {
+        var /** @type {?} */ value = params[key];
+        if (value && Array.isArray(value)) {
+            value.forEach(function (element) { return searchParams.append(key, element.toString()); });
+        }
+        else {
+            searchParams.append(key, value.toString());
+        }
+    });
+    return searchParams;
+}
+var noop = function () { };
+var w = typeof window == 'object' ? window : noop;
+var FormData = ((w) /** TODO #9100 */)['FormData'] || noop;
+var Blob$1 = ((w) /** TODO #9100 */)['Blob'] || noop;
+var ArrayBuffer$1 = ((w) /** TODO #9100 */)['ArrayBuffer'] || noop;
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} backend
+ * @param {?} request
+ * @return {?}
+ */
+function httpRequest(backend, request) {
+    return backend.createConnection(request).response;
+}
+/**
+ * @param {?} defaultOpts
+ * @param {?} providedOpts
+ * @param {?} method
+ * @param {?} url
+ * @return {?}
+ */
+function mergeOptions(defaultOpts, providedOpts, method, url) {
+    var /** @type {?} */ newOptions = defaultOpts;
+    if (providedOpts) {
+        // Hack so Dart can used named parameters
+        return (newOptions.merge(new RequestOptions({
+            method: providedOpts.method || method,
+            url: providedOpts.url || url,
+            search: providedOpts.search,
+            params: providedOpts.params,
+            headers: providedOpts.headers,
+            body: providedOpts.body,
+            withCredentials: providedOpts.withCredentials,
+            responseType: providedOpts.responseType
+        })));
+    }
+    return (newOptions.merge(new RequestOptions({ method: method, url: url })));
+}
+/**
+ * Performs http requests using `XMLHttpRequest` as the default backend.
+ *
+ * `Http` is available as an injectable class, with methods to perform http requests. Calling
+ * `request` returns an `Observable` which will emit a single {\@link Response} when a
+ * response is received.
+ *
+ * ### Example
+ *
+ * ```typescript
+ * import {Http, HTTP_PROVIDERS} from '\@angular/http';
+ * import 'rxjs/add/operator/map'
+ * \@Component({
+ *   selector: 'http-app',
+ *   viewProviders: [HTTP_PROVIDERS],
+ *   templateUrl: 'people.html'
+ * })
+ * class PeopleComponent {
+ *   constructor(http: Http) {
+ *     http.get('people.json')
+ *       // Call map on the response observable to get the parsed people object
+ *       .map(res => res.json())
+ *       // Subscribe to the observable to get the parsed people object and attach it to the
+ *       // component
+ *       .subscribe(people => this.people = people);
+ *   }
+ * }
+ * ```
+ *
+ *
+ * ### Example
+ *
+ * ```
+ * http.get('people.json').subscribe((res:Response) => this.people = res.json());
+ * ```
+ *
+ * The default construct used to perform requests, `XMLHttpRequest`, is abstracted as a "Backend" (
+ * {\@link XHRBackend} in this case), which could be mocked with dependency injection by replacing
+ * the {\@link XHRBackend} provider, as in the following example:
+ *
+ * ### Example
+ *
+ * ```typescript
+ * import {BaseRequestOptions, Http} from '\@angular/http';
+ * import {MockBackend} from '\@angular/http/testing';
+ * var injector = Injector.resolveAndCreate([
+ *   BaseRequestOptions,
+ *   MockBackend,
+ *   {provide: Http, useFactory:
+ *       function(backend, defaultOptions) {
+ *         return new Http(backend, defaultOptions);
+ *       },
+ *       deps: [MockBackend, BaseRequestOptions]}
+ * ]);
+ * var http = injector.get(Http);
+ * http.get('request-from-mock-backend.json').subscribe((res:Response) => doSomething(res));
+ * ```
+ *
+ * \@experimental
+ */
+var Http = (function () {
+    /**
+     * @param {?} _backend
+     * @param {?} _defaultOptions
+     */
+    function Http(_backend, _defaultOptions) {
+        this._backend = _backend;
+        this._defaultOptions = _defaultOptions;
+    }
+    /**
+     * Performs any type of http request. First argument is required, and can either be a url or
+     * a {\@link Request} instance. If the first argument is a url, an optional {\@link RequestOptions}
+     * object can be provided as the 2nd argument. The options object will be merged with the values
+     * of {\@link BaseRequestOptions} before performing the request.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.request = function (url, options) {
+        var /** @type {?} */ responseObservable;
+        if (typeof url === 'string') {
+            responseObservable = httpRequest(this._backend, new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, /** @type {?} */ (url))));
+        }
+        else if (url instanceof Request) {
+            responseObservable = httpRequest(this._backend, url);
+        }
+        else {
+            throw new Error('First argument must be a url string or Request instance.');
+        }
+        return responseObservable;
+    };
+    /**
+     * Performs a request with `get` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.get = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, url)));
+    };
+    /**
+     * Performs a request with `post` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.post = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Post, url)));
+    };
+    /**
+     * Performs a request with `put` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.put = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Put, url)));
+    };
+    /**
+     * Performs a request with `delete` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.delete = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Delete, url)));
+    };
+    /**
+     * Performs a request with `patch` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.patch = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Patch, url)));
+    };
+    /**
+     * Performs a request with `head` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.head = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Head, url)));
+    };
+    /**
+     * Performs a request with `options` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.options = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Options, url)));
+    };
+    return Http;
+}());
+Http.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+Http.ctorParameters = function () { return [
+    { type: ConnectionBackend, },
+    { type: RequestOptions, },
+]; };
+/**
+ * \@experimental
+ */
+var Jsonp = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Jsonp, _super);
+    /**
+     * @param {?} backend
+     * @param {?} defaultOptions
+     */
+    function Jsonp(backend, defaultOptions) {
+        return _super.call(this, backend, defaultOptions) || this;
+    }
+    /**
+     * Performs any type of http request. First argument is required, and can either be a url or
+     * a {\@link Request} instance. If the first argument is a url, an optional {\@link RequestOptions}
+     * object can be provided as the 2nd argument. The options object will be merged with the values
+     * of {\@link BaseRequestOptions} before performing the request.
+     *
+     * \@security Regular XHR is the safest alternative to JSONP for most applications, and is
+     * supported by all current browsers. Because JSONP creates a `<script>` element with
+     * contents retrieved from a remote source, attacker-controlled data introduced by an untrusted
+     * source could expose your application to XSS risks. Data exposed by JSONP may also be
+     * readable by malicious third-party websites. In addition, JSONP introduces potential risk for
+     * future security issues (e.g. content sniffing).  For more detail, see the
+     * [Security Guide](http://g.co/ng/security).
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Jsonp.prototype.request = function (url, options) {
+        var /** @type {?} */ responseObservable;
+        if (typeof url === 'string') {
+            url =
+                new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, /** @type {?} */ (url)));
+        }
+        if (url instanceof Request) {
+            if (url.method !== RequestMethod.Get) {
+                throw new Error('JSONP requests must use GET request method.');
+            }
+            responseObservable = httpRequest(this._backend, url);
+        }
+        else {
+            throw new Error('First argument must be a url string or Request instance.');
+        }
+        return responseObservable;
+    };
+    return Jsonp;
+}(Http));
+Jsonp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+Jsonp.ctorParameters = function () { return [
+    { type: ConnectionBackend, },
+    { type: RequestOptions, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * The http module provides services to perform http requests. To get started, see the {@link Http}
+ * class.
+ */
+/**
+ * @return {?}
+ */
+function _createDefaultCookieXSRFStrategy() {
+    return new CookieXSRFStrategy();
+}
+/**
+ * @param {?} xhrBackend
+ * @param {?} requestOptions
+ * @return {?}
+ */
+function httpFactory(xhrBackend, requestOptions) {
+    return new Http(xhrBackend, requestOptions);
+}
+/**
+ * @param {?} jsonpBackend
+ * @param {?} requestOptions
+ * @return {?}
+ */
+function jsonpFactory(jsonpBackend, requestOptions) {
+    return new Jsonp(jsonpBackend, requestOptions);
+}
+/**
+ * The module that includes http's providers
+ *
+ * \@experimental
+ */
+var HttpModule = (function () {
+    function HttpModule() {
+    }
+    return HttpModule;
+}());
+HttpModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"], args: [{
+                providers: [
+                    // TODO(pascal): use factory type annotations once supported in DI
+                    // issue: https://github.com/angular/angular/issues/3183
+                    { provide: Http, useFactory: httpFactory, deps: [XHRBackend, RequestOptions] },
+                    BrowserXhr,
+                    { provide: RequestOptions, useClass: BaseRequestOptions },
+                    { provide: ResponseOptions, useClass: BaseResponseOptions },
+                    XHRBackend,
+                    { provide: XSRFStrategy, useFactory: _createDefaultCookieXSRFStrategy },
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+HttpModule.ctorParameters = function () { return []; };
+/**
+ * The module that includes jsonp's providers
+ *
+ * \@experimental
+ */
+var JsonpModule = (function () {
+    function JsonpModule() {
+    }
+    return JsonpModule;
+}());
+JsonpModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"], args: [{
+                providers: [
+                    // TODO(pascal): use factory type annotations once supported in DI
+                    // issue: https://github.com/angular/angular/issues/3183
+                    { provide: Jsonp, useFactory: jsonpFactory, deps: [JSONPBackend, RequestOptions] },
+                    BrowserJsonp,
+                    { provide: RequestOptions, useClass: BaseRequestOptions },
+                    { provide: ResponseOptions, useClass: BaseResponseOptions },
+                    { provide: JSONPBackend, useClass: JSONPBackend_ },
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+JsonpModule.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the common package.
+ */
+/**
+ * \@stable
+ */
+var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Version"]('4.2.5');
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the http package.
+ */
+// This file only reexports content of the `src` folder. Keep it that way.
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=http.es5.js.map
+
 
 /***/ })
 

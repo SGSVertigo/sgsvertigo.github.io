@@ -1,4 +1,4 @@
-webpackJsonp([14],{
+webpackJsonp([15],{
 
 /***/ "../../../../chartjs-color-string/color-string.js":
 /***/ (function(module, exports, __webpack_require__) {
