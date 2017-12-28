@@ -45,7 +45,7 @@ var ThreeDRoutingModule = (function () {
 /***/ "../../../../../src/app/threed/threed.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <div class=\"card card-inverse card-primary\">\n          <div #renderCanvas>\n            </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <div class=\"card card-inverse card-primary\">\n          <div #renderCanvas>\n            </div>\n            Red is North, Blue is East and Green is Up\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -89,24 +89,25 @@ var ThreeDComponent = (function () {
         var light = new __WEBPACK_IMPORTED_MODULE_2_three__["e" /* DirectionalLight */](0xffffff);
         light.position.set(0, 1, 0);
         scene.add(light);
-        var map = new __WEBPACK_IMPORTED_MODULE_2_three__["f" /* TextureLoader */]().load('/assets/img/board-top.png');
+        var map = new __WEBPACK_IMPORTED_MODULE_2_three__["f" /* TextureLoader */]().load('/assets/img/board-top-rotated.png');
         map.wrapS = map.wrapT = __WEBPACK_IMPORTED_MODULE_2_three__["g" /* RepeatWrapping */];
         map.anisotropy = 16;
-        var geometry = new __WEBPACK_IMPORTED_MODULE_2_three__["h" /* BoxGeometry */](0.5, 1.3, 0.05);
+        var geometry = new __WEBPACK_IMPORTED_MODULE_2_three__["h" /* BoxGeometry */](1.3, 0.05, 0.5);
         //var material = new THREE.MeshBasicMaterial( { color: 0x4444aa } );
         var material = new __WEBPACK_IMPORTED_MODULE_2_three__["i" /* MeshLambertMaterial */]({ map: map, side: __WEBPACK_IMPORTED_MODULE_2_three__["j" /* DoubleSide */] });
         var cube = new __WEBPACK_IMPORTED_MODULE_2_three__["k" /* Mesh */](geometry, material);
         this.cube = cube;
-        var axis = new __WEBPACK_IMPORTED_MODULE_2_three__["l" /* AxisHelper */](1);
+        var axis = new __WEBPACK_IMPORTED_MODULE_2_three__["l" /* AxisHelper */](1000);
         this.axis = axis;
-        var helper = new __WEBPACK_IMPORTED_MODULE_2_three__["m" /* GridHelper */](10, 2, 0xffffff, 0xffffff);
+        var helper = new __WEBPACK_IMPORTED_MODULE_2_three__["m" /* GridHelper */](10, 10, 0x888888, 0x888888);
         scene.add(helper);
         scene.add(cube, axis);
-        camera.position.z = 2;
+        camera.position.x = -2;
+        camera.position.y = 1;
         var controls = new __WEBPACK_IMPORTED_MODULE_3_three_orbitcontrols_ts__["OrbitControls"](camera, renderer.domElement);
         controls.addEventListener('change', animate);
         //controls.maxPolarAngle = Math.PI / 2;
-        controls.enableZoom = false;
+        controls.enableZoom = true;
         controls.enablePan = false;
         var animate = function () {
             requestAnimationFrame(animate);
@@ -126,7 +127,8 @@ var ThreeDComponent = (function () {
             if (localIndex === -1) {
                 localIndex = data.boardReference.rx.length;
             }
-            var quaternion = new __WEBPACK_IMPORTED_MODULE_2_three__["n" /* Quaternion */](data.boardReference.q0[localIndex].y, data.boardReference.q1[localIndex].y, data.boardReference.q2[localIndex].y, data.boardReference.q3[localIndex].y);
+            var quaternion = new __WEBPACK_IMPORTED_MODULE_2_three__["n" /* Quaternion */](data.boardReference.q1[localIndex].y, -data.boardReference.q3[localIndex].y, //this is our world z
+            data.boardReference.q2[localIndex].y, data.boardReference.q0[localIndex].y);
             this.cube.setRotationFromQuaternion(quaternion);
         }
         this.renderer.render(this.scene, this.camera);

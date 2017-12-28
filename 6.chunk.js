@@ -45,7 +45,7 @@ var LoaderRoutingModule = (function () {
 /***/ "../../../../../src/app/loader/loader.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <div class=\"card card-inverse card-primary\">\n        <input #fileInput type=\"file\" />\n        <button type=\"button\" class=\"btn btn-info\" (click)=\"triggerFile(fileInput)\">Upload</button>\n      </div>\n    </div>\n  </div>\n  <div class=\"card\">\n      <div class=\"card-header\" role=\"tab\">\n        <h5 class=\"mb-0\">\n          <a>\n            <h4 class=\"card-title mb-0\">Bicycle Wheel</h4>\n            <div class=\"small text-muted\">Bicycle wheel, spun by hand</div>\n          </a>\n        </h5>\n      </div>\n      <div class=\"card-block\">\n          <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log7_wheel.csv')\">Load</button>\n      </div>\n    </div>\n    <div class=\"card\">\n        <div class=\"card-header\" role=\"tab\">\n          <h5 class=\"mb-0\">\n            <a>\n              <h4 class=\"card-title mb-0\">No Movement</h4>\n              <div class=\"small text-muted\">Recording whilst still</div>\n            </a>\n          </h5>\n        </div>\n        <div class=\"card-block\">\n            <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log6_stationary.csv')\">Load</button>\n        </div>\n      </div>\n      <div class=\"card\">\n          <div class=\"card-header\" role=\"tab\">\n            <h5 class=\"mb-0\">\n              <a>\n                <h4 class=\"card-title mb-0\">Rocket</h4>\n                <div class=\"small text-muted\">Small amateur rocket</div>\n              </a>\n            </h5>\n          </div>\n          <div class=\"card-block\">\n              <button type=\"button\" class=\"btn btn-success\" (click)=\"loadFileURL('./assets/files/vtg_log8_rocket.csv')\">Load</button>\n          </div>\n        </div>\n</div>"
+module.exports = "<div class=\"animated fadeIn\">\n  <div class=\"row\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <div class=\"card card-inverse card-primary\">\n        <input #fileInput type=\"file\" />\n        <button type=\"button\" class=\"btn btn-info\" (click)=\"triggerFile(fileInput)\">Upload</button>\n      </div>\n    </div>\n  </div>\n  <div *ngFor=\"let file of files\" class=\"card\">\n    <div class=\"card-header\" role=\"tab\">\n      <h5 class=\"mb-0\">\n        <a>\n          <h4 class=\"card-title mb-0\">{{file.Title}}</h4>\n          <div class=\"small text-muted\">{{file.Description}}</div>\n        </a>\n      </h5>\n    </div>\n    <div class=\"card-block\">\n        <button type=\"button\" class=\"btn btn-success\" (click)=loadFileURL(file)>Load</button>\n    </div>\n  </div>\n\n\n        <div class=\"card card-inverse card-danger\">\n            <div class=\"card-header\" role=\"tab\">\n              <h5 class=\"mb-0\">\n                <a>\n                  <h4 class=\"card-title mb-0\">Load your own!</h4>\n                </a>\n              </h5>\n            </div>\n            <div class=\"card-block\">\n                <form action=\"http://vertigo-uploader.azurewebsites.net/api/vertigo_upload3r\" enctype=\"multipart/form-data\" method=\"post\">\n      \n                  <div class=\"form-group\">\n                    <label for=\"fileupload\">Select vertigo datalogger file to upload</label>\n                    <input type=\"file\" name=\"file\" class=\"form-control-file\" id=\"fileupload\">\n                  </div>\n                  <div class=\"form-group\">\n                    <label for=\"name\">Name (Required)</label>\n                    <textarea class=\"form-control\" id=\"name\" name=\"fields[name]\" type=\"text\" required></textarea>\n                  </div>\n                  <div class=\"form-group\">\n                    <label for=\"email\">Email address (Required)</label>\n                    <input name=\"fields[email]\" type=\"email\" class=\"form-control\" id=\"email\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n                    <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>\n                  </div>\n                  <div class=\"form-group\">\n                    <label for=\"title\">Title (Required)</label>\n                    <textarea class=\"form-control\" id=\"title\" name=\"fields[title]\" type=\"text\" required></textarea>\n                  </div>\n                  <div class=\"form-group\">\n                    <label for=\"description\">Description (Required)</label>\n                    <textarea class=\"form-control\" id=\"description\" name=\"fields[description]\" rows=\"5\" type=\"text\" required></textarea>\n                  </div>\n                  <div class=\"form-group\">\n                    <label for=\"url\">Youtube Video URL (Optional)</label>\n                    <textarea class=\"form-control\" id=\"url\" name=\"fields[video_url]\" type=\"URL\"></textarea>\n                  </div>\n                   <input type=\"submit\" value=\"Submit\" class=\"btn btn-success\" id=\"submit\"><br>\n                  </form>\n            </div>\n          </div>\n\n</div>"
 
 /***/ }),
 
@@ -77,6 +77,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var LoaderComponent = (function () {
     function LoaderComponent(http) {
         this.http = http;
+        this.files = [];
         this.brandPrimary = '#20a8d8';
         this.brandSuccess = '#4dbd74';
         this.brandInfo = '#63c2de';
@@ -118,14 +119,40 @@ var LoaderComponent = (function () {
         };
         reader.readAsText(fileName);
     };
+    LoaderComponent.prototype.loadFile = function (fileForm, field, submitBtn) {
+        var file = fileForm.files[0];
+        if (!file) {
+            alert("No file selected");
+            return;
+        }
+        var reader = new FileReader();
+        reader.onload = function (f) {
+            var contents = f.target;
+            var fileText = contents.result;
+            field.value = fileText;
+            submitBtn.disabled = false;
+        };
+        reader.readAsText(file);
+    };
     LoaderComponent.prototype.triggerFile = function (fileInput) {
         this.asynchronousReadFile(fileInput.files[0]);
+    };
+    LoaderComponent.prototype.queryFiles = function () {
+        var _this = this;
+        this.http.get("http://vertigo-uploader.azurewebsites.net/api/vertigo_query")
+            .subscribe(function (data) {
+            var json = data.json();
+            _this.files = json;
+        });
     };
     LoaderComponent.prototype.loadFileURL = function (fileInput) {
         var _this = this;
         if (!fileInput) {
             alert("No file selected");
             return;
+        }
+        if (typeof fileInput != 'string') {
+            fileInput = fileInput.File_Url;
         }
         __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.setData(new __WEBPACK_IMPORTED_MODULE_2__shared_data__["a" /* CalculatedData */]());
         this.data = __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.getData();
@@ -148,6 +175,7 @@ var LoaderComponent = (function () {
     };
     LoaderComponent.prototype.ngOnInit = function () {
         this.data = __WEBPACK_IMPORTED_MODULE_3_app_shared_controls_component__["a" /* ControlsComponent */].Instance.getData();
+        this.queryFiles();
     };
     LoaderComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
@@ -176,6 +204,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loader_component__ = __webpack_require__("../../../../../src/app/loader/loader.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loader_routing_module__ = __webpack_require__("../../../../../src/app/loader/loader-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoaderModule", function() { return LoaderModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -189,12 +218,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var LoaderModule = (function () {
     function LoaderModule() {
     }
     LoaderModule = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
+                __WEBPACK_IMPORTED_MODULE_6__angular_common__["i" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_4__loader_routing_module__["a" /* LoaderRoutingModule */],
                 __WEBPACK_IMPORTED_MODULE_1_ng2_charts_ng2_charts__["ChartsModule"],
                 __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* HttpModule */],
