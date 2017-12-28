@@ -23,6 +23,7 @@ var Data = (function () {
         this.q1 = [];
         this.q2 = [];
         this.q3 = [];
+        this.startTime = -1;
         this.newPositionData = false;
         this.newIMUData = false;
         this.newQuaternionData = false;
@@ -31,10 +32,11 @@ var Data = (function () {
         this.newPositionData = false;
         this.newIMUData = false;
         this.newQuaternionData = false;
+        this.startTime = -1;
     };
-    Data.parseLine = function (outputArray, line, type, channel) {
+    Data.parseLine = function (startTime, outputArray, line, type, channel) {
         if (line[1] == type) {
-            outputArray.push(new __WEBPACK_IMPORTED_MODULE_0__point__["a" /* Point */](line[0] / 1000.0, line[1 + channel]));
+            outputArray.push(new __WEBPACK_IMPORTED_MODULE_0__point__["a" /* Point */]((line[0] - startTime) / 1000.0, line[1 + channel]));
             return true;
         }
         return false;
@@ -43,19 +45,22 @@ var Data = (function () {
         for (var i = 0; i < data.length; i++) {
             data[i] = parseFloat(data[i]);
         }
-        this.newIMUData = Data.parseLine(this.ax, data, 2, 1);
-        Data.parseLine(this.ay, data, 2, 2);
-        Data.parseLine(this.az, data, 2, 3);
-        Data.parseLine(this.rx, data, 2, 4);
-        Data.parseLine(this.ry, data, 2, 5);
-        Data.parseLine(this.rz, data, 2, 6);
-        this.newPositionData = Data.parseLine(this.x, data, 1, 1);
-        Data.parseLine(this.y, data, 1, 2);
-        Data.parseLine(this.z, data, 1, 3);
-        this.newQuaternionData = Data.parseLine(this.q0, data, 3, 1);
-        Data.parseLine(this.q1, data, 3, 2);
-        Data.parseLine(this.q2, data, 3, 3);
-        Data.parseLine(this.q3, data, 3, 4);
+        if (this.startTime == -1) {
+            this.startTime = data[0];
+        }
+        this.newIMUData = Data.parseLine(this.startTime, this.ax, data, 2, 1);
+        Data.parseLine(this.startTime, this.ay, data, 2, 2);
+        Data.parseLine(this.startTime, this.az, data, 2, 3);
+        Data.parseLine(this.startTime, this.rx, data, 2, 4);
+        Data.parseLine(this.startTime, this.ry, data, 2, 5);
+        Data.parseLine(this.startTime, this.rz, data, 2, 6);
+        this.newPositionData = Data.parseLine(this.startTime, this.x, data, 1, 1);
+        Data.parseLine(this.startTime, this.y, data, 1, 2);
+        Data.parseLine(this.startTime, this.z, data, 1, 3);
+        this.newQuaternionData = Data.parseLine(this.startTime, this.q0, data, 3, 1);
+        Data.parseLine(this.startTime, this.q1, data, 3, 2);
+        Data.parseLine(this.startTime, this.q2, data, 3, 3);
+        Data.parseLine(this.startTime, this.q3, data, 3, 4);
     };
     return Data;
 }());

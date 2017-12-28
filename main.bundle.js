@@ -472,6 +472,8 @@ var BreadcrumbsComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_charts__ = __webpack_require__("../../../../ng2-charts/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__("../../../../chart.js/src/chart.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_chart_js__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ControlsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -484,6 +486,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var ControlsComponent = (function () {
     var ControlsComponent = ControlsComponent_1 = function ControlsComponent() {
         this.dataListeners = [];
@@ -492,6 +495,7 @@ var ControlsComponent = (function () {
         this.accelerationChartData = this.create3DDataArray();
         this.sliderMin = 0;
         this.sliderMax = 0;
+        this.originalLineDraw = __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"].controllers.line.prototype.draw;
         this.mainChartOptions = {
             animation: false,
             responsive: true,
@@ -509,10 +513,12 @@ var ControlsComponent = (function () {
             },
             scales: {
                 xAxes: [{
-                        display: false
+                        display: true,
+                        id: "x-axis-1"
                     }],
                 yAxes: [{
-                        display: false
+                        display: false,
+                        id: "y-axis-1"
                     }],
             },
             tooltips: { enabled: false }
@@ -556,8 +562,26 @@ var ControlsComponent = (function () {
         this.data = ControlsComponent_1.Instance.getData();
         this.DataUpdated(this.data);
     };
+    ControlsComponent.prototype.drawLine = function (index) {
+        var chart = this.chart;
+        var canvas = this.chartLayer.nativeElement;
+        var ctx = canvas.getContext("2d");
+        if (index) {
+            var xaxis = chart.chart.scales['x-axis-1'];
+            var yaxis = chart.chart.scales['y-axis-1'];
+            ctx.clearRect(0, 0, 10000, 10000);
+            ctx.save();
+            ctx.beginPath();
+            ctx.moveTo(xaxis.getPixelForValue(index), yaxis.top);
+            ctx.strokeStyle = '#ff0000';
+            ctx.lineTo(xaxis.getPixelForValue(index), yaxis.bottom);
+            ctx.stroke();
+            ctx.restore();
+        }
+    };
     ControlsComponent.prototype.DataPointUpdated = function (index) {
-        // this.data = ControlsComponent.Instance.getData();
+        this.data = ControlsComponent_1.Instance.getData();
+        this.drawLine(this.data.boardReference.az[index].x);
         // if (this.data !== undefined){
         //   var pos = this.data.boardReference.az[index].x;
         //   this.accelerationChartData[3].data = [{x:pos,y:2},{x:pos,y:0},{x:pos,y:-2}];
@@ -631,10 +655,14 @@ var ControlsComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ng2_charts__["BaseChartDirective"]),
         __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ng2_charts__["BaseChartDirective"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ng2_charts__["BaseChartDirective"]) === "function" && _a || Object)
     ], ControlsComponent.prototype, "chart", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])("chartLayer"),
+        __metadata("design:type", Object)
+    ], ControlsComponent.prototype, "chartLayer", void 0);
     ControlsComponent = ControlsComponent_1 = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-controls',
-            template: "\n  <div class=\"chart-wrapper\" style=\"height:100px;\">\n    <canvas baseChart class=\"chart\" [datasets]=\"accelerationChartData\" [options]=\"mainChartOptions\" [colors]=\"mainChartColours\" [legend]=\"mainChartLegend\" [chartType]=\"mainChartType\" (chartClick)=\"chartClicked($event)\"></canvas>\n  </div>\n  <div class=\"row\" style=\"padding:10px\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <input type=\"range\" (input)=\"setIndex($event.target.value)\"  [min]=\"sliderMin\" [max]=\"sliderMax\" class=\"slider\" id=\"myRange\">\n    </div>\n  </div>\n",
+            template: "\n  <div style=\"height:100px; position: relative;\">\n    <canvas baseChart style=\"position: absolute; left: 0; top: 0; z-index: 0;\" class=\"chart\" [datasets]=\"accelerationChartData\" [options]=\"mainChartOptions\" [colors]=\"mainChartColours\" [legend]=\"mainChartLegend\" [chartType]=\"mainChartType\" (chartClick)=\"chartClicked($event)\"></canvas>\n    <canvas #chartLayer style=\"height:100px; position: absolute; left: 0; top: 0; z-index: 1;\"></canvas>\n  </div>\n  \n  <div class=\"row\" style=\"padding:10px\">\n    <div class=\"col-sm-12 col-lg-12\">\n      <input type=\"range\" (input)=\"setIndex($event.target.value)\"  [min]=\"sliderMin\" [max]=\"sliderMax\" class=\"slider\" id=\"myRange\">\n    </div>\n  </div>\n",
             styles: ["\n/* The slider itself */\n.slider {\n  width: 100%; /* Full-width */\n  height: 30px; /* Specified height */\n  background: #d3d3d3; /* Grey background */\n  outline: none; /* Remove outline */\n  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */\n  -webkit-transition: .2s; /* 0.2 seconds transition on hover */\n  transition: opacity .2s;\n}\n\n.btn {\n  -webkit-appearance: none;  /* Override default CSS styles */\n  appearance: none;\n  height: 30px; /* Specified height */\n  background: #d3d3d3; /* Grey background */\n  outline: none; /* Remove outline */\n  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */\n  -webkit-transition: .2s; /* 0.2 seconds transition on hover */\n  transition: opacity .2s;\n}\n\n/* Mouse-over effects */\n.slider:hover {\n  opacity: 1; /* Fully shown on mouse-over */\n}\n"]
         }),
         __metadata("design:paramtypes", [])
