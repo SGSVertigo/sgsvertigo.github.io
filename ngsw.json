@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575813757499,
+  "timestamp": 1575814080693,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/0.caca6ecdf5c767c6e3fd.worker.js",
         "/favicon.ico",
         "/index.html",
-        "/main.c1f724af26ecc1cbbd7d.js",
+        "/main.972430f80d6d4cc22cb0.js",
         "/main.de26a9f729527e72c660.css",
         "/manifest.webmanifest",
         "/polyfills-es5.fc1cda25848475edf618.js",
@@ -76,10 +76,10 @@
     "/assets/map/world.json": "d56cd6284488b47258193fd52b42e7cf04c7dfe6",
     "/assets/mesh/case.stl": "eae0aed5d8b3838d57b903c95de5944fa6bd2fb1",
     "/favicon.ico": "29993600c85ca86acbbcf755b4d04c5c54c7f25b",
-    "/index.html": "70a7ff59665c1b2d42c8e31aab1fdbd9627dfaf0",
+    "/index.html": "41d1a17754eb837f52f52fba3dc899d6b557a520",
     "/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
-    "/main.c1f724af26ecc1cbbd7d.js": "b5aec3d8c5c621aa5b46ba114e74aa8f99ede2b3",
+    "/main.972430f80d6d4cc22cb0.js": "7b937cd7a548f1262a07326dd493eff09412ad22",
     "/main.de26a9f729527e72c660.css": "34a045ccddf2cf38ec01cb0dbd982e52f87d4d64",
     "/manifest.webmanifest": "f45a76863658bc3f28dea5e5dc7e7369b8657bfa",
     "/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
