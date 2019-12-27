@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577458730098,
+  "timestamp": 1577470454439,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,11 +8,11 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/0.3342492ef33c99f88632.worker.js",
+        "/0.7804c68d96aec9f39bd0.worker.js",
         "/favicon.ico",
         "/index.html",
+        "/main.3da1fbbcb15cbb2d7014.js",
         "/main.de26a9f729527e72c660.css",
-        "/main.f71b757b5289470e8b88.js",
         "/manifest.webmanifest",
         "/polyfills-es5.fc1cda25848475edf618.js",
         "/polyfills.17122c1d4e2b7ca8a5c7.js",
@@ -58,7 +58,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/0.3342492ef33c99f88632.worker.js": "2b2961db648ebe14c917fd68132f2b27171d981d",
+    "/0.7804c68d96aec9f39bd0.worker.js": "6196d029ec3948b6015936b2c0a5d63e34b10340",
     "/assets/gifs/sd-card-eject.gif": "e050bfaf899a848e59a69108957b3d3af2d915d7",
     "/assets/gifs/start-logging.gif": "7074adce82c401dfcea9cf28dbd1c621862bb147",
     "/assets/gifs/turn-on.gif": "037eb1fbe5738205bfe06e5ff3eb45d873df7475",
@@ -82,11 +82,11 @@
     "/assets/map/world.json": "d56cd6284488b47258193fd52b42e7cf04c7dfe6",
     "/assets/mesh/case.stl": "eae0aed5d8b3838d57b903c95de5944fa6bd2fb1",
     "/favicon.ico": "29993600c85ca86acbbcf755b4d04c5c54c7f25b",
-    "/index.html": "04323b4e0d379df503967ddd905c05902d0bfe25",
+    "/index.html": "7c5a3df354aca2ef103c3672d8a12fc7311290b4",
     "/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
+    "/main.3da1fbbcb15cbb2d7014.js": "6a7abbff2e00d62a8b10608dda3d98aaefbf4044",
     "/main.de26a9f729527e72c660.css": "34a045ccddf2cf38ec01cb0dbd982e52f87d4d64",
-    "/main.f71b757b5289470e8b88.js": "b0553fa4cc223ca8532551a5de29404f9f7208ca",
     "/manifest.webmanifest": "f45a76863658bc3f28dea5e5dc7e7369b8657bfa",
     "/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/polyfills-es5.fc1cda25848475edf618.js": "061f7bda539a336294862d06fe58188b86a88222",
