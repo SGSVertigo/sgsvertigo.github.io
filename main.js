@@ -2895,6 +2895,7 @@ var BluetoothComponent = /** @class */ (function () {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
             return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
                 return [2 /*return*/, service.getCharacteristic(charteristicID).catch(function (e) {
+                        console.error(e);
                         throw new Error("Cannot get charateristic " + charteristicID);
                     })];
             });
