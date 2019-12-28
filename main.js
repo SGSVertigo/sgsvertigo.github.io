@@ -2589,24 +2589,24 @@ var BluetoothComponent = /** @class */ (function () {
                         .then(function (services) {
                         var service = services.find(function (s) { return s.uuid === BluetoothComponent_1.serviceID; });
                         var deviceService = services.find(function (s) { return s.uuid === BluetoothComponent_1.harwareInfoServiceId; });
-                        return Promise.all([
-                            _this.registerToServices(service, BluetoothComponent_1.imuQuaternionCharacteristicID)
-                                .then(function (charteristic) { return _this.imuQuaternionCharacteristic = charteristic; }),
-                            _this.registerToServices(service, BluetoothComponent_1.magnetometerCharacteristicID)
-                                .then(function (charteristic) { return _this.magnetometerCharacteristic = charteristic; }),
-                            _this.registerToServices(service, BluetoothComponent_1.atmosphericCharacteristicID)
-                                .then(function (charteristic) { return _this.atmosphericCharacteristic = charteristic; }).catch(function (error) {
-                                return console.log("Atmospheric characteristic not present");
-                            }),
-                            _this.registerToServices(service, BluetoothComponent_1.gpsCharacteristicID)
-                                .then(function (charteristic) { return _this.gpsCharacteristic = charteristic; }),
-                            _this.registerToServices(service, BluetoothComponent_1.controlCharacteristicID)
-                                .then(function (charteristic) { return _this.controlCharacteristic = charteristic; }),
-                            _this.registerToServices(service, BluetoothComponent_1.statusCharacteristicID)
-                                .then(function (charteristic) { return _this.statusCharacteristic = charteristic; }),
-                            _this.registerToServices(deviceService, BluetoothComponent_1.firwareRevisionCharateristicID)
-                                .then(function (charteristic) { return _this.firmwareVersionCharacteristic = charteristic; }),
-                        ]);
+                        _this.registerToServices(service, BluetoothComponent_1.imuQuaternionCharacteristicID)
+                            .then(function (charteristic) { return _this.imuQuaternionCharacteristic = charteristic; })
+                            .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.magnetometerCharacteristicID)
+                            .then(function (charteristic) { return _this.magnetometerCharacteristic = charteristic; }); })
+                            .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.atmosphericCharacteristicID)
+                            .then(function (charteristic) { return _this.atmosphericCharacteristic = charteristic; }).catch(function (error) {
+                            return console.log("Atmospheric characteristic not present");
+                        }); })
+                            .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.gpsCharacteristicID)
+                            .then(function (charteristic) { return _this.gpsCharacteristic = charteristic; }); })
+                            .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.controlCharacteristicID)
+                            .then(function (charteristic) { return _this.controlCharacteristic = charteristic; }); })
+                            .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.statusCharacteristicID)
+                            .then(function (charteristic) { return _this.statusCharacteristic = charteristic; }); })
+                            .then(function (c) { return _this.registerToServices(deviceService, BluetoothComponent_1.firwareRevisionCharateristicID)
+                            .then(function (charteristic) { return _this.firmwareVersionCharacteristic = charteristic; }); });
+                        // this.registerToServices(deviceService, BluetoothComponent.serialNumberCharateristicID)
+                        //   .then(charteristic => this.serialNumberCharteristic = charteristic)
                     })
                         .then(function () {
                         _this.stop = false;
