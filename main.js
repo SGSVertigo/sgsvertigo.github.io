@@ -2605,6 +2605,22 @@ var BluetoothComponent = /** @class */ (function () {
             });
         });
     };
+    BluetoothComponent.prototype.readCharacteristic = function (services, serviceId, characteristicId, handler) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var service;
+            var _this = this;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                service = services.find(function (s) { return s.uuid === serviceId; });
+                return [2 /*return*/, this.registerToServices(service, characteristicId)
+                        .then(function (char) { return _this.readOnce(char, handler); })
+                        .catch(function (error) {
+                        console.error(error);
+                        console.log("Failed to subscribe to characteristic" + characteristicId);
+                        throw new Error("Cannot register charateristic " + characteristicId);
+                    })];
+            });
+        });
+    };
     BluetoothComponent.prototype.tryConnect = function () {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
             var _this = this;
@@ -2615,6 +2631,8 @@ var BluetoothComponent = /** @class */ (function () {
                         return server.getPrimaryServices();
                     })
                         .then(function (services) {
+                        console.log(services.length + " services found:");
+                        services.forEach(function (s) { return console.log(s.uuid); });
                         _this.stop = false;
                         _this.pause = false;
                         return Promise.all([
@@ -2624,7 +2642,7 @@ var BluetoothComponent = /** @class */ (function () {
                             _this.watchCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.magnetometerCharacteristicID, _this.handleMagnetometer).then(function (c) { return _this.magnetometerCharacteristic = c; }),
                             _this.watchCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.statusCharacteristicID, _this.handleState).then(function (c) { return _this.statusCharacteristic = c; }),
                             _this.getCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.controlCharacteristicID).then(function (c) { return _this.controlCharacteristic = c; }),
-                            _this.watchCharacteristic(services, BluetoothComponent_1.harwareInfoServiceId, BluetoothComponent_1.firwareRevisionCharateristicID, _this.handleVersion).then(function (c) { return _this.firmwareVersionCharacteristic = c; }),
+                            _this.readCharacteristic(services, BluetoothComponent_1.harwareInfoServiceId, BluetoothComponent_1.firwareRevisionCharateristicID, _this.handleVersion).then(function (c) { return _this.firmwareVersionCharacteristic = c; }),
                         ]);
                     })
                         .catch(function (error) {
@@ -2653,14 +2671,9 @@ var BluetoothComponent = /** @class */ (function () {
                             }
                         }
                         options = {
-                            filters: [
-                                {
-                                    services: [
-                                        BluetoothComponent_1.serviceID,
-                                    ]
-                                }
-                            ],
+                            acceptAllDevices: true,
                             optionalServices: [
+                                BluetoothComponent_1.serviceID,
                                 BluetoothComponent_1.harwareInfoServiceId
                             ]
                         };
@@ -2815,24 +2828,15 @@ var BluetoothComponent = /** @class */ (function () {
     };
     BluetoothComponent.prototype.readOnce = function (charateristic, handler) {
         var _this = this;
-        try {
-            if (this.device.gatt.connected) {
-                charateristic.readValue()
-                    .then(function (v) {
-                    handler(_this, v);
-                })
-                    .catch(function (error) {
-                    console.log(error);
-                });
-            }
-            else {
-                this.handleBluetoothError();
-            }
-        }
-        catch (error) {
-            console.log('Argh! ' + error);
-            this.handleBluetoothError();
-        }
+        return charateristic.readValue()
+            .then(function (v) {
+            handler(_this, v);
+            return charateristic;
+        })
+            .catch(function (error) {
+            console.error(error);
+            throw new Error("Cannot read charateristic " + charateristic.uuid);
+        });
     };
     BluetoothComponent.prototype.pollforUpdates = function (charateristic, handler, delay) {
         var _this = this;
