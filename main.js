@@ -2657,9 +2657,11 @@ var BluetoothComponent = /** @class */ (function () {
                                 {
                                     services: [
                                         BluetoothComponent_1.serviceID,
-                                        BluetoothComponent_1.harwareInfoServiceId
                                     ]
                                 }
+                            ],
+                            optionalServices: [
+                                BluetoothComponent_1.harwareInfoServiceId
                             ]
                         };
                         _a.label = 1;
