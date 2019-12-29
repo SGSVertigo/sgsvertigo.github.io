@@ -2429,11 +2429,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BluetoothComponent", function() { return BluetoothComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var src_app_processing_vertigo_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/processing/vertigo-data */ "./src/app/processing/vertigo-data.ts");
-/* harmony import */ var src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/processing/dataspec */ "./src/app/processing/dataspec.ts");
-/* harmony import */ var src_app_processing_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/processing/data */ "./src/app/processing/data.ts");
-
+/* harmony import */ var src_app_processing_vertigo_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/processing/vertigo-data */ "./src/app/processing/vertigo-data.ts");
+/* harmony import */ var src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/processing/dataspec */ "./src/app/processing/dataspec.ts");
+/* harmony import */ var src_app_processing_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/processing/data */ "./src/app/processing/data.ts");
 
 
 
@@ -2450,7 +2448,7 @@ var BluetoothComponent = /** @class */ (function () {
         this.supported = false;
         this.title = 'Connected Device';
         this.useNotifications = true;
-        this.VertigoRawData = new src_app_processing_vertigo_data__WEBPACK_IMPORTED_MODULE_3__["VertigoRawData"]();
+        this.VertigoRawData = new src_app_processing_vertigo_data__WEBPACK_IMPORTED_MODULE_2__["VertigoRawData"]();
         this.accx = 0.0;
         this.accy = 0.0;
         this.accz = 0.0;
@@ -2487,7 +2485,7 @@ var BluetoothComponent = /** @class */ (function () {
             function () { return _this.roty; },
             function () { return _this.rotz; },
         ];
-        this.VertigoRawData.init(new src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__["Dataspec"]());
+        this.VertigoRawData.init(new src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__["Dataspec"]());
     }
     BluetoothComponent_1 = BluetoothComponent;
     BluetoothComponent.prototype.lookupLoggerState = function (byte) {
@@ -2682,7 +2680,7 @@ var BluetoothComponent = /** @class */ (function () {
         });
     };
     BluetoothComponent.prototype.handleMagnetometer = function (component, event) {
-        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "imu"; }).Identifier);
+        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "imu"; }).Identifier);
         component.accx = (event.getInt16(0, true) / 1e3) * 9.81;
         component.accy = (event.getInt16(2, true) / 1e3) * 9.81;
         component.accz = (event.getInt16(4, true) / 1e3) * 9.81;
@@ -2691,7 +2689,7 @@ var BluetoothComponent = /** @class */ (function () {
         component.roty = (event.getInt16(8, true));
         component.rotz = (event.getInt16(10, true));
         component.accel = { x: component.accx, y: component.accy, z: component.accz };
-        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_5__["Data"]([
+        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_4__["Data"]([
             Date.now(),
             0,
             component.accx,
@@ -2704,11 +2702,11 @@ var BluetoothComponent = /** @class */ (function () {
         ]));
     };
     BluetoothComponent.prototype.handleAtmospheric = function (component, event) {
-        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "atmospheric"; }).Identifier);
+        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "atmospheric"; }).Identifier);
         component.temp = (event.getInt16(0, true) / 1e2);
         component.humidity = (event.getInt16(2, true) / 1e2);
         component.press = (event.getInt16(4, true) / 1e1);
-        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_5__["Data"]([
+        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_4__["Data"]([
             Date.now(),
             0,
             component.press,
@@ -2726,7 +2724,7 @@ var BluetoothComponent = /** @class */ (function () {
         return String.fromCharCode.apply(null, new Uint8Array(uintArray));
     };
     BluetoothComponent.prototype.handleIMU = function (component, event) {
-        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "ahrs"; }).Identifier);
+        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "ahrs"; }).Identifier);
         component.q0 = (event.getFloat32(0, true));
         component.q1 = (event.getFloat32(4, true));
         component.q2 = (event.getFloat32(8, true));
@@ -2735,16 +2733,16 @@ var BluetoothComponent = /** @class */ (function () {
         var arr = [component.q0, component.q1, component.q2, component.q3];
         var rpy = component.toEuler(arr);
         component.rot = { x: rpy[0], y: rpy[1], z: rpy[2] };
-        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_5__["Data"]([Date.now(), 0, component.q0, component.q1, component.q2, component.q3, rpy[0], rpy[1], rpy[2]]));
+        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_4__["Data"]([Date.now(), 0, component.q0, component.q1, component.q2, component.q3, rpy[0], rpy[1], rpy[2]]));
     };
     BluetoothComponent.prototype.handleGPS = function (component, event) {
-        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_4__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "gps"; }).Identifier);
+        var dataArray = component.VertigoRawData.DataTypes.get(src_app_processing_dataspec__WEBPACK_IMPORTED_MODULE_3__["Dataspec"].Spec.Types.find(function (t) { return t.Id === "gps"; }).Identifier);
         component.lon = (event.getInt32(0, true) / 1e7);
         component.lat = (event.getInt32(4, true) / 1e7);
         component.alt = (event.getInt32(8, true) / 1e3);
         component.fix = component.lookupGPSFix(event.getUint8(12));
         component.flags = component.lookupGPSvalidity(event.getUint8(13));
-        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_5__["Data"]([Date.now(), 0, component.lat, component.lon, component.alt, 0, 0, 0, 0, 0]));
+        dataArray.Load(new src_app_processing_data__WEBPACK_IMPORTED_MODULE_4__["Data"]([Date.now(), 0, component.lat, component.lon, component.alt, 0, 0, 0, 0, 0]));
     };
     BluetoothComponent.prototype.handleState = function (component, event) {
         if (event.byteLength === 11) {
@@ -2824,42 +2822,20 @@ var BluetoothComponent = /** @class */ (function () {
     };
     BluetoothComponent.prototype.pollforUpdates = function (charateristic, handler, delay) {
         var _this = this;
-        try {
-            if (this.device.gatt.connected) {
-                if (this.useNotifications) {
-                    var controller_1 = this;
-                    charateristic.oncharacteristicvaluechanged = function (e) {
-                        if (_this.pause) {
-                            return;
-                        }
-                        var evt = e.target;
-                        var data = evt.value;
-                        controller_1.zone.run(function () { return handler(controller_1, data); });
-                    };
-                    charateristic.startNotifications();
+        if (this.device.gatt.connected) {
+            var controller_1 = this;
+            charateristic.oncharacteristicvaluechanged = function (e) {
+                if (_this.pause) {
                     return;
                 }
-                this.connected = true;
-                if (this.pause) {
-                    Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["timer"])(1000).subscribe(function () { return _this.pollforUpdates(charateristic, handler, delay); });
-                    return;
-                }
-                charateristic.readValue()
-                    .then(function (v) {
-                    handler(_this, v);
-                }).then(function () { return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["timer"])(delay).subscribe(function () { return _this.pollforUpdates(charateristic, handler, delay); }); })
-                    .catch(function (error) {
-                    console.log(error);
-                    _this.handleBluetoothError();
-                });
-            }
-            else {
-                this.handleBluetoothError();
-            }
+                var evt = e.target;
+                var data = evt.value;
+                controller_1.zone.run(function () { return handler(controller_1, data); });
+            };
+            return charateristic.startNotifications();
         }
-        catch (error) {
-            console.log('Argh! ' + error);
-            this.handleBluetoothError();
+        else {
+            throw new Error("Cannot register charateristic " + charateristic.uuid);
         }
     };
     BluetoothComponent.prototype.handleBluetoothError = function () {
