@@ -2575,6 +2575,20 @@ var BluetoothComponent = /** @class */ (function () {
             });
         });
     };
+    BluetoothComponent.prototype.getCharacteristic = function (services, serviceId, characteristicId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var service;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                service = services.find(function (s) { return s.uuid === serviceId; });
+                return [2 /*return*/, this.registerToServices(service, characteristicId)
+                        .catch(function (error) {
+                        console.error(error);
+                        console.log("Failed to subscribe to characteristic" + characteristicId);
+                        throw new Error("Cannot register charateristic " + characteristicId);
+                    })];
+            });
+        });
+    };
     BluetoothComponent.prototype.watchCharacteristic = function (services, serviceId, characteristicId, handler) {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
             var service;
@@ -2609,7 +2623,7 @@ var BluetoothComponent = /** @class */ (function () {
                             _this.watchCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.gpsCharacteristicID, _this.handleGPS).then(function (c) { return _this.gpsCharacteristic = c; }),
                             _this.watchCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.magnetometerCharacteristicID, _this.handleMagnetometer).then(function (c) { return _this.magnetometerCharacteristic = c; }),
                             _this.watchCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.statusCharacteristicID, _this.handleState).then(function (c) { return _this.statusCharacteristic = c; }),
-                            //this.watchCharacteristic(services, BluetoothComponent.serviceID, BluetoothComponent.controlCharacteristicID, this.handleIMU).then(c=>this.controlCharacteristic = c),
+                            _this.getCharacteristic(services, BluetoothComponent_1.serviceID, BluetoothComponent_1.controlCharacteristicID).then(function (c) { return _this.controlCharacteristic = c; }),
                             _this.watchCharacteristic(services, BluetoothComponent_1.harwareInfoServiceId, BluetoothComponent_1.firwareRevisionCharateristicID, _this.handleVersion).then(function (c) { return _this.firmwareVersionCharacteristic = c; }),
                         ]);
                     })
