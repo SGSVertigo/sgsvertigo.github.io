@@ -2639,7 +2639,6 @@ var BluetoothComponent = /** @class */ (function () {
                             }
                         }
                         options = {
-                            acceptAllDevices: true,
                             filters: [
                                 {
                                     services: [
