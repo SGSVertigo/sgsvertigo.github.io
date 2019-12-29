@@ -2587,13 +2587,13 @@ var BluetoothComponent = /** @class */ (function () {
                         .then(function (services) {
                         var service = services.find(function (s) { return s.uuid === BluetoothComponent_1.serviceID; });
                         var deviceService = services.find(function (s) { return s.uuid === BluetoothComponent_1.harwareInfoServiceId; });
-                        _this.imuQuaternionCharacteristic = null;
-                        _this.atmosphericCharacteristic = null;
-                        _this.gpsCharacteristic = null;
                         _this.serialNumberCharteristic = null;
                         _this.firmwareVersionCharacteristic = null;
                         _this.statusCharacteristic = null;
                         _this.controlCharacteristic = null;
+                        _this.imuQuaternionCharacteristic = null;
+                        _this.atmosphericCharacteristic = null;
+                        _this.gpsCharacteristic = null;
                         return _this.registerToServices(service, BluetoothComponent_1.imuQuaternionCharacteristicID)
                             .then(function (charteristic) { return _this.imuQuaternionCharacteristic = charteristic; })
                             .catch(function (error) { return console.log("IMU characteristic not present"); })
