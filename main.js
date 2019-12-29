@@ -2587,7 +2587,14 @@ var BluetoothComponent = /** @class */ (function () {
                         .then(function (services) {
                         var service = services.find(function (s) { return s.uuid === BluetoothComponent_1.serviceID; });
                         var deviceService = services.find(function (s) { return s.uuid === BluetoothComponent_1.harwareInfoServiceId; });
-                        _this.registerToServices(service, BluetoothComponent_1.imuQuaternionCharacteristicID)
+                        _this.imuQuaternionCharacteristic = null;
+                        _this.atmosphericCharacteristic = null;
+                        _this.gpsCharacteristic = null;
+                        _this.serialNumberCharteristic = null;
+                        _this.firmwareVersionCharacteristic = null;
+                        _this.statusCharacteristic = null;
+                        _this.controlCharacteristic = null;
+                        return _this.registerToServices(service, BluetoothComponent_1.imuQuaternionCharacteristicID)
                             .then(function (charteristic) { return _this.imuQuaternionCharacteristic = charteristic; })
                             .catch(function (error) { return console.log("IMU characteristic not present"); })
                             .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.magnetometerCharacteristicID)
@@ -2597,17 +2604,17 @@ var BluetoothComponent = /** @class */ (function () {
                             .then(function (charteristic) { return _this.atmosphericCharacteristic = charteristic; })
                             .catch(function (error) { return console.log("Atmospheric characteristic not present"); }); })
                             .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.gpsCharacteristicID)
-                            .then(function (charteristic) { return _this.gpsCharacteristic = charteristic; }); })
-                            .catch(function (error) { return console.log("GPS characteristic not present"); })
+                            .then(function (charteristic) { return _this.gpsCharacteristic = charteristic; })
+                            .catch(function (error) { return console.log("GPS characteristic not present"); }); })
                             .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.controlCharacteristicID)
-                            .then(function (charteristic) { return _this.controlCharacteristic = charteristic; }); })
-                            .catch(function (error) { return console.log("Control characteristic not present"); })
+                            .then(function (charteristic) { return _this.controlCharacteristic = charteristic; })
+                            .catch(function (error) { return console.log("Control characteristic not present"); }); })
                             .then(function (c) { return _this.registerToServices(service, BluetoothComponent_1.statusCharacteristicID)
-                            .then(function (charteristic) { return _this.statusCharacteristic = charteristic; }); })
-                            .catch(function (error) { return console.log("Status characteristic not present"); })
+                            .then(function (charteristic) { return _this.statusCharacteristic = charteristic; })
+                            .catch(function (error) { return console.log("Status characteristic not present"); }); })
                             .then(function (c) { return _this.registerToServices(deviceService, BluetoothComponent_1.firwareRevisionCharateristicID)
-                            .then(function (charteristic) { return _this.firmwareVersionCharacteristic = charteristic; }); })
-                            .catch(function (error) { return console.log("Firmware characteristic not present"); });
+                            .then(function (charteristic) { return _this.firmwareVersionCharacteristic = charteristic; })
+                            .catch(function (error) { return console.log("Firmware characteristic not present"); }); });
                     })
                         .then(function () {
                         _this.stop = false;
