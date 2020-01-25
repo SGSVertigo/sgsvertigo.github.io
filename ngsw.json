@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579441922487,
+  "timestamp": 1579948326325,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/0.7804c68d96aec9f39bd0.worker.js",
         "/favicon.ico",
         "/index.html",
-        "/main.8f820ab28810ba9d1ff5.js",
+        "/main.b92a382a64f8dd636c92.js",
         "/main.de26a9f729527e72c660.css",
         "/manifest.webmanifest",
         "/polyfills-es5.fc1cda25848475edf618.js",
@@ -27,6 +27,10 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/gifs/file-load.gif",
+        "/assets/gifs/graph-controls.gif",
+        "/assets/gifs/map-controls.gif",
+        "/assets/gifs/processing-controls.gif",
         "/assets/gifs/sd-card-eject.gif",
         "/assets/gifs/start-logging.gif",
         "/assets/gifs/turn-on.gif",
@@ -72,6 +76,10 @@
   "dataGroups": [],
   "hashTable": {
     "/0.7804c68d96aec9f39bd0.worker.js": "6196d029ec3948b6015936b2c0a5d63e34b10340",
+    "/assets/gifs/file-load.gif": "17a00f01bbdaa03ce2aa7f2ac8dea4f397c9bfb9",
+    "/assets/gifs/graph-controls.gif": "4dd761f6787ea83f4da045b9979b1b00f4cbf19f",
+    "/assets/gifs/map-controls.gif": "f5299f2637fcff5cddee1b30281a9dac8bcaba09",
+    "/assets/gifs/processing-controls.gif": "44cf179e98fd978cc8dfffab250ead9dc01d7167",
     "/assets/gifs/sd-card-eject.gif": "e050bfaf899a848e59a69108957b3d3af2d915d7",
     "/assets/gifs/start-logging.gif": "7074adce82c401dfcea9cf28dbd1c621862bb147",
     "/assets/gifs/turn-on.gif": "037eb1fbe5738205bfe06e5ff3eb45d873df7475",
@@ -108,10 +116,10 @@
     "/assets/map/world.json": "d56cd6284488b47258193fd52b42e7cf04c7dfe6",
     "/assets/mesh/case.stl": "eae0aed5d8b3838d57b903c95de5944fa6bd2fb1",
     "/favicon.ico": "29993600c85ca86acbbcf755b4d04c5c54c7f25b",
-    "/index.html": "19177100a649bb58d3c2a48f2e4638e0e4ed1170",
+    "/index.html": "9ba813e0e3d2eebb790cc472804de44eb7bff2db",
     "/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
-    "/main.8f820ab28810ba9d1ff5.js": "6ed158412baedfc9150fa425d35eef3ce90b1d48",
+    "/main.b92a382a64f8dd636c92.js": "1c6a4c9c97ed98d19c3361d31d9b6b7d820350b5",
     "/main.de26a9f729527e72c660.css": "34a045ccddf2cf38ec01cb0dbd982e52f87d4d64",
     "/manifest.webmanifest": "f45a76863658bc3f28dea5e5dc7e7369b8657bfa",
     "/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
