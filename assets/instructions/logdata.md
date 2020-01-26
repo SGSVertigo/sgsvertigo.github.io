@@ -66,10 +66,10 @@ z: 0.300992
 
 Produced from the atmospheric / ambient sensors, including the ambient temperature, humidity and barometric pressure sensors.
 
-**Example**
-Message: `2020-01-01 12:34:56.001,4,102.02,24.15,58`
-Time: 1st January 2020, 12:34:56.001 
-Message Type: 4 (Atmospheric)
-Pressure: 102.02 kPa
-Temperature: 24.15 degrees C
+**Example**  
+Message: `2020-01-01 12:34:56.001,4,102.02,24.15,58`  
+Time: 1st January 2020, 12:34:56.001  
+Message Type: 4 (Atmospheric)  
+Pressure: 102.02 kPa  
+Temperature: 24.15 degrees C  
 Humidity: 58 %RH
