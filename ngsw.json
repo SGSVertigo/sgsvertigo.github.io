@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580069009382,
+  "timestamp": 1580069345285,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -103,7 +103,7 @@
     "/assets/instructions/VertigoIMU_Data_analysis_with_Matlab.md": "c29abb2488b1841790e44e0e5c822f6a85c19bb2",
     "/assets/instructions/VertigoIMU_Data_analysis_with_Python.md": "c998e55e56a8634b4f997b920b04136f05d380dd",
     "/assets/instructions/Vertigo_in_the_classroom.md": "d49be9eb7187d6a0e13f37079feacb837536aa1d",
-    "/assets/instructions/about.md": "eb97a24818833aefb0709b37c29b0f1c54d18738",
+    "/assets/instructions/about.md": "540dadd82aea02b3d283b4240cd504fe8865f2bc",
     "/assets/instructions/faq.md": "b7d0adb334f7ce59d0cc01b4b201242a264df3ce",
     "/assets/instructions/hardware.md": "678648fe62e393ff2f3be758541175a06c792fe9",
     "/assets/instructions/index.md": "5d14dc469631b2b27482111b97f094475e26d2d3",
