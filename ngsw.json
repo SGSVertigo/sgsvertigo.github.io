@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586800700034,
+  "timestamp": 1586819503714,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/0.7804c68d96aec9f39bd0.worker.js",
         "/favicon.ico",
         "/index.html",
-        "/main.745424afdaf7916ed3bc.js",
+        "/main.01dc94738b862f7ff97d.js",
         "/main.de26a9f729527e72c660.css",
         "/manifest.webmanifest",
         "/polyfills-es5.886eec12c82ad09f1a2f.js",
@@ -103,7 +103,7 @@
     "/assets/instructions/VertigoIMU_Data_analysis_with_Matlab.md": "c29abb2488b1841790e44e0e5c822f6a85c19bb2",
     "/assets/instructions/VertigoIMU_Data_analysis_with_Python.md": "c998e55e56a8634b4f997b920b04136f05d380dd",
     "/assets/instructions/Vertigo_in_the_classroom.md": "d49be9eb7187d6a0e13f37079feacb837536aa1d",
-    "/assets/instructions/about.md": "eb97a24818833aefb0709b37c29b0f1c54d18738",
+    "/assets/instructions/about.md": "540dadd82aea02b3d283b4240cd504fe8865f2bc",
     "/assets/instructions/faq.md": "b7d0adb334f7ce59d0cc01b4b201242a264df3ce",
     "/assets/instructions/hardware.md": "678648fe62e393ff2f3be758541175a06c792fe9",
     "/assets/instructions/index.md": "5d14dc469631b2b27482111b97f094475e26d2d3",
@@ -118,10 +118,10 @@
     "/assets/map/world.json": "d56cd6284488b47258193fd52b42e7cf04c7dfe6",
     "/assets/mesh/case.stl": "eae0aed5d8b3838d57b903c95de5944fa6bd2fb1",
     "/favicon.ico": "29993600c85ca86acbbcf755b4d04c5c54c7f25b",
-    "/index.html": "2f7fbbadd55f76cb424bdd7ac8df4b2738cc2208",
+    "/index.html": "70808d7edd6e2034dbe16fdee7d8723091d43a4b",
     "/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
-    "/main.745424afdaf7916ed3bc.js": "b2dec7944044c27e49a4440da11363c3b958218c",
+    "/main.01dc94738b862f7ff97d.js": "8cbaa269840e39cf7288120a7cff7e163419f126",
     "/main.de26a9f729527e72c660.css": "34a045ccddf2cf38ec01cb0dbd982e52f87d4d64",
     "/manifest.webmanifest": "f45a76863658bc3f28dea5e5dc7e7369b8657bfa",
     "/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
